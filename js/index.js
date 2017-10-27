@@ -14,37 +14,7 @@ jQuery(function ($) {
             playing = false,
             mediaPath = '',
             extension = '',
-            tracks = [{
-                "track": 1,
-                "name": "Dispensações - parte 1 - Eternidade-Diluvio - Ipuã - Dez-2013",
-                "length": "1:11:3",
-                "file": "http://www.mediafire.com/file/2uypkr9j6zxkn4x/Dispensações_-_parte_1_-_Eternidade-Diluvio_-_Ipu%C3%A3_-_Dez-2013.mp3"
-            }, {
-                "track": 2,
-                "name": "Dispensações - parte 2 - Eternidade-Diluvio - Ipuã - Dez-2013",
-                "length": "51:16",
-                "file": "http://www.mediafire.com/file/t049eyn8iurcr54/Dispensações_-_parte_2_-_Diluvio-Escravidao_-_Ipu%C3%A3_-_Dez-2013.mp3"
-            }, {
-                "track": 3,
-                "name": "Dispensações - parte 3 - Escravidao-Igreja - Ipuã - Dez-2013.mp3",
-                "length": "1:12:15",
-                "file": "http://www.mediafire.com/file/n7ev2aarcbodieb/Dispensações_-_parte_3_-_Escravidao-Igreja_-_Ipu%C3%A3_-_Dez-2013.mp3"
-            }, {
-                "track": 4,
-                "name": "Dispensações - parte 4 - Igreja-Milenio - Ipuã - Dez-2013.mp3",
-                "length": "51:58",
-                "file": "http://www.mediafire.com/file/zukhydq4eubcwc2/Dispensações_-_parte_4_-_Igreja-Milenio_-_Ipu%C3%A3_-_Dez-2013.mp3"
-            }, {
-                "track": 5,
-                "name": "Dispensações - parte 5 - Milenio-Juizo Final - Ipuã - Dez-2013.mp3",
-                "length": "41:18",
-                "file": "http://www.mediafire.com/file/v5pota7hwlk1alv/Dispensações_-_parte_5_-_Milenio-Juizo_Final_-_Ipu%C3%A3_-_Dez-2013.mp3"
-            }, {
-                "track": 6,
-                "name": "Dispensações - parte 6 - Juizo Final-Eternidade - Ipuã - Dez-2013.mp3",
-                "length": "41:18",
-                "file": "http://www.mediafire.com/file/ggkg7eppljliar7/Dispensações_-_parte_6_-_Juizo_Final-Eternidade_-_Ipu%C3%A3_-_Dez-2013.mp3"
-            }, {
+            tracks = [ {
                 "track": 7,
                 "name": "Ipuã 2012 - Estudos das Dispensações - Reunião 1 - Inocência - Lemão.mp3",
                 "length": "41:18",
@@ -94,6 +64,36 @@ jQuery(function ($) {
                 "name": "Ipuã 2012 - Estudos das Dispensações - Reunião 8 - Igreja - parte 2 - Lemão.mp3",
                 "length": "54:52",
                 "file": "http://www.mediafire.com/file/6vshb89gjbdey2r/Ipu%C3%A3_2012_-_Estudos_das_Dispensa%C3%A7%C3%B5es_-_Reuni%C3%A3o_8_-_Igreja_-_parte_2_-_Lem%C3%A3o.mp3"
+            },  {
+                "track": 1,
+                "name": "Dispensações - parte 1 - Eternidade-Diluvio - Ipuã - Dez-2013",
+                "length": "1:11:3",
+                "file": "http://www.mediafire.com/file/2uypkr9j6zxkn4x/Dispensações_-_parte_1_-_Eternidade-Diluvio_-_Ipu%C3%A3_-_Dez-2013.mp3"
+            }, {
+                "track": 2,
+                "name": "Dispensações - parte 2 - Eternidade-Diluvio - Ipuã - Dez-2013",
+                "length": "51:16",
+                "file": "http://www.mediafire.com/file/t049eyn8iurcr54/Dispensações_-_parte_2_-_Diluvio-Escravidao_-_Ipu%C3%A3_-_Dez-2013.mp3"
+            }, {
+                "track": 3,
+                "name": "Dispensações - parte 3 - Escravidao-Igreja - Ipuã - Dez-2013.mp3",
+                "length": "1:12:15",
+                "file": "http://www.mediafire.com/file/n7ev2aarcbodieb/Dispensações_-_parte_3_-_Escravidao-Igreja_-_Ipu%C3%A3_-_Dez-2013.mp3"
+            }, {
+                "track": 4,
+                "name": "Dispensações - parte 4 - Igreja-Milenio - Ipuã - Dez-2013.mp3",
+                "length": "51:58",
+                "file": "http://www.mediafire.com/file/zukhydq4eubcwc2/Dispensações_-_parte_4_-_Igreja-Milenio_-_Ipu%C3%A3_-_Dez-2013.mp3"
+            }, {
+                "track": 5,
+                "name": "Dispensações - parte 5 - Milenio-Juizo Final - Ipuã - Dez-2013.mp3",
+                "length": "41:18",
+                "file": "http://www.mediafire.com/file/v5pota7hwlk1alv/Dispensações_-_parte_5_-_Milenio-Juizo_Final_-_Ipu%C3%A3_-_Dez-2013.mp3"
+            }, {
+                "track": 6,
+                "name": "Dispensações - parte 6 - Juizo Final-Eternidade - Ipuã - Dez-2013.mp3",
+                "length": "41:18",
+                "file": "http://www.mediafire.com/file/ggkg7eppljliar7/Dispensações_-_parte_6_-_Juizo_Final-Eternidade_-_Ipu%C3%A3_-_Dez-2013.mp3"
             }, {
                 "track": 17,
                 "name": "Londrina 2017 Parte 1 Londrina 2017 Estudo das Dispensações Reuniao 1 Inocencia Lemao.mp3",

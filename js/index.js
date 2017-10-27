@@ -17,27 +17,27 @@ jQuery(function ($) {
             tracks = [ {
                 "track": 1,
                 "name": "Ipuã 2012 - Estudos das Dispensações - Reunião 1 - Inocência - Lemão.mp3",
-                "length": "41:18",
+                "length": "1:03:33",
                 "file": "http://www.mediafire.com/file/5ncr3hkyftfg80u/Ipu%C3%A3_2012_-_Estudos_das_Dispensa%C3%A7%C3%B5es_-_Reuni%C3%A3o_1_-_Inoc%C3%AAncia_-_Lem%C3%A3o.mp3"
             }, {
                 "track": 2,
                 "name": "Ipuã 2012 - Estudos das Dispensações - Reunião 2 - Consciência - Lemão.mp3",
-                "length": "41:18",
+                "length": "1:22:22",
                 "file": "http://www.mediafire.com/file/h95ebhvs74oi685/Ipu%C3%A3_2012_-_Estudos_das_Dispensa%C3%A7%C3%B5es_-_Reuni%C3%A3o_2_-_Consci%C3%AAncia_-_Lem%C3%A3o.mp3"
             }, {
                 "track": 3,
                 "name": "Ipuã 2012 - Estudos das Dispensações - Reunião 3 - Governo - Lemão.mp3",
-                "length": "41:18",
+                "length": "1:02:21",
                 "file": "http://www.mediafire.com/file/mbb7u58lpe23j36/Ipu%C3%A3_2012_-_Estudos_das_Dispensa%C3%A7%C3%B5es_-_Reuni%C3%A3o_3_-_Governo_-_Lem%C3%A3o.mp3"
             }, {
                 "track": 4,
                 "name": "Ipuã 2012 - Estudos das Dispensações - Reunião 4 - Promessa - Lemão.mp3",
-                "length": "41:18",
+                "length": "1:18:53",
                 "file": "http://www.mediafire.com/file/pr2zqj3n5naqq7z/Ipu%C3%A3_2012_-_Estudos_das_Dispensa%C3%A7%C3%B5es_-_Reuni%C3%A3o_4_-_Promessa_-_Lem%C3%A3o.mp3"
             }, {
                 "track": 5,
                 "name": "Ipuã 2012 - Estudos das Dispensações - Reunião 5 - Lei - Lemão.mp3",
-                "length": "41:18",
+                "length": "1:31:22",
                 "file": "http://www.mediafire.com/file/u8enbd62xdbiuev/Ipu%C3%A3_2012_-_Estudos_das_Dispensa%C3%A7%C3%B5es_-_Reuni%C3%A3o_5_-_Lei_-_Lem%C3%A3o.mp3"
             }, {
                 "track": 6,
@@ -92,7 +92,7 @@ jQuery(function ($) {
             }, {
                 "track": 16,
                 "name": "Dispensações - parte 6 - Juizo Final-Eternidade - Ipuã - Dez-2013.mp3",
-                "length": "41:18",
+                "length": "1:31:22",
                 "file": "http://www.mediafire.com/file/ggkg7eppljliar7/Dispensações_-_parte_6_-_Juizo_Final-Eternidade_-_Ipu%C3%A3_-_Dez-2013.mp3"
             }, {
                 "track": 17,

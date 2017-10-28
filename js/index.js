@@ -16,8 +16,8 @@ jQuery(function ($) {
             extension = '',
             tracks = [
 
-{"track":	2	,	 "name": "Estudos Sobre Apocalipse",	  "file": "http://leituracrista.com/audioplayer/apocalipse/"},
-{"track":	1	,	 "name": "Estudos das Dispensações", "file": "http://leituracrista.com/audioplayer/dispensacao/"},
+{"track":	2	,	 "name": "Apocalipse",	  "file": "http://leituracrista.com/audioplayer/apocalipse/"},
+{"track":	1	,	 "name": "Dispensações", "file": "http://leituracrista.com/audioplayer/dispensacao/"},
 {"track":	2	,	 "name": "Hinário Cantado",	  "file": "http://leituracrista.com/audioplayer/hinarioCantado/"}
 
 ],

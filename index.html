@@ -47,7 +47,7 @@ padding:1rem 0;
 /* Setup2
 ================================================== */
 
-.container { position:relative; align:center; margin:0 auto; max-width:800px; width:100%; top: 190px;
+.container { position:relative; align:center; margin:0 auto; max-width:800px; width:100%; top: 10px;
    overflow-y: auto; justify-content: center; align-items: center; 
  }
 .column { width:inherit; }
@@ -225,7 +225,20 @@ color:rgba(0,0,0,.1);
 </head>
 
 <body>
- 
+ <style type="text/css">
+a:link, a:visited {
+	text-decoration: none;
+  	color: #fff
+
+	}
+a:hover {
+	text-decoration: underline; 
+	color: #fff
+	}
+a:active {
+	text-decoration: none
+	}
+</style>
 
 <div class="container">
     <div class="column add-bottom">
@@ -245,31 +258,6 @@ color:rgba(0,0,0,.1);
             </div>
         </div>
     </div>
-
- <div class="container2">
-    <div class="column2 add-bottom">
-        <div id="mainwrap">
-            <div id="nowPlay">
-                <!--<span class="left" id="npAction">Parado...</span>-->
-                <br>
-                <span class="center" id="npTitle"></span>
-            </div>
-            <div id="audiowrap">
-                <div id="audio0">
-                    <audio preload id="audio1" controls="controls">Seu navegador não suporta html5 - Atualize-o!</audio>
-                </div>
-                <div id="tracks">
-                    <a id="btnPrev">&larr;</a>
-                    <a id="btnNext">&rarr;</a>
-                </div>
-            </div>
-            <!--<div id="plwrap">
-                <ul id="plList"></ul>
-            </div>-->
-        </div>
-    </div>
-   
-</div>
 
     <div class="column add-bottom center">
         <!--<p>Music by <a href="http://www.mythium.net/">Mythium</a></p>-->

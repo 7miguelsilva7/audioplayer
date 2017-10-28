@@ -2,7 +2,7 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>Audio Player</title>
+  <title>Audio Player - Dispensações</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
@@ -38,10 +38,18 @@ padding:1rem 0;
 }
 
 
-/* Setup
+/* Setup1
 ================================================== */
 
-.container { position:relative; margin:0 auto; max-width:800px; width:100%; }
+.container2 { position:fixed; margin:0 auto; max-width:800px; width:100%; top:0px; }
+.column2 { width:inherit; background: #0665a2; }
+
+/* Setup2
+================================================== */
+
+.container { position:relative; align:center; margin:0 auto; max-width:800px; width:100%; top: 190px;
+   overflow-y: auto; justify-content: center; align-items: center; 
+ }
 .column { width:inherit; }
 
 
@@ -217,11 +225,33 @@ color:rgba(0,0,0,.1);
 </head>
 
 <body>
-  <div class="container">
+ 
+
+<div class="container">
     <div class="column add-bottom">
+        <div id="mainwrap">
+            
+            <!--<div id="audiowrap">
+                <div id="audio0">
+                    <audio preload id="audio1" controls="controls">Seu navegador não suporta html5 - Atualize-o!</audio>
+                </div>
+                <div id="tracks">
+                    <a id="btnPrev">&larr;</a>
+                    <a id="btnNext">&rarr;</a>
+                </div>
+            </div>-->
+            <div id="plwrap">
+                <ul id="plList"></ul>
+            </div>
+        </div>
+    </div>
+
+ <div class="container2">
+    <div class="column2 add-bottom">
         <div id="mainwrap">
             <div id="nowPlay">
                 <!--<span class="left" id="npAction">Parado...</span>-->
+                <br>
                 <span class="center" id="npTitle"></span>
             </div>
             <div id="audiowrap">
@@ -233,11 +263,14 @@ color:rgba(0,0,0,.1);
                     <a id="btnNext">&rarr;</a>
                 </div>
             </div>
-            <div id="plwrap">
+            <!--<div id="plwrap">
                 <ul id="plList"></ul>
-            </div>
+            </div>-->
         </div>
     </div>
+   
+</div>
+
     <div class="column add-bottom center">
         <!--<p>Music by <a href="http://www.mythium.net/">Mythium</a></p>-->
         <p><a href="https://www.mediafire.com/folder/9fdcflgob19s7/evangelho" target="_blank">Downloads</a></p>

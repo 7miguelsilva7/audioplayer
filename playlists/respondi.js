@@ -16,11 +16,15 @@ jQuery(function ($) {
             extension = '',
             tracks = [
 
-{"track":	2	,	 "name": "Evangelho em 3 min",	  	"file": "3min.html"},
-{"track":	2	,	 "name": "Apocalipse",	  	"file": "player.html?ip=apocalipse"},
-{"track":	1	,	 "name": "Dispensações", 	"file": "player.html?ip=dispensacao"},
-{"track":	2	,	 "name": "Hinário Cantado",	"file": "player.html?ip=hinarioCantado"}
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
+ 
+{"track":	1	,	 "name": "Teste",	 "length": "10:10",	 "file": "teste.mp3"}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {
@@ -32,7 +36,7 @@ jQuery(function ($) {
                 } else {
                     trackNumber = '' + trackNumber;
                 }
-                $('#plList').append('<div align="center" class="container" class="column add-bottom" center><a href=" ' + value.file + ' ">' + value.name + '<br><br></a></div>');
+                $('#plList').append('<li><div class="plItem"><div class="plNum">' + trackNumber + '.</div><div class="plTitle">' + trackName + '</div><div class="plLength">' + trackLength + '</div></div></li>');
             }),
             trackCount = tracks.length,
             npAction = $('#npAction'),

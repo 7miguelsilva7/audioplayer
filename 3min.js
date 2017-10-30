@@ -16,10 +16,13 @@ jQuery(function ($) {
             extension = '',
             tracks = [
 
-{"track":	2	,	 "name": "Evangelho em 3 min",	  	"file": "3min.html"},
-{"track":	2	,	 "name": "Apocalipse",	  	"file": "player.html?ip=apocalipse"},
-{"track":	1	,	 "name": "Dispensações", 	"file": "player.html?ip=dispensacao"},
-{"track":	2	,	 "name": "Hinário Cantado",	"file": "player.html?ip=hinarioCantado"}
+{"track":	2	,	 "name": "3 Min Mateus", "file": "player.html?ip=3minMateus"},
+{"track":	1	,	 "name": "3 Min Marcos", "file": "player.html?ip=3minMarcos"},
+{"track":	2	,	 "name": "3 Min Lucas",	  "file": "player.html?ip=3minLucas"},
+{"track":	2	,	 "name": "3 Min João",	  "file": "player.html?ip=3minJoao"},
+{"track":	2	,	 "name": "Respondi 0001-0500",	  "file": "#"},
+{"track":	2	,	 "name": "Respondi 0500-1000",	  "file": "#"},
+{"track":	2	,	 "name": "Respondi 1000-1500",	  "file": "#"},
 
 
 ],

@@ -16,9 +16,9 @@ jQuery(function ($) {
             extension = '',
             tracks = [
 
-{"track":	2	,	 "name": "3min",	  "file": "3min/"},
+{"track":	2	,	 "name": "3min",	  "file": "player.html?ip="},
 {"track":	2	,	 "name": "Apocalipse",	  "file": "apocalipse/"},
-{"track":	1	,	 "name": "Dispensações", "file": "dispensacao/"},
+{"track":	1	,	 "name": "Dispensações", "file": "player.html?ip=dispensacao"},
 {"track":	2	,	 "name": "Hinário Cantado",	  "file": "hinarioCantado/"}
 
 

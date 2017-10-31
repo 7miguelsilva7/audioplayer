@@ -16,14 +16,15 @@ jQuery(function ($) {
             extension = '',
             tracks = [
 
-{"track":	2	,	 "name": "3 Min Mateus", "file": "player.html?ip=3minMateus"},
-{"track":	1	,	 "name": "3 Min Marcos", "file": "player.html?ip=3minMarcos"},
-{"track":	2	,	 "name": "3 Min Lucas",	  "file": "player.html?ip=3minLucas"},
-{"track":	2	,	 "name": "3 Min João",	  "file": "player.html?ip=3minJoao"},
-{"track":	2	,	 "name": "Respondi 0001-0500",	  "file": "#"},
-{"track":	2	,	 "name": "Respondi 0501-1000",	  "file": "#"},
-{"track":	2	,	 "name": "Respondi 1001-1439",	  "file": "#"},
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
+ 
+{"track":	1	,	 "name": "Teste",	 "length": "10:10",	 "file": "teste.mp3"}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {
@@ -35,7 +36,7 @@ jQuery(function ($) {
                 } else {
                     trackNumber = '' + trackNumber;
                 }
-                $('#plList').append('<div align="center" class="container" class="column add-bottom" center><a href=" ' + value.file + ' ">' + value.name + '<br><br></a></div>');
+                $('#plList').append('<li><div class="plItem"><div class="plNum">' + trackNumber + '.</div><div class="plTitle">' + trackName + '</div><div class="plLength">' + trackLength + '</div></div></li>');
             }),
             trackCount = tracks.length,
             npAction = $('#npAction'),

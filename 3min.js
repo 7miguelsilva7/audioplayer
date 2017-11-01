@@ -16,13 +16,13 @@ jQuery(function ($) {
             extension = '',
             tracks = [
 
-{"track":	2	,	 "name": "3 Min Mateus", "file": "player.html?ip=3minMateus"},
-{"track":	1	,	 "name": "3 Min Marcos", "file": "player.html?ip=3minMarcos"},
-{"track":	2	,	 "name": "3 Min Lucas",	  "file": "player.html?ip=3minLucas"},
-{"track":	2	,	 "name": "3 Min João",	  "file": "player.html?ip=3minJoao"},
-{"track":	2	,	 "name": "Respondi 0001-0500",	  "file": "#"},
-{"track":	2	,	 "name": "Respondi 0501-1000",	  "file": "#"},
-{"track":	2	,	 "name": "Respondi 1001-1439",	  "file": "#"},
+{"track":	1	,	 "name": "3 Min Mateus", "file": "player.html?ip=3minMateus"},
+{"track":	2	,	 "name": "3 Min Marcos", "file": "player.html?ip=3minMarcos"},
+{"track":	3	,	 "name": "3 Min Lucas",	  "file": "player.html?ip=3minLucas"},
+{"track":	4	,	 "name": "3 Min João",	  "file": "player.html?ip=3minJoao"},
+{"track":	5	,	 "name": "Respondi Parte 01",	  "file": "player.html?ip=respondi-1-500"},
+{"track":	6	,	 "name": "Respondi Parte 02",	  "file": "player.html?ip=respondi-501-1000"},
+{"track":	7	,	 "name": "Respondi Parte 03",	  "file": "player.html?ip=respondi-1001-1437"},
 
 
 ],

@@ -26,6 +26,15 @@ document.write('<script type="text/javascript" src="playlists/3minLucas.js"><\/s
 } else if (quebra[1]=="3minJoao") {
 document.write('<script type="text/javascript" src="playlists/3minJoao.js"><\/script>');
 
+} else if (quebra[1]=="respondi-1-500") {
+document.write('<script type="text/javascript" src="playlists/respondi-1-500.js"><\/script>');
+
+} else if (quebra[1]=="respondi-501-1000") {
+document.write('<script type="text/javascript" src="playlists/respondi-501-1000.js"><\/script>');
+
+} else if (quebra[1]=="respondi-1001-1437") {
+document.write('<script type="text/javascript" src="playlists/respondi-1001-1500.js"><\/script>');
+
 
 
 }else{

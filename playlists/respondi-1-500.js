@@ -23,7 +23,7 @@ jQuery(function ($) {
 {"track":	1	,	 "name": "	#0121 Por que os terroristas islamicos matam?	",	 "length": "	11:51	",	 "file": "	http://www.mediafire.com/file/	puebexgq3u6a4z2	/	#0121 Por que os terroristas islamicos matam?	"},
 {"track":	2	,	 "name": "	#0209 Devo me preocupar com o 'chip da Dilma'?	",	 "length": "	17:25	",	 "file": "	http://www.mediafire.com/file/	21a9jopz9i7o6ik	/	#0209 Devo me preocupar com o 'chip da Dilma'?	"},
 {"track":	3	,	 "name": "	#0420 Para onde o crente vai quando morre?	",	 "length": "	19:38	",	 "file": "	http://www.mediafire.com/file/	qssgm8gs6099ps4	/	#0420 Para onde o crente vai quando morre?	"},
-{"track":	4	,	 "name": "	#0641 Onde encontrar a chave da sabedoria?	",	 "length": "	22:31	",	 "file": "	http://www.mediafire.com/file/	1dpfai9c8k2y3sv	/	#0641 Onde encontrar a chave da sabedoria?	"},
+{"track":	4	,	 "name": "	#0641 Onde encontrar a chave da sabedoria?	",	 "length": "	46:31	",	 "file": "	http://www.mediafire.com/file/	1dpfai9c8k2y3sv	/	#0641 Onde encontrar a chave da sabedoria?	"},
 {"track":	5	,	 "name": "	#0686 Pedofilia deve ser julgada na igreja?	",	 "length": "	13:25	",	 "file": "	http://www.mediafire.com/file/	58anw83oa2vvd6l	/	#0686 Pedofilia deve ser julgada na igreja?	"},
 {"track":	6	,	 "name": "	#0687 O cristao deve ser sem igreja?	",	 "length": "	11:08	",	 "file": "	http://www.mediafire.com/file/	qp7xn2tqde1mcvx	/	#0687 O cristao deve ser sem igreja?	"},
 {"track":	7	,	 "name": "	#0688 Tendencia suicida e' maldicao familiar?	",	 "length": "	10:32	",	 "file": "	http://www.mediafire.com/file/	d3a2y4ue6a2enuh	/	#0688 Tendencia suicida e' maldicao familiar?	"},

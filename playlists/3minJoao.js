@@ -238,7 +238,7 @@ jQuery(function ($) {
                 npAction.text('Paused...');
                 if (random) {
                     loadTrack(getRandomTrack())
-                    audio.play()
+                    audio.togglePlay(true)
                 }
                 else if (recursive) {
                     loadTrack(index)

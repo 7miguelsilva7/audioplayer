@@ -145,6 +145,8 @@ jQuery(function ($) {
             trackCount = tracks.length,
             npAction = $('#npAction'),
             npTitle = $('#npTitle'),
+            random = false,
+            recursive = false,
             audio = $('#audio1').bind('play', function () {
                 playing = true;
                 npAction.text('Now Playing...');
@@ -153,14 +155,24 @@ jQuery(function ($) {
                 npAction.text('Paused...');
             }).bind('ended', function () {
                 npAction.text('Paused...');
-                if ((index + 1) < trackCount) {
-                    index++;
-                    loadTrack(index);
+                if (random) {
+                    loadTrack(getRandomTrack())
+                    audio.play()
+                }
+                else if (recursive) {
+                    loadTrack(index)
                     audio.play();
-                } else {
-                    audio.pause();
-                    index = 0;
-                    loadTrack(index);
+                }
+                else {
+                    if ((index + 1) < trackCount) {
+                        index++;
+                        loadTrack(index);
+                        audio.play();
+                    } else {
+                        audio.pause();
+                        index = 0;
+                        loadTrack(index);
+                    }
                 }
             }).get(0),
             btnPrev = $('#btnPrev').click(function () {
@@ -177,17 +189,40 @@ jQuery(function ($) {
                 }
             }),
             btnNext = $('#btnNext').click(function () {
-                if ((index + 1) < trackCount) {
-                    index++;
-                    loadTrack(index);
-                    if (playing) {
-                        audio.play();
-                    }
-                } else {
-                    audio.pause();
-                    index = 0;
-                    loadTrack(index);
+                if (random) {
+                    loadTrack(getRandomTrack())
+                    audio.play();
                 }
+                else {
+                    if ((index + 1) < trackCount) {
+                        index++;
+                        loadTrack(index);
+                        if (playing) {
+                            audio.play();
+                        }
+                    } else {
+                        audio.pause();
+                        index = 0;
+                        loadTrack(index);
+                    }
+                }
+            }),
+            btnRandom = $('#btnRandom').click(function () {
+                console.log('first click');
+                recursive = false;
+                random = !random;
+                if (random) {
+                    $('#btnReplay').removeClass('btnSelected');
+                    $(this).addClass('btnSelected');
+                } else $(this).removeClass('btnSelected');
+            }),
+            btnReplay = $('#btnReplay').click(function () {
+                random = false;
+                recursive = !recursive;
+                if (recursive) {
+                    $('#btnRandom').removeClass('btnSelected');
+                    $(this).addClass('btnSelected');
+                } else $(this).removeClass('btnSelected')
             }),
             li = $('#plList li').click(function () {
                 var id = parseInt($(this).index());
@@ -205,6 +240,9 @@ jQuery(function ($) {
             playTrack = function (id) {
                 loadTrack(id);
                 audio.play();
+            },
+            getRandomTrack = function () {
+                return Math.floor((Math.random() * tracks.length) + 1);
             };
         extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
         loadTrack(index);

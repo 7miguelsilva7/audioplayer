@@ -5,7 +5,7 @@
   <title>Audio Player</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel='stylesheet prefetch' href='http://cdn.plyr.io/2.0.13/plyr.css'>
 
       <style>
@@ -179,6 +179,10 @@ border:0;
 padding:0;
 }
 
+.btnSelected {
+    background-color: rgba(0,0,0,.1);
+}
+
 
 /* Plyr Overrides
 ================================================== */
@@ -253,6 +257,9 @@ color:rgba(0,0,0,.1);
                 <!--<span class="left" id="npAction">Parado...</span>-->
                 <br>
                 <span class="center" id="npTitle"></span>
+                <!-- <button style="float: right; padding: 8px 10px; cursor: pointer; margin: 0" id="btnReplay"><i class="fa fa-repeat"></i></button> -->
+                <a style="float: right; padding: 3px 10px; cursor: pointer; margin: 0" id="btnReplay"><i class="fa fa-repeat"></i> </a>
+                <a style="float: right; padding: 3px 10px; cursor: pointer; margin: 0" id="btnRandom"><i class="fa fa-random"></i></a>
             </div>
             <div id="audiowrap">
                 <div id="audio0">

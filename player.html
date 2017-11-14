@@ -253,13 +253,16 @@ color:rgba(0,0,0,.1);
  <div class="container2">
     <div class="column2 add-bottom">
         <div id="mainwrap">
+            <div style="float: right; margin-top: 28px">
+                    <a style="padding: 3px 10px; cursor: pointer; margin: 0" id="btnRandom"><i class="fa fa-random"></i></a>
+                    <a style="padding: 3px 10px; cursor: pointer; margin: 0" id="btnReplay"><i class="fa fa-repeat"></i> </a>
+                    <a style="padding: 3px 10px; cursor: pointer; margin: 0" id="btnReturn"><i class="fa fa-arrow-left"></i></a>
+                </div>
             <div id="nowPlay">
                 <!--<span class="left" id="npAction">Parado...</span>-->
                 <br>
                 <span class="center" id="npTitle"></span>
                 <!-- <button style="float: right; padding: 8px 10px; cursor: pointer; margin: 0" id="btnReplay"><i class="fa fa-repeat"></i></button> -->
-                <a style="float: right; padding: 3px 10px; cursor: pointer; margin: 0" id="btnReplay"><i class="fa fa-repeat"></i> </a>
-                <a style="float: right; padding: 3px 10px; cursor: pointer; margin: 0" id="btnRandom"><i class="fa fa-random"></i></a>
             </div>
             <div id="audiowrap">
                 <div id="audio0">
@@ -283,11 +286,15 @@ color:rgba(0,0,0,.1);
         <p><a href="https://www.mediafire.com/folder/9fdcflgob19s7/evangelho" target="_blank">Downloads</a></p>
     </div>
 </div>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='http://api.html5media.info/1.1.8/html5media.min.js'></script>
 <script src='http://cdn.plyr.io/2.0.13/plyr.js'></script>
-
-    <script  src="variavel.js"></script>
+<script  src="variavel.js"></script>
+<script>
+    $('#btnReturn').click(function() {
+        window.history.back();
+    })
+</script>
 
 <a href="#top" class="glyphicon glyphicon-chevron-up"></a>
 

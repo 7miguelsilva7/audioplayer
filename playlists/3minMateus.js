@@ -167,6 +167,7 @@ jQuery(function ($) {
             npTitle = $('#npTitle'),
             random = false,
             recursive = false,
+            played = [],
             audio = $('#audio1').bind('play', function () {
                 playing = true;
                 npAction.text('Now Playing...');
@@ -262,7 +263,12 @@ jQuery(function ($) {
                 audio.play();
             },
             getRandomTrack = function () {
-                return Math.floor((Math.random() * tracks.length) + 1);
+                played.push(index);
+                var randomTrack = index;
+                while (played.includes(randomTrack)) {
+                    randomTrack = Math.floor((Math.random() * tracks.length) + 1);
+                }
+                return randomTrack;
             };
         extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
         loadTrack(index);

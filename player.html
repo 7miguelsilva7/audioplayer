@@ -105,6 +105,10 @@ position:absolute;
 padding:21px;
 }
 
+#plList {
+    margin-top: 40px;
+}
+
 #plList li {
 cursor:pointer;
 display:block;
@@ -151,7 +155,6 @@ cursor:default !important;
 
 a[id^="btn"] {
 border-radius:3px;
-color:#fff;
 cursor:pointer;
 display:inline-block;
 font-size:2rem;
@@ -171,7 +174,6 @@ margin-left:-4px;
 a[id^="btn"]:hover,
 a[id^="btn"]:active {
 background-color:rgba(0,0,0,.1);
-color:#fff;
 }
 
 a[id^="btn"]::-moz-focus-inner {
@@ -180,7 +182,11 @@ padding:0;
 }
 
 .btnSelected {
-    background-color: rgba(0,0,0,.1);
+    color:#fff !important;
+}
+
+.arrow {
+    color:#fff;
 }
 
 
@@ -254,9 +260,7 @@ color:rgba(0,0,0,.1);
     <div class="column2 add-bottom">
         <div id="mainwrap">
             <div style="float: right; margin-top: 28px">
-                    <a style="padding: 3px 10px; cursor: pointer; margin: 0" id="btnRandom"><i class="fa fa-random"></i></a>
-                    <a style="padding: 3px 10px; cursor: pointer; margin: 0" id="btnReplay"><i class="fa fa-repeat"></i> </a>
-                    <a style="padding: 3px 10px; cursor: pointer; margin: 0" id="btnReturn"><i class="fa fa-arrow-left"></i></a>
+                    
                 </div>
             <div id="nowPlay">
                 <!--<span class="left" id="npAction">Parado...</span>-->
@@ -269,8 +273,13 @@ color:rgba(0,0,0,.1);
                     <audio preload id="audio1" controls="controls">Seu navegador não suporta html5 - Atualize-o!</audio>
                 </div>
                 <div id="tracks">
-                    <a id="btnPrev">&larr;</a>
-                    <a id="btnNext">&rarr;</a>
+                    <a style="padding: 3px 10px; cursor: pointer; margin: 0; font-size: 1.5rem " id="btnRandom"><i class="fa fa-random"></i></a>
+                    <a style="padding: 3px 10px; cursor: pointer; margin: 0; font-size: 1.5rem" id="btnReplay"><i class="fa fa-repeat"></i> </a>
+                    <a style="padding: 3px 10px; cursor: pointer; margin: 0; font-size: 1.5rem" id="btnReturn"><i class="fa fa-arrow-left"></i></a>
+                </div>
+                <div id="tracks">
+                    <a class="arrow" id="btnPrev">&larr;</a>
+                    <a class="arrow" id="btnNext">&rarr;</a>
                 </div>
             </div>
             <!--<div id="plwrap">

@@ -35,6 +35,9 @@ document.write('<script type="text/javascript" src="playlists/respondi-501-1000.
 } else if (quebra[1]=="respondi-1001-1437") {
 document.write('<script type="text/javascript" src="playlists/respondi-1001-1500.js"><\/script>');
 
+} else if (quebra[1]=="actsComents") {
+document.write('<script type="text/javascript" src="playlists/actsComents.js"><\/script>');
+
 
 
 }else{

@@ -16,12 +16,11 @@ jQuery(function ($) {
             extension = '',
             tracks = [
 
-{"track":	1	,	 "name": "Evangelho em 3 min",	  	"file": "3min.html"},
-{"track":	3	,	 "name": "Dispensações", 	"file": "player.html?ip=dispensacao"},
-{"track":	4	,	 "name": "Músicas",	"file": "musicas.html"},
-// {"track":	4	,	 "name": "Músicas",	"file": "player.html?ip=hinarioCantado"},
-{"track":	5	,	 "name": "Ministério",	"file": "biblacomentada.html"}
-
+{"track":	2	,	 "name": "3 Min Mateus", "file": "1mateus/"},
+{"track":	1	,	 "name": "3 Min Marcos", "file": "2marcos/"},
+{"track":	2	,	 "name": "3 Min Lucas",	  "file": "3lucas/"},
+{"track":	2	,	 "name": "3 Min João",	  "file": "4joao/"},
+{"track":	2	,	 "name": "Respondi",	  "file": "respondi/"}
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

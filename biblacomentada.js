@@ -16,11 +16,8 @@ jQuery(function ($) {
             extension = '',
             tracks = [
 
-{"track":	1	,	 "name": "Evangelho em 3 min",	  	"file": "3min.html"},
-{"track":	3	,	 "name": "Dispensações", 	"file": "player.html?ip=dispensacao"},
-{"track":	4	,	 "name": "Músicas",	"file": "musicas.html"},
-// {"track":	4	,	 "name": "Músicas",	"file": "player.html?ip=hinarioCantado"},
-{"track":	5	,	 "name": "Ministério",	"file": "biblacomentada.html"}
+{"track":	1	,	 "name": "Atos dos Apóstolos", "file": "player.html?ip=actsComents"},
+{"track":	2	,	 "name": "Apocalipse",	  	"file": "player.html?ip=apocalipse"}
 
 
 ],

@@ -38,7 +38,11 @@ document.write('<script type="text/javascript" src="playlists/respondi-1001-1500
 } else if (quebra[1]=="actsComents") {
 document.write('<script type="text/javascript" src="playlists/actsComents.js"><\/script>');
 
+} else if (quebra[1]=="hinosSalmosCanticos") {
+document.write('<script type="text/javascript" src="playlists/hinosSalmosCanticos.js"><\/script>');
 
+} else if (quebra[1]=="CanticosCantadoPorCrianca") {
+document.write('<script type="text/javascript" src="playlists/CanticosCantadoPorCrianca.js"><\/script>');
 
 }else{
 document.write('<script type="text/javascript" src="index.js"><\/script>');

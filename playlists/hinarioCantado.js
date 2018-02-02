@@ -8,13 +8,22 @@
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
+	
+	//get anchor value and validate value
+	var anchorTrack = window.location.href.split("#")[1];
+	if (!anchorTrack || isNaN(anchorTrack)) {
+		//return defaut value for "index" valiable
+		anchorTrack = 0;
+	}
+	
     var supportsAudio = !!document.createElement('audio').canPlayType;
     if (supportsAudio) {
-        var index = 0,
+		//return anchor value for "index" valiable
+        var index = anchorTrack,
             playing = false,
             mediaPath = '',
             extension = '',
-            tracks = [ 
+            tracks = [
 
 {"track":	1	,	 "name": "	Hino 001 - Aba, Pai, a Ti Chegamos.mp3	",	 "length": "	03:16	",	 "file": "	http://www.mediafire.com/file/	b1o25cfx24zq3aq	/	Hino 001 - Aba, Pai, a Ti Chegamos.mp3	"},
 {"track":	2	,	 "name": "	Hino 002 - Foi Nessa Noite Escura.mp3	",	 "length": "	04:03	",	 "file": "	http://www.mediafire.com/file/	70g76ph8lca4kra	/	Hino 002 - Foi Nessa Noite Escura.mp3	"},
@@ -268,6 +277,8 @@ jQuery(function ($) {
                 npTitle.text(tracks[id].name);
                 index = id;
                 audio.src = mediaPath + tracks[id].file + extension;
+				//insert track id in anchor value
+				window.location.href="#"+index;
             },
             playTrack = function (id) {
                 loadTrack(id);

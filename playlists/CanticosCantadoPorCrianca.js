@@ -8,13 +8,22 @@
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
+	
+	//get anchor value and validate value
+	var anchorTrack = window.location.href.split("#")[1];
+	if (!anchorTrack || isNaN(anchorTrack)) {
+		//return defaut value for "index" valiable
+		anchorTrack = 0;
+	}
+	
     var supportsAudio = !!document.createElement('audio').canPlayType;
     if (supportsAudio) {
-        var index = 0,
+		//return anchor value for "index" valiable
+        var index = anchorTrack,
             playing = false,
             mediaPath = '',
             extension = '',
-            tracks = [ 
+            tracks = [
 
                 {"track":	1	,	 "name": "	A PORTA É UMA SÓ (Cantado por uma criança)	",	 "length": "	01:27	",	 "file": "	http://www.mediafire.com/file/	dp90tj5e23tes6f	/	A PORTA EU SOU (Cantado por uma criança)	"},
                 {"track":	2	,	 "name": "	A PORTA EU SOU (Cantado por uma criança)	",	 "length": "	01:11	",	 "file": "	http://www.mediafire.com/file/	dhoz68adhuyadbg	/	A PORTA É UMA SÓ (Cantado por uma criança)	"},
@@ -151,6 +160,8 @@ jQuery(function ($) {
                 npTitle.text(tracks[id].name);
                 index = id;
                 audio.src = mediaPath + tracks[id].file + extension;
+				//insert track id in anchor value
+				window.location.href="#"+index;
             },
             playTrack = function (id) {
                 loadTrack(id);

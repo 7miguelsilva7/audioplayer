@@ -82,7 +82,12 @@ jQuery(function ($) {
                 {"track":	55	,	 "name": "	TAL COMO ESTÁS VEM A JESUS (Just as I am)	",	 "length": "	03:58	",	 "file": "	http://www.mediafire.com/file/	z45nqqjqvbnq25p	/	TAL COMO ESTÁS VEM A JESUS (Just as I am)	"},
                 {"track":	56	,	 "name": "	TERNO SALVADOR	",	 "length": "	02:55	",	 "file": "	http://www.mediafire.com/file/	b8ltsasa6bjo5k2	/	TERNO SALVADOR	"},
                 {"track":	57	,	 "name": "	TEU SACRIFÍCIO EXCELSO	",	 "length": "	03:09	",	 "file": "	http://www.mediafire.com/file/	htfd27t65ljw74h	/	TEU SACRIFÍCIO EXCELSO	"},
-                {"track":	58	,	 "name": "	VINDE CANTEMOS (Salmo 95)	",	 "length": "	03:16	",	 "file": "	http://www.mediafire.com/file/	39v8w6xzr9ydyyu	/	VINDE CANTEMOS (Salmo 95)	"}
+                {"track":	58	,	 "name": "	VINDE CANTEMOS (Salmo 95)	",	 "length": "	03:16	",	 "file": "	http://www.mediafire.com/file/	39v8w6xzr9ydyyu	/	VINDE CANTEMOS (Salmo 95)	"},
+                {"track":	59	,	 "name": "	O SENHOR ESCOLHEU A SIÃO	",	 "length": "	03:16	",	 "file": "	http://www.mediafire.com/file/	qrw6n3wm2u44wew	/	"},
+                {"track":	60	,	 "name": "	NOVO NASCIMENTO	",	 "length": "	03:16	",	 "file": "	http://www.mediafire.com/file/	2cz710yh7mhu3ks	/		"},
+                {"track":	61	,	 "name": "	OH! GRAÇA SUBLIME	",	 "length": "	03:16	",	 "file": "	http://www.mediafire.com/file/	2w1f03eg0tt2d2b	/	"},
+                {"track":	62	,	 "name": "	QUÃO IMENSA FOI A GRAÇA	",	 "length": "	03:16	",	 "file": "	http://www.mediafire.com/file/	kvu7h91zvc2b06g	/	"},
+                {"track":	63	,	 "name": "	ALEGRE VERDADE	",	 "length": "	03:16	",	 "file": "	http://www.mediafire.com/file/	ux9y8aqrbwtio8t	/	"}
                 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

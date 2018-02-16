@@ -8,7 +8,15 @@
   <title>Audio Player</title>
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Audio Player" />
-  <meta property="og:description" content="teste" />
+
+  <?php
+
+$description = "<span class='center' id='npTitle'></span>";
+
+echo '<meta property="og:description" content="$description"/>';
+
+?>
+
   <meta property="og:image" content="https://pbs.twimg.com/media/CPLEXeBVEAEg1Dk.png" />
   
   <meta name="viewport" content="width=device-width, initial-scale=1">

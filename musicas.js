@@ -17,8 +17,8 @@ jQuery(function ($) {
             tracks = [
 
 {"track":	1	,	 "name": "Hinário Cantado", "file": "player.html?ip=hinarioCantado"},
-{"track":	2	,	 "name": "Hinos | Salmos | Cânticos",	  	"file": "player.php?ip=hinosSalmosCanticos"},
-{"track":	3	,	 "name": "Cânticos para Criança",	  	"file": "player.php?ip=CanticosCantadoPorCrianca"}
+{"track":	2	,	 "name": "Hinos | Salmos | Cânticos",	  	"file": "player.html?ip=hinosSalmosCanticos"},
+{"track":	3	,	 "name": "Cânticos para Criança",	  	"file": "player.html?ip=CanticosCantadoPorCrianca"}
 
 
 ],

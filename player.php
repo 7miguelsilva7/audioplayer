@@ -1,28 +1,9 @@
 <!DOCTYPE html>
 <html >
 <head>
-  
-<<<<<<< HEAD
+ 
 <?php include 'share/share01.html'; ?>
 
-=======
-  <meta charset="UTF-8">
-  <title>Audio Player</title>
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Audio Player" />
-
-  <?php
-
-$description = "<span class='center' id='npTitle'></span>";
-
-echo '<meta property="og:description" content=" . $description . "/>';
-
-?>
-
-  <meta property="og:image" content="https://pbs.twimg.com/media/CPLEXeBVEAEg1Dk.png" />
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1">
->>>>>>> dff07d2a993b34f0471d0d9d2e683bf099e6d734
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel='stylesheet prefetch' href='http://cdn.plyr.io/2.0.13/plyr.css'>

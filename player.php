@@ -13,7 +13,7 @@
 
 $description = "<span class='center' id='npTitle'></span>";
 
-echo '<meta property="og:description" content="$description"/>';
+echo '<meta property="og:description" content=" . $description . "/>';
 
 ?>
 

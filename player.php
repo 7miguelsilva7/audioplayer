@@ -1,5 +1,3 @@
-<?php $description =  "<span class='center' id='npTitle'></span>";?>
-
 <!DOCTYPE html>
 <html >
 <head>
@@ -277,8 +275,7 @@ color:rgba(0,0,0,.1);
             <div id="nowPlay">
                 <!--<span class="left" id="npAction">Parado...</span>-->
                 <br>
-                <!-- <span class="center" id="npTitle"></span> -->
-                <?php echo $description;?>
+                <span class="center" id="npTitle"></span>
                 <!-- <button style="float: right; padding: 8px 10px; cursor: pointer; margin: 0" id="btnReplay"><i class="fa fa-repeat"></i></button> -->
             </div>
             <div id="audiowrap">

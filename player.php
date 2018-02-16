@@ -1,17 +1,9 @@
 <!DOCTYPE html>
 <html >
 <head>
-
-
   
-  <meta charset="UTF-8">
-  <title>Audio Player</title>
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Audio Player" />
-  <meta property="og:description" content="teste" />
-  <meta property="og:image" content="https://pbs.twimg.com/media/CPLEXeBVEAEg1Dk.png" />
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<?php include 'share/share01.html'; ?>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel='stylesheet prefetch' href='http://cdn.plyr.io/2.0.13/plyr.css'>

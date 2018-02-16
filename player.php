@@ -1,11 +1,11 @@
+<?php $description =  "<span class='center' id='npTitle'></span>";?>
 
 <!DOCTYPE html>
 <html >
 <head>
 
-        <?php $description = $('#npTitle');?>
-            
 
+  
   <meta charset="UTF-8">
   <title>Audio Player</title>
   <meta property="og:type" content="article" />
@@ -277,7 +277,8 @@ color:rgba(0,0,0,.1);
             <div id="nowPlay">
                 <!--<span class="left" id="npAction">Parado...</span>-->
                 <br>
-                <span class="center" id="npTitle"></span>
+                <!-- <span class="center" id="npTitle"></span> -->
+                <?php echo $description;?>
                 <!-- <button style="float: right; padding: 8px 10px; cursor: pointer; margin: 0" id="btnReplay"><i class="fa fa-repeat"></i></button> -->
             </div>
             <div id="audiowrap">

@@ -1,4 +1,7 @@
-
+<?php
+$title = "título atual 1";
+$descriptiom = "Sua descrição aqui";
+?>
 
 <!DOCTYPE html>
 <html>

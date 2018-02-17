@@ -4,11 +4,7 @@
 <html>
 <head>
  
-<?php
-$title = "$('#plList')";
-
-$descriptiom = "Sua descrição aqui";
-?>
+<?php $title = '<span class="center" id="npTitle"></span>';?>
 
 <title><?php echo $title?></title>
 <meta name="description" content="<?php echo $description?>"/>

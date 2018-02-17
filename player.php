@@ -1,5 +1,5 @@
 <?php
-$title = "título atual 2";
+$title = '<span class="center" id="npTitle"></span>';
 $descriptiom = "Sua descrição aqui";
 ?>
 

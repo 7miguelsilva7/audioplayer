@@ -11,7 +11,7 @@ $descriptiom = "Sua descrição aqui";
 <meta name="description" content="<?php echo $description?>"/>
 <!-- Meta tags compartilhamento -->
 <meta property="og:title" content="<?php echo $title?>"/>
-<meta property="og:description" content="<?php echo $description?>"/>
+<meta property="og:description" content="<?php echo $title?>"/>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

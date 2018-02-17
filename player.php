@@ -5,7 +5,8 @@
 <head>
  
 <?php
-$title = '<span class="center" id="npTitle"></span>';
+$title = "$('#plList')";
+
 $descriptiom = "Sua descrição aqui";
 ?>
 

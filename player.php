@@ -1,12 +1,14 @@
-<?php
-$title = '<span class="center" id="npTitle"></span>';
-$descriptiom = "Sua descrição aqui";
-?>
+
 
 <!DOCTYPE html>
 <html>
 <head>
  
+<?php
+$title = '<span class="center" id="npTitle"></span>';
+$descriptiom = "Sua descrição aqui";
+?>
+
 <title><?php echo $title?></title>
 <meta name="description" content="<?php echo $description?>"/>
 <!-- Meta tags compartilhamento -->

@@ -6,7 +6,7 @@
 <head>
  
 <title><?php echo $title?></title>
-<meta name="description" content="<?php echo $title?>"/>
+<meta name="description" content="<script>window.location.href;</script>"/>
 <!-- Meta tags compartilhamento -->
 <meta property="og:title" content="<?php echo $title?>"/>
 <meta property="og:description" content="<?php echo $title?>"/>

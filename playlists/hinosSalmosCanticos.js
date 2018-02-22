@@ -87,7 +87,9 @@ jQuery(function ($) {
                 {"track":	60	,	 "name": "	NOVO NASCIMENTO	",	 "length": "	02:57	",	 "file": "	http://www.mediafire.com/file/	2cz710yh7mhu3ks	/		"},
                 {"track":	61	,	 "name": "	OH! GRAÇA SUBLIME	",	 "length": "	03:29	",	 "file": "	http://www.mediafire.com/file/	2w1f03eg0tt2d2b	/	"},
                 {"track":	62	,	 "name": "	QUÃO IMENSA FOI A GRAÇA	",	 "length": "	03:55	",	 "file": "	http://www.mediafire.com/file/	kvu7h91zvc2b06g	/	"},
-                {"track":	63	,	 "name": "	ALEGRE VERDADE	",	 "length": "	03:55	",	 "file": "	http://www.mediafire.com/file/	ux9y8aqrbwtio8t	/	"}
+                {"track":	63	,	 "name": "	ALEGRE VERDADE	",	 "length": "	03:55	",	 "file": "	http://www.mediafire.com/file/	ux9y8aqrbwtio8t/	"},
+                {"track":	64	,	 "name": "	SE ISSO NÃO FOR AMOR",	 "length": "	03:15	",	 "file": "	http://www.mediafire.com/file/se6jdq6hkdd2f96/	"}
+
                 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

@@ -89,7 +89,7 @@ jQuery(function ($) {
                 {"track":	62	,	 "name": "	QUÃO IMENSA FOI A GRAÇA	",	 "length": "	03:55	",	 "file": "	http://www.mediafire.com/file/	kvu7h91zvc2b06g	/	"},
                 {"track":	63	,	 "name": "	ALEGRE VERDADE	",	 "length": "	03:55	",	 "file": "	http://www.mediafire.com/file/	ux9y8aqrbwtio8t/	"},
                 {"track":	64	,	 "name": "	SE ISSO NÃO FOR AMOR",	 "length": "	03:15	",	 "file": "	http://www.mediafire.com/file/se6jdq6hkdd2f96/	"},
-                {"track":	65	,	 "name": "	42 - NAS ESTRELAS (TUDO ELE É PARA MIM)",	 "length": "	03:27	",	 "file": "	http://www.mediafire.com/file/dvz9d87a8ruiau4/	"},
+                {"track":	65	,	 "name": "	NAS ESTRELAS (TUDO ELE É PARA MIM)",	 "length": "	03:27	",	 "file": "	http://www.mediafire.com/file/dvz9d87a8ruiau4/	"},
                 {"track":	66	,	 "name": "	SONDA-ME Ó DEUS E CONHECE MEU CORAÇÃO (SALMO 139 )",	 "length": "	04:19	",	 "file": "	http://www.mediafire.com/file/bc1wg0dkn6pqlkh/	"}
                 
                 

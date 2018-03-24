@@ -91,7 +91,7 @@ jQuery(function ($) {
                 {"track":	64	,	 "name": "	TEU SACRIFÍCIO EXCELSO	",	 "length": "	03:09	",	 "file": "	http://www.mediafire.com/file/	htfd27t65ljw74h	/	TEU SACRIFÍCIO EXCELSO	"},
                 {"track":	65	,	 "name": "	VINDE CANTEMOS (Salmo 95)	",	 "length": "	03:16	",	 "file": "	http://www.mediafire.com/file/	39v8w6xzr9ydyyu	/	VINDE CANTEMOS (Salmo 95)	"},
                 {"track":	66	,	 "name": "	SONDA-ME Ó DEUS E CONHECE O MEU CORAÇÃO	",	 "length": "	04:20	",	 "file": "	http://www.mediafire.com/file/bc1wg0dkn6pqlkh/"},
-                {"track":	67	,	 "name": "	ATÉ A CRUZ DESCESTE	",	 "length": "	03:56	",	 "file": "	http://www.mediafire.com/file/9f7sw20b7ysivqv/	"},
+                {"track":	67	,	 "name": "	ATÉ A CRUZ DESCESTE	",	 "length": "	03:56	",	 "file": "	http://www.mediafire.com/file/998hxmexvbr58vb/	"},
                 {"track":	68	,	 "name": "	NAS ESTRELAS (TUDO É PARA MIM)	",	 "length": "	03:27	",	 "file": "	http://www.mediafire.com/file/dvz9d87a8ruiau4/	"}
                 
 ],

@@ -17,6 +17,7 @@ jQuery(function ($) {
             tracks = [
 
 {"track":	1	,	 "name": "Atos dos Apóstolos", "file": "player.html?ip=actsComents"},
+{"track":	1	,	 "name": "Romanos", "file": "player.html?ip=romComents"},
 {"track":	2	,	 "name": "Apocalipse",	  	"file": "player.html?ip=apocalipse"}
 
 

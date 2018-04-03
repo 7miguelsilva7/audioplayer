@@ -16,10 +16,10 @@ jQuery(function ($) {
             extension = '',
             tracks = [
                 
-{"track":	1	,	 "name": "Atos dos Apóstolos", "file": "player.html?ip=actsComents"},
-{"track":	1	,	 "name": "Romanos", "file": "player.html?ip=romComents"},
-{"track":	1	,	 "name": "1ª Coríntios", "file": "player.html?ip=1coComents"},
-{"track":	2	,	 "name": "Apocalipse",	  	"file": "player.html?ip=apocalipse"}
+{"track":	1	,	 "name": "Atos dos Apóstolos", "file": "player.html?ip=comentsActs"},
+{"track":	1	,	 "name": "Romanos", "file": "player.html?ip=comentsRm"},
+{"track":	1	,	 "name": "1ª Coríntios", "file": "player.html?ip=coments1co"},
+{"track":	2	,	 "name": "Apocalipse",	  	"file": "player.html?ip=comentsAp"}
 
 
 ],

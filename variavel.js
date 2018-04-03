@@ -24,13 +24,13 @@ if (quebra[1]=="audioplayer"){ document.write('<script type="text/javascript" sr
 
 //Ministério
 
-} else if (quebra[1]=="actsComents") { document.write('<script type="text/javascript" src="playlists/actsComents.js"><\/script>');
+} else if (quebra[1]=="comentsActs") { document.write('<script type="text/javascript" src="playlists/comentsActs.js"><\/script>');
 
-} else if (quebra[1]=="romComents") { document.write('<script type="text/javascript" src="playlists/romComents.js"><\/script>');
+} else if (quebra[1]=="comentsRm") { document.write('<script type="text/javascript" src="playlists/comentsRm.js"><\/script>');
 
-} else if (quebra[1]=="1coComents") { document.write('<script type="text/javascript" src="playlists/1coComents.js"><\/script>');
+} else if (quebra[1]=="coments1co") { document.write('<script type="text/javascript" src="playlists/coments1co.js"><\/script>');
 
-} else if (quebra[1]=="apocalipse") { document.write('<script type="text/javascript" src="playlists/apocalipse.js"><\/script>');
+} else if (quebra[1]=="comentsAp") { document.write('<script type="text/javascript" src="playlists/comentsAp.js"><\/script>');
 
 //Ministério
 

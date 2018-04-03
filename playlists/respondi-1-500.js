@@ -528,7 +528,7 @@ jQuery(function ($) {
                 { "track": 497, "name": "	#1177 Basta confessar a Deus para tudo ficar bem?	", "length": "	14:29	", "file": "	http://www.mediafire.com/file/	1ch8k0pd6es7czw	/	#1177 Basta confessar a Deus para tudo ficar bem?	" },
                 { "track": 498, "name": "	#1178 A cruz de Cristo foi um fracasso como o Papa afirmou?	", "length": "	18:39	", "file": "	http://www.mediafire.com/file/	cj8ka1mdac4097a	/	#1178 A cruz de Cristo foi um fracasso como o Papa afirmou?	" },
                 { "track": 499, "name": "	#1179 Devo ouvir o 'profeta'?	", "length": "	20:45	", "file": "	http://www.mediafire.com/file/	8rwxymtir9wjb3u	/	#1179 Devo ouvir o 'profeta'?	" },
-                { "track": 500, "name": "	#1180 Por que voce critica a 'minha' igreja?	", "length": "	19:11	", "file": "	http://www.mediafire.com/file/	a9ra0c84mlvri62	/	#1180 Por que voce critica a 'minha' igreja?	" }
+                { "track": 500, "name": "	#1180 Por que voce critica a 'minha' igreja?	", "length": "	19:11	", "file": "	http://www.mediafire.com/file/	a9ra0c84mlvri62	/	#1180 Por que voce critica a 'minha' igreja?	" },
 
 
 

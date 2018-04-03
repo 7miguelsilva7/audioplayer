@@ -50,7 +50,7 @@ jQuery(function ($) {
                 {"track":	23	,	 "name": "	PODEROSO É NOSSO DEUS (Cantado por uma criança)	",	 "length": "	00:48	",	 "file": "	http://www.mediafire.com/file/	d5qtdk7ktn5ug05	/	PODEROSO É NOSSO DEUS (Cantado por uma criança)	"},
                 {"track":	24	,	 "name": "	QUEM FAZ AS LINDAS FLORES (Cantado por uma criança)	",	 "length": "	00:57	",	 "file": "	http://www.mediafire.com/file/	49ixezb48k914et	/	QUEM FAZ AS LINDAS FLORES (Cantado por uma criança)	"},
                 {"track":	25	,	 "name": "	TOC! TOC! TOC! (Cantado por uma criança)	",	 "length": "	00:52	",	 "file": "	http://www.mediafire.com/file/	d5d3vcl5n3p99ls	/	TOC! TOC! TOC! (Cantado por uma criança)	"},
-                {"track":	26	,	 "name": "	TODOS PECARAM (Cantado por uma criança)	",	 "length": "	00:29	",	 "file": "	http://www.mediafire.com/file/	npirnm498w4194o	/	TODOS PECARAM (Cantado por uma criança)	"}
+                {"track":	26	,	 "name": "	TODOS PECARAM (Cantado por uma criança)	",	 "length": "	00:29	",	 "file": "	http://www.mediafire.com/file/	npirnm498w4194o	/	TODOS PECARAM (Cantado por uma criança)	"},
                          
                 
 ],

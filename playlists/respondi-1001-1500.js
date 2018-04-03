@@ -465,7 +465,7 @@ jQuery(function ($) {
 {"track":	434	,	 "name": "	Você se acha o dono da verdade?	",	 "length": "	13:53	",	 "file": "	http://www.mediafire.com/file/	9vab9wzt6k03b9u	/	Você se acha o dono da verdade?	"},
 {"track":	435	,	 "name": "	Voce segue a doutrina de Juan Carlos Ortiz?	",	 "length": "	07:12	",	 "file": "	http://www.mediafire.com/file/	w3j9eorb17myloc	/	Voce segue a doutrina de Juan Carlos Ortiz?	"},
 {"track":	436	,	 "name": "	Voce segue os ensinos de Frank Viola e Wolfgang Simson?	",	 "length": "	10:17	",	 "file": "	http://www.mediafire.com/file/	tqtsuba12nh6up5	/	Voce segue os ensinos de Frank Viola e Wolfgang Simson?	"},
-{"track":	437	,	 "name": "	Voces se congregam como na igreja primitiva?	",	 "length": "	21:19	",	 "file": "	http://www.mediafire.com/file/	2bx8bryef2feew4	/	Voces se congregam como na igreja primitiva?	"}
+{"track":	437	,	 "name": "	Voces se congregam como na igreja primitiva?	",	 "length": "	21:19	",	 "file": "	http://www.mediafire.com/file/	2bx8bryef2feew4	/	Voces se congregam como na igreja primitiva?	"},
 
 
 

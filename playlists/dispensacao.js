@@ -138,7 +138,7 @@ jQuery(function ($) {
                 "name": "Londrina 2017 Parte 7 Londrina 2017 Estudo das Dispensações Reuniao 3 Dispensacao da graca Lemao.mp3",
                 "length": "1:24:07",
                 "file": "http://www.mediafire.com/file/wdi4tm24dt3b392/Parte_7_Londrina_2017_Estudo_das_Dispensacoes_Reuniao_3_Dispensacao_da_graca_Lemao.mp3"
-            }
+            },
 ],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,

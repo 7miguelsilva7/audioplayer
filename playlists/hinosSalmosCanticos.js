@@ -92,7 +92,9 @@ jQuery(function ($) {
                 {"track":	65	,	 "name": "	VINDE CANTEMOS (Salmo 95)	",	 "length": "	03:16	",	 "file": "	http://www.mediafire.com/file/	39v8w6xzr9ydyyu	/	VINDE CANTEMOS (Salmo 95)	"},
                 {"track":	66	,	 "name": "	SONDA-ME Ó DEUS E CONHECE O MEU CORAÇÃO	",	 "length": "	04:20	",	 "file": "	http://www.mediafire.com/file/bc1wg0dkn6pqlkh/"},
                 {"track":	67	,	 "name": "	ATÉ A CRUZ DESCESTE	",	 "length": "	03:56	",	 "file": "	http://www.mediafire.com/file/998hxmexvbr58vb/	"},
-                {"track":	68	,	 "name": "	NAS ESTRELAS (TUDO É PARA MIM)	",	 "length": "	03:27	",	 "file": "	http://www.mediafire.com/file/dvz9d87a8ruiau4/	"}
+                {"track":	68	,	 "name": "	NAS ESTRELAS (TUDO É PARA MIM)	",	 "length": "	03:27	",	 "file": "	http://www.mediafire.com/file/dvz9d87a8ruiau4/	"},
+                {"track":	69	,	 "name": "	SOMENTE EM TEU LOUVOR	",	 "length": "	03:16	",	 "file": "	http://www.mediafire.com/file/qdu9u3d7929l119/	"},
+                {"track":	70	,	 "name": "	REDENÇÃO CONSUMADA)	",	 "length": "	02:59	",	 "file": "	http://www.mediafire.com/file/i8a4441dw378n08/	"},
                 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

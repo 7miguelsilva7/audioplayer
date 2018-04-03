@@ -94,7 +94,7 @@ jQuery(function ($) {
                 {"track":	67	,	 "name": "	ATÉ A CRUZ DESCESTE	",	 "length": "	03:56	",	 "file": "	http://www.mediafire.com/file/998hxmexvbr58vb/	"},
                 {"track":	68	,	 "name": "	NAS ESTRELAS (TUDO É PARA MIM)	",	 "length": "	03:27	",	 "file": "	http://www.mediafire.com/file/dvz9d87a8ruiau4/	"},
                 {"track":	69	,	 "name": "	SOMENTE EM TEU LOUVOR	",	 "length": "	03:16	",	 "file": "	http://www.mediafire.com/file/qdu9u3d7929l119/	"},
-                {"track":	70	,	 "name": "	REDENÇÃO CONSUMADA)	",	 "length": "	02:59	",	 "file": "	http://www.mediafire.com/file/i8a4441dw378n08/	"},
+                {"track":	70	,	 "name": "	REDENÇÃO CONSUMADA	",	 "length": "	02:59	",	 "file": "	http://www.mediafire.com/file/i8a4441dw378n08/	"},
                 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

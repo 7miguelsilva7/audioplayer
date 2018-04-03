@@ -28,7 +28,7 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
  
-{"track":	1	,	 "name": "  1a Coríntios 1 (Lineu-Binotti-Luis-Amalfi-Ednei-Cesar-Silva)	",	 "length": "	41:54	",	 "file": "	http://www.mediafire.com/file/obrae6g28996k0i/	"},
+{"track":	1	,	 "name": "  1a Coríntios 1 (Lineu Binotti, Luis Amalfi, Ednei Cesar Silva)	",	 "length": "	41:54	",	 "file": "	http://www.mediafire.com/file/obrae6g28996k0i/	"},
 {"track":	2	,	 "name": "	1a Coríntios 1 - parte 1	",	 "length": "	41:54	",	 "file": "	http://www.mediafire.com/file/	6dq7powa5wu67qc	/	"},
 {"track":	3	,	 "name": "	1a Coríntios 1 - parte 2	",	 "length": "	45:33	",	 "file": "	http://www.mediafire.com/file/	vid35557mzo96cv	/	"},
 {"track":	4	,	 "name": "	1a Coríntios 1 - parte 3	",	 "length": "	1:00:14	",	 "file": "	http://www.mediafire.com/file/	9a3h1wq3m974jhb	/	"},

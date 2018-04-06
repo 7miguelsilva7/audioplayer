@@ -32,6 +32,8 @@ if (quebra[1]=="audioplayer"){ document.write('<script type="text/javascript" sr
 
 } else if (quebra[1]=="comentsAp") { document.write('<script type="text/javascript" src="playlists/comentsAp.js"><\/script>');
 
+} else if (quebra[1]=="comentsEf") { document.write('<script type="text/javascript" src="playlists/comentsEf.js"><\/script>');
+
 //Ministério
 
 } else if (quebra[1]=="hinosSalmosCanticos") { document.write('<script type="text/javascript" src="playlists/hinosSalmosCanticos.js"><\/script>');

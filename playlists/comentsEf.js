@@ -27,21 +27,21 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-{"track":	1	,	 "name": "	Efesios-1 - 1a parte	",	 "length": "	01:01:17	",	 "file": "	http://www.mediafire.com/file/	m5zbfxxdvljhcbh	/	"},
-{"track":	2	,	 "name": "	Efesios-1 - 2a parte	",	 "length": "	43:45:00	",	 "file": "	http://www.mediafire.com/file/	34333g6lcarnj3n	/	"},
-{"track":	3	,	 "name": "	Efesios-1 - 3a parte	",	 "length": "	50:13:00	",	 "file": "	http://www.mediafire.com/file/	4076yte8dt9cs3p	/	"},
-{"track":	4	,	 "name": "	Efesios-1 - 1a. parte	",	 "length": "	01:00:46	",	 "file": "	http://www.mediafire.com/file/	py8lnbazyb559e5	/	"},
-{"track":	5	,	 "name": "	Efesios-1 - 2a. parte	",	 "length": "	01:00:44	",	 "file": "	http://www.mediafire.com/file/	abm9zs9ze4ezijc	/	"},
-{"track":	6	,	 "name": "	Efesios-1 - 3a. parte	",	 "length": "	31:15:00	",	 "file": "	http://www.mediafire.com/file/	qct5jzvje2rg31z	/	"},
-{"track":	7	,	 "name": "	Efesios-2-11a22-Mario-Persona	",	 "length": "	21:26:00	",	 "file": "	http://www.mediafire.com/file/	vcrh6b0hcg9yocy	/	"},
-{"track":	8	,	 "name": "	Efesios-3-1a12-Lineu-Binotti-26012014	",	 "length": "	15:15:00	",	 "file": "	http://www.mediafire.com/file/	3a29kda5rk7sxwh	/	"},
-{"track":	9	,	 "name": "	Efesios-3-1a12-Mario-Persona	",	 "length": "	21:28:00	",	 "file": "	http://www.mediafire.com/file/	m3j5ab59438ejkt	/	"},
-{"track":	10	,	 "name": "	Efesios-3-02022014a	",	 "length": "	35:27:00	",	 "file": "	http://www.mediafire.com/file/	wa5e7iadqh855ta	/	"},
-{"track":	11	,	 "name": "	Efesios-4-1a3-Lineu-Binotti-Mario-Persona-Luis-Campos	",	 "length": "	28:21:00	",	 "file": "	http://www.mediafire.com/file/	xkcp1cf530ghzuo	/	"},
-{"track":	12	,	 "name": "	Efesios-4-17a32-Luis-Campos-Mario-Persona-Lineu-Binotti-Paulo-Roberto-Lenci	",	 "length": "	33:33:00	",	 "file": "	http://www.mediafire.com/file/	2x9w8dcv8akau89	/	"},
+{"track":	1	,	 "name": "	Efesios-1 - 1a parte	",	 "length": "	1:01:17	",	 "file": "	http://www.mediafire.com/file/	m5zbfxxdvljhcbh	/	"},
+{"track":	2	,	 "name": "	Efesios-1 - 2a parte	",	 "length": "	43:45	",	 "file": "	http://www.mediafire.com/file/	34333g6lcarnj3n	/	"},
+{"track":	3	,	 "name": "	Efesios-1 - 3a parte	",	 "length": "	50:13	",	 "file": "	http://www.mediafire.com/file/	4076yte8dt9cs3p	/	"},
+{"track":	4	,	 "name": "	Efesios-1 - 1a. parte	",	 "length": "	1:00:46	",	 "file": "	http://www.mediafire.com/file/	py8lnbazyb559e5	/	"},
+{"track":	5	,	 "name": "	Efesios-1 - 2a. parte	",	 "length": "	1:00:44	",	 "file": "	http://www.mediafire.com/file/	abm9zs9ze4ezijc	/	"},
+{"track":	6	,	 "name": "	Efesios-1 - 3a. parte	",	 "length": "	31:15	",	 "file": "	http://www.mediafire.com/file/	qct5jzvje2rg31z	/	"},
+{"track":	7	,	 "name": "	Efesios-2-11a22-Mario-Persona	",	 "length": "	21:26	",	 "file": "	http://www.mediafire.com/file/	vcrh6b0hcg9yocy	/	"},
+{"track":	8	,	 "name": "	Efesios-3-1a12-Lineu-Binotti-26012014	",	 "length": "	15:15	",	 "file": "	http://www.mediafire.com/file/	3a29kda5rk7sxwh	/	"},
+{"track":	9	,	 "name": "	Efesios-3-1a12-Mario-Persona	",	 "length": "	21:28	",	 "file": "	http://www.mediafire.com/file/	m3j5ab59438ejkt	/	"},
+{"track":	10	,	 "name": "	Efesios-3-02022014a	",	 "length": "	35:27	",	 "file": "	http://www.mediafire.com/file/	wa5e7iadqh855ta	/	"},
+{"track":	11	,	 "name": "	Efesios-4-1a3-Lineu-Binotti-Mario-Persona-Luis-Campos	",	 "length": "	28:21	",	 "file": "	http://www.mediafire.com/file/	xkcp1cf530ghzuo	/	"},
+{"track":	12	,	 "name": "	Efesios-4-17a32-Luis-Campos-Mario-Persona-Lineu-Binotti-Paulo-Roberto-Lenci	",	 "length": "	33:33	",	 "file": "	http://www.mediafire.com/file/	2x9w8dcv8akau89	/	"},
 {"track":	13	,	 "name": "	Efesios-6-1a10-Mario-Persona-Luis-Campos	",	 "length": "	01:10:08	",	 "file": "	http://www.mediafire.com/file/	xmqccxlsc7z5jh6	/	"},
-{"track":	14	,	 "name": "	Efesios-6:10-24	",	 "length": "	16:33:00	",	 "file": "	http://www.mediafire.com/file/	rtbplaint4gl3vh	/	"},
-{"track":	15	,	 "name": "	Efesios-6-18a24-Mario-Persona	",	 "length": "	24:25:00	",	 "file": "	http://www.mediafire.com/file/	57w2dj9f2cbfzhw	/	"},
+{"track":	14	,	 "name": "	Efesios-6:10-24	",	 "length": "	16:33	",	 "file": "	http://www.mediafire.com/file/	rtbplaint4gl3vh	/	"},
+{"track":	15	,	 "name": "	Efesios-6-18a24-Mario-Persona	",	 "length": "	24:25	",	 "file": "	http://www.mediafire.com/file/	57w2dj9f2cbfzhw	/	"},
 
 
 

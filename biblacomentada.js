@@ -19,7 +19,8 @@ jQuery(function ($) {
 {"track":	1	,	 "name": "Atos dos Apóstolos", "file": "player.html?ip=comentsActs"},
 {"track":	1	,	 "name": "Romanos", "file": "player.html?ip=comentsRm"},
 {"track":	1	,	 "name": "1ª Coríntios", "file": "player.html?ip=coments1co"},
-{"track":	2	,	 "name": "Apocalipse",	  	"file": "player.html?ip=comentsAp"}
+{"track":	2	,	 "name": "Apocalipse",	  	"file": "player.html?ip=comentsAp"},
+{"track":	2	,	 "name": "Efésios",	  	"file": "player.html?ip=comentsEf"},
 
 
 ],

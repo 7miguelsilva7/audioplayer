@@ -43,8 +43,6 @@ jQuery(function ($) {
 {"track":	14	,	 "name": "	Efesios-6:10-24	",	 "length": "	16:33	",	 "file": "	http://www.mediafire.com/file/	rtbplaint4gl3vh	/	"},
 {"track":	15	,	 "name": "	Efesios-6-18a24-Mario-Persona	",	 "length": "	24:25	",	 "file": "	http://www.mediafire.com/file/	57w2dj9f2cbfzhw	/	"},
 
-
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 

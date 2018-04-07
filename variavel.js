@@ -34,7 +34,11 @@ if (quebra[1]=="audioplayer"){ document.write('<script type="text/javascript" sr
 
 } else if (quebra[1]=="comentsEf") { document.write('<script type="text/javascript" src="playlists/comentsEf.js"><\/script>');
 
-//Ministério
+} else if (quebra[1]=="comentsFl") { document.write('<script type="text/javascript" src="playlists/comentsFl.js"><\/script>');
+
+
+comentsFl
+//Ministério end
 
 } else if (quebra[1]=="hinosSalmosCanticos") { document.write('<script type="text/javascript" src="playlists/hinosSalmosCanticos.js"><\/script>');
 

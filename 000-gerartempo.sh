@@ -21,7 +21,15 @@ sed -i s'/\.mp3//'g 000-arquivos.txt
 #sed -i s'/9//'g arquivos.txt
 sed -i s'/_/ /'g 000-arquivos.txt
 
-zenity --info \
---text="Criado arquivo 000-duracao.txt e 000-arquivos.txt"
+#zenity --info \
+#--text="Criado arquivo 000-duracao.txt e 000-arquivos.txt"
+
+gedit 000-duracao.txt
+gedit 000-arquivos.txt
+/opt/lampp/htdocs/audioplayer/tracks.ods
+
+/usr/share/code/code /opt/lampp/htdocs/audioplayer/biblacomentada.js
+/usr/share/code/code /opt/lampp/htdocs/audioplayer/variavel.js
+/usr/share/code/code /opt/lampp/htdocs/audioplayer/playlists/00-copia.js
 
 

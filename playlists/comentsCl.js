@@ -8,22 +8,43 @@
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
+	
+	//get anchor value and validate value
+	var anchorTrack = window.location.href.split("#")[1];
+	if (!anchorTrack || isNaN(anchorTrack)) {
+		//return defaut value for "index" valiable
+		anchorTrack = 0;
+	}
+	
     var supportsAudio = !!document.createElement('audio').canPlayType;
     if (supportsAudio) {
-        var index = 0,
+        var index = anchorTrack,
             playing = false,
             mediaPath = '',
             extension = '',
             tracks = [
-                
-{"track":	1	,	 "name": "Atos dos Apóstolos", "file": "player.html?ip=comentsActs"},
-{"track":	2	,	 "name": "Romanos", "file": "player.html?ip=comentsRm"},
-{"track":	3	,	 "name": "1ª Coríntios", "file": "player.html?ip=coments1co"},
-{"track":	4	,	 "name": "Apocalipse",	  	"file": "player.html?ip=comentsAp"},
-{"track":	5	,	 "name": "Efésios",	  	"file": "player.html?ip=comentsEf"},
-{"track":	6	,	 "name": "Filipenses",	  	"file": "player.html?ip=comentsFl"},
-{"track":	7	,	 "name": "Colossenses",	  	"file": "player.html?ip=comentsCl"},
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{"track":	1	,	 "name": "	Colossenses 1-1a parte	",	 "length": "	43:20	",	 "file": "	http://www.mediafire.com/file/	y7kicbtvc31mgmn	/	"},
+{"track":	2	,	 "name": "	Colossenses 1-2a parte	",	 "length": "	1:00:21	",	 "file": "	http://www.mediafire.com/file/	1nuhk3bcb690dhb	/	"},
+{"track":	3	,	 "name": "	Colossenses 1-3a parte	",	 "length": "	54:16	",	 "file": "	http://www.mediafire.com/file/	p2mahhv4e144ibc	/	"},
+{"track":	4	,	 "name": "	Colossenses 1-1a. parte	",	 "length": "	43:42	",	 "file": "	http://www.mediafire.com/file/	n3q9a2p2qkv6x32	/	"},
+{"track":	5	,	 "name": "	Colossenses 1-2a. parte	",	 "length": "	28:51	",	 "file": "	http://www.mediafire.com/file/	c1x8fp3pkmibk19	/	"},
+{"track":	6	,	 "name": "	Colossenses 1-3a. parte	",	 "length": "	42:19	",	 "file": "	http://www.mediafire.com/file/	1mlie5us103vpx6	/	"},
+{"track":	7	,	 "name": "	Colossenses 1-10a13-Mario-Persona-Luis-Soares-Campos-Petrus-Portilho	",	 "length": "	20:39	",	 "file": "	http://www.mediafire.com/file/	o8332yqosej3y6m	/	"},
+{"track":	8	,	 "name": "	Colossenses 1-15a17-Mario-Persona-Lineu-Binotti-Luiz-Soares-Campos	",	 "length": "	29:01	",	 "file": "	http://www.mediafire.com/file/	abmoh079u96u860	/	"},
+{"track":	9	,	 "name": "	Colossenses 1-18a20-Mario-Persona-Valfredo-Pereira-Lineu-Binotti	",	 "length": "	30:26	",	 "file": "	http://www.mediafire.com/file/	bae5xoktryquvhc	/	"},
+{"track":	10	,	 "name": "	Colossenses 1-21a29-Mario-Persona-Lineu-Binotti	",	 "length": "	39:04	",	 "file": "	http://www.mediafire.com/file/	fa2tnnb6e5rka1y	/	"},
+{"track":	11	,	 "name": "	Colossenses 2-15a23-Mario-Persona-Lineu-Binotti	",	 "length": "	32:51	",	 "file": "	http://www.mediafire.com/file/	xxnlwjh6e46en70	/	"},
+{"track":	12	,	 "name": "	Colossenses 3-Persona-Valfredo-Pereira-Binotti-Pizzinatto	",	 "length": "	37:09	",	 "file": "	http://www.mediafire.com/file/	at1ufa9micjt6cj	/	"},
+{"track":	13	,	 "name": "	Colossenses 4-Lineu-Binotti-Luiz-S-Campos	",	 "length": "	25:32	",	 "file": "	http://www.mediafire.com/file/	29p03snohiblx9r	/	"},
+{"track":	14	,	 "name": "	Colossenses 4-6a18-Mario-Persona-Lineu-Binotti	",	 "length": "	29:36	",	 "file": "	http://www.mediafire.com/file/	y74bvkylxdh49kp	/	"},
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {
@@ -35,7 +56,7 @@ jQuery(function ($) {
                 } else {
                     trackNumber = '' + trackNumber;
                 }
-                $('#plList').append('<div align="center" class="container" class="column add-bottom" center><a href=" ' + value.file + ' ">' + value.name + '<br><br></a></div>');
+                $('#plList').append('<li><div class="plItem"><div class="plNum">' + '-</div><div class="plTitle">' + trackName + '</div><div class="plLength">' + trackLength + '</div></div></li>');
             }),
             trackCount = tracks.length,
             npAction = $('#npAction'),
@@ -93,9 +114,18 @@ jQuery(function ($) {
             loadTrack = function (id) {
                 $('.plSel').removeClass('plSel');
                 $('#plList li:eq(' + id + ')').addClass('plSel');
+		
+		// ANIMATE Start
+                $('html,body').animate({
+                scrollTop: $(".plSel").offset().top-240
+                });
+		// ANIMATE End
+
                 npTitle.text(tracks[id].name);
                 index = id;
                 audio.src = mediaPath + tracks[id].file + extension;
+				//insert track id in anchor value
+				window.location.href="#"+index;
             },
             playTrack = function (id) {
                 loadTrack(id);

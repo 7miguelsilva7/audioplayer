@@ -22,6 +22,8 @@ if (quebra[1]=="audioplayer"){ document.write('<script type="text/javascript" sr
 
 } else if (quebra[1]=="respondi-1001-1437") { document.write('<script type="text/javascript" src="playlists/respondi-1001-1500.js"><\/script>');
 
+
+
 //Ministério
 
 } else if (quebra[1]=="comentsActs") { document.write('<script type="text/javascript" src="playlists/comentsActs.js"><\/script>');
@@ -36,8 +38,9 @@ if (quebra[1]=="audioplayer"){ document.write('<script type="text/javascript" sr
 
 } else if (quebra[1]=="comentsFl") { document.write('<script type="text/javascript" src="playlists/comentsFl.js"><\/script>');
 
+} else if (quebra[1]=="comentsCl") { document.write('<script type="text/javascript" src="playlists/comentsCl.js"><\/script>');
 
-comentsFl
+
 //Ministério end
 
 } else if (quebra[1]=="hinosSalmosCanticos") { document.write('<script type="text/javascript" src="playlists/hinosSalmosCanticos.js"><\/script>');

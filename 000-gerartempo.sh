@@ -1,14 +1,12 @@
 exiftool *.mp3 | grep Duration > 000-duracao.txt
+exiftool *.mp3 | grep File\ Name > 000-arquivos.txt
 
 sed -i s'/Duration                        \: 0\://'g 000-duracao.txt
-
 sed -i s'/Duration                        \: //'g 000-duracao.txt
+sed -i s'/File Name                       \: //'g 000-arquivos.txt
 
 sed -i s'/ (approx)//'g 000-duracao.txt
-
 sed -i '/Tracks/d' 000-duracao.txt
-
-ls > 000-arquivos.txt
 
 sed -i s'/\.mp3//'g 000-arquivos.txt
 #sed -i s'/0//'g arquivos.txt

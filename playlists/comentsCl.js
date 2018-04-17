@@ -28,7 +28,7 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 {"track":	1	,	 "name": "	Colossenses 1-1a parte	",	 "length": "	43:20	",	 "file": "	http://www.mediafire.com/file/	y7kicbtvc31mgmn	/	"},
-{"track":	2	,	 "name": "	Colossenses 1-2a parte	",	 "length": "	1:00:21	",	 "file": "	http://www.mediafire.com/file/	1nuhk3bcb690dhb	/	"},
+{"track":	2	,	 "name": "	Colossenses 1-2a parte	",	 "length": "	1:00:21	",	 "file": "	http://www.mediafire.com/file/1nuhk3bcb690dhb	/	"},
 {"track":	3	,	 "name": "	Colossenses 1-3a parte	",	 "length": "	54:16	",	 "file": "	http://www.mediafire.com/file/	p2mahhv4e144ibc	/	"},
 {"track":	4	,	 "name": "	Colossenses 1-1a. parte	",	 "length": "	43:42	",	 "file": "	http://www.mediafire.com/file/	n3q9a2p2qkv6x32	/	"},
 {"track":	5	,	 "name": "	Colossenses 1-2a. parte	",	 "length": "	28:51	",	 "file": "	http://www.mediafire.com/file/	c1x8fp3pkmibk19	/	"},
@@ -41,7 +41,6 @@ jQuery(function ($) {
 {"track":	12	,	 "name": "	Colossenses 3-Persona-Valfredo-Pereira-Binotti-Pizzinatto	",	 "length": "	37:09	",	 "file": "	http://www.mediafire.com/file/	at1ufa9micjt6cj	/	"},
 {"track":	13	,	 "name": "	Colossenses 4-Lineu-Binotti-Luiz-S-Campos	",	 "length": "	25:32	",	 "file": "	http://www.mediafire.com/file/	29p03snohiblx9r	/	"},
 {"track":	14	,	 "name": "	Colossenses 4-6a18-Mario-Persona-Lineu-Binotti	",	 "length": "	29:36	",	 "file": "	http://www.mediafire.com/file/	y74bvkylxdh49kp	/	"},
-
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////

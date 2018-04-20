@@ -41,6 +41,9 @@ if (quebra[1]=="audioplayer"){ document.write('<script type="text/javascript" sr
 
 } else if (quebra[1]=="coments1Ts") { document.write('<script type="text/javascript" src="playlists/coments1Ts.js"><\/script>');
 
+} else if (quebra[1]=="coments2Ts") { document.write('<script type="text/javascript" src="playlists/coments2Ts.js"><\/script>');
+
+} else if (quebra[1]=="coments1Tm") { document.write('<script type="text/javascript" src="playlists/coments1Tm.js"><\/script>');
 
 //Ministério end
 

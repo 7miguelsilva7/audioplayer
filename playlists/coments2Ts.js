@@ -8,25 +8,33 @@
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
+	
+	//get anchor value and validate value
+	var anchorTrack = window.location.href.split("#")[1];
+	if (!anchorTrack || isNaN(anchorTrack)) {
+		//return defaut value for "index" valiable
+		anchorTrack = 0;
+	}
+	
     var supportsAudio = !!document.createElement('audio').canPlayType;
     if (supportsAudio) {
-        var index = 0,
+        var index = anchorTrack,
             playing = false,
             mediaPath = '',
             extension = '',
             tracks = [
-                
-{"track":	1	,	 "name": "Atos dos Apóstolos", "file": "player.html?ip=comentsActs"},
-{"track":	2	,	 "name": "Romanos", "file": "player.html?ip=comentsRm"},
-{"track":	3	,	 "name": "1ª Coríntios", "file": "player.html?ip=coments1co"},
-{"track":	4	,	 "name": "Apocalipse",	  	"file": "player.html?ip=comentsAp"},
-{"track":	5	,	 "name": "Efésios",	  	"file": "player.html?ip=comentsEf"},
-{"track":	6	,	 "name": "Filipenses",	  	"file": "player.html?ip=comentsFl"},
-{"track":	7	,	 "name": "Colossenses",	  	"file": "player.html?ip=comentsCl"},
-{"track":	8	,	 "name": "1 Tessalonissenses",	  	"file": "player.html?ip=coments1Ts"},
-{"track":	9	,	 "name": "2 Tessalonissenses",	  	"file": "player.html?ip=coments2Ts"},
-{"track":	9	,	 "name": "1 Timóteo",	  	"file": "player.html?ip=coments1Tm"},
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{"track":	1	,	 "name": "	2 Tessalonicenses-1-Mario-Persona-Lineu-Binotti-Valfredo-Pereira	",	 "length": "	32:04	",	 "file": "	http://www.mediafire.com/file/	slx82hdxxlzgjxd	/	"},
+{"track":	2	,	 "name": "	2 Tessalonicenses-2-Lineu-Binotti-Mario-Persona	",	 "length": "	29:07	",	 "file": "	http://www.mediafire.com/file/	278ypdc3y4ycglz	/	"},
+{"track":	3	,	 "name": "	2 Tessalonicenses-2-13-17-Lineu-Binotti-Luis-Soares-Campos-Mario-Persona-Valfredo-Pereira	",	 "length": "	34:54	",	 "file": "	http://www.mediafire.com/file/	2m1wick75pcb5wn	/	"},
+{"track":	4	,	 "name": "	2 Tessalonicenses-3-Mario-Persona-Lineu-Binotti	",	 "length": "	29:07	",	 "file": "	http://www.mediafire.com/file/	u39ak5k998drvqo	/	"},
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {
@@ -38,7 +46,7 @@ jQuery(function ($) {
                 } else {
                     trackNumber = '' + trackNumber;
                 }
-                $('#plList').append('<div align="center" class="container" class="column add-bottom" center><a href=" ' + value.file + ' ">' + value.name + '<br><br></a></div>');
+                $('#plList').append('<li><div class="plItem"><div class="plNum">' + '-</div><div class="plTitle">' + trackName + '</div><div class="plLength">' + trackLength + '</div></div></li>');
             }),
             trackCount = tracks.length,
             npAction = $('#npAction'),
@@ -96,9 +104,18 @@ jQuery(function ($) {
             loadTrack = function (id) {
                 $('.plSel').removeClass('plSel');
                 $('#plList li:eq(' + id + ')').addClass('plSel');
+		
+		// ANIMATE Start
+                $('html,body').animate({
+                scrollTop: $(".plSel").offset().top-240
+                });
+		// ANIMATE End
+
                 npTitle.text(tracks[id].name);
                 index = id;
                 audio.src = mediaPath + tracks[id].file + extension;
+				//insert track id in anchor value
+				window.location.href="#"+index;
             },
             playTrack = function (id) {
                 loadTrack(id);

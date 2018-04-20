@@ -96,7 +96,7 @@ jQuery(function ($) {
                 {"track":	69	,	 "name": "	SOMENTE EM TEU LOUVOR	",	 "length": "	03:16	",	 "file": "	http://www.mediafire.com/file/qdu9u3d7929l119/	"},
                 {"track":	70	,	 "name": "	REDENÇÃO CONSUMADA	",	 "length": "	02:59	",	 "file": "	http://www.mediafire.com/file/i8a4441dw378n08/	"},
                 {"track":	71	,	 "name": "	A ÚLTIMA HORA	",	 "length": "	03:29	",	 "file": "	http://www.mediafire.com/file/gm5hf4o5z8c62d3/	"},
-                {"track":	72	,	 "name": "	A ÚLTIMA HORA	",	 "length": "	02:29	",	 "file": "	http://www.mediafire.com/file/89813vr6hkl910a/	"},
+                {"track":	72	,	 "name": "	PODES CRER QUE JESUS É DEUS	",	 "length": "	02:29	",	 "file": "	http://www.mediafire.com/file/89813vr6hkl910a/	"},
                 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

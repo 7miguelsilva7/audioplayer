@@ -8,32 +8,42 @@
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
+	
+	//get anchor value and validate value
+	var anchorTrack = window.location.href.split("#")[1];
+	if (!anchorTrack || isNaN(anchorTrack)) {
+		//return defaut value for "index" valiable
+		anchorTrack = 0;
+	}
+	
     var supportsAudio = !!document.createElement('audio').canPlayType;
     if (supportsAudio) {
-        var index = 0,
+        var index = anchorTrack,
             playing = false,
             mediaPath = '',
             extension = '',
             tracks = [
-                
-{"track":	1	,	 "name": "Atos dos Apóstolos", "file": "player.html?ip=comentsActs"},
-{"track":	2	,	 "name": "Romanos", "file": "player.html?ip=comentsRm"},
-{"track":	3	,	 "name": "1ª Coríntios", "file": "player.html?ip=coments1co"},
-{"track":	4	,	 "name": "Apocalipse",	  	"file": "player.html?ip=comentsAp"},
-{"track":	5	,	 "name": "Efésios",	  	"file": "player.html?ip=comentsEf"},
-{"track":	6	,	 "name": "Filipenses",	  	"file": "player.html?ip=comentsFl"},
-{"track":	7	,	 "name": "Colossenses",	  	"file": "player.html?ip=comentsCl"},
-{"track":	8	,	 "name": "1ª Tessalonissenses",	  	"file": "player.html?ip=coments1Ts"},
-{"track":	9	,	 "name": "2ª Tessalonissenses",	  	"file": "player.html?ip=coments2Ts"},
-{"track":	10	,	 "name": "1ª Timóteo",	  	"file": "player.html?ip=coments1Tm"},
-{"track":	11	,	 "name": "2ª Timóteo",	  	"file": "player.html?ip=coments2Tm"},
-{"track":	12	,	 "name": "Tito",	  	"file": "player.html?ip=comentsTt"},
-{"track":	13	,	 "name": "Filemon",	  	"file": "player.html?ip=comentsFm"},
-{"track":	14	,	 "name": "Hebreus",	  	"file": "player.html?ip=comentsHb"},
-{"track":	15	,	 "name": "1ª Pedro",	  	"file": "player.html?ip=coments1Pe"},
-{"track":	16	,	 "name": "2ª Pedro",	  	"file": "player.html?ip=coments2Pe"},
-{"track":	16	,	 "name": "1ª João",	  	"file": "player.html?ip=coments1Jo"},
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{"track":	1	,	 "name": "	2ª Timoteo 1-Valfredo-Pereira-Lineu-Binotti-Mario-Persona	",	 "length": "	32:22	",	 "file": "	http://www.mediafire.com/file/	dq38auu883k22d8	/	"},
+{"track":	2	,	 "name": "	2ª Timoteo 1-7a18-Mario-Persona-Valfredo-Pereira	",	 "length": "	27:36	",	 "file": "	http://www.mediafire.com/file/	n58xu8618c5qg2x	/	"},
+{"track":	3	,	 "name": "	2ª Timoteo 1-13-18-Valfredo-Pereira-Mario-Persona	",	 "length": "	37:06	",	 "file": "	http://www.mediafire.com/file/	188t838hzf6dn56	/	"},
+{"track":	4	,	 "name": "	2ª Timoteo 2-1a13-Mario-Persona-Luiz-Soares-Campos	",	 "length": "	17:51	",	 "file": "	http://www.mediafire.com/file/	905ycr8hc0ncpd6	/	"},
+{"track":	5	,	 "name": "	2ª Timoteo 2-14a18-Mario-Persona	",	 "length": "	28:28	",	 "file": "	http://www.mediafire.com/file/	ec7k2hi1e95s14o	/	"},
+{"track":	6	,	 "name": "	2a Timóteo 2 - 1a parte	",	 "length": "	52:29	",	 "file": "	http://www.mediafire.com/file/	dyxo4sjbhi74ciq	/	"},
+{"track":	7	,	 "name": "	2a Timóteo 2 - 2a parte	",	 "length": "	1:10:11	",	 "file": "	http://www.mediafire.com/file/	4bv43bpd1e0y7m6	/	"},
+{"track":	8	,	 "name": "	2a Timóteo 2 - parte 1	",	 "length": "	42:12	",	 "file": "	http://www.mediafire.com/file/	b9x6libwkt4ao77	/	"},
+{"track":	9	,	 "name": "	2a Timóteo 2 - parte 2	",	 "length": "	32:33	",	 "file": "	http://www.mediafire.com/file/	xil8b7m63bvmtvt	/	"},
+{"track":	10	,	 "name": "	2a Timóteo 2 - parte 3	",	 "length": "	1:04:28	",	 "file": "	http://www.mediafire.com/file/	ynov2bp1bg0fim4	/	"},
+{"track":	11	,	 "name": "	2ª Timoteo 3-Lineu-Binotti	",	 "length": "	20:13	",	 "file": "	http://www.mediafire.com/file/	o7gddgj5lcub0rr	/	"},
+{"track":	12	,	 "name": "	2ª Timoteo 4-1a5-Valfredo-Pereira-Lineu-Binotti-Luiz-Soares-Campos	",	 "length": "	18:24	",	 "file": "	http://www.mediafire.com/file/	vb63lredr0y6bsb	/	"},
+{"track":	13	,	 "name": "	2ª Timoteo 4-6a22-Luis-Soares-Campos-Mario-Persona	",	 "length": "	22:33	",	 "file": "	http://www.mediafire.com/file/	b026n2zgvchffvo	/	"},
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {
@@ -45,7 +55,7 @@ jQuery(function ($) {
                 } else {
                     trackNumber = '' + trackNumber;
                 }
-                $('#plList').append('<div align="center" class="container" class="column add-bottom" center><a href=" ' + value.file + ' ">' + value.name + '<br><br></a></div>');
+                $('#plList').append('<li><div class="plItem"><div class="plNum">' + '-</div><div class="plTitle">' + trackName + '</div><div class="plLength">' + trackLength + '</div></div></li>');
             }),
             trackCount = tracks.length,
             npAction = $('#npAction'),
@@ -103,9 +113,18 @@ jQuery(function ($) {
             loadTrack = function (id) {
                 $('.plSel').removeClass('plSel');
                 $('#plList li:eq(' + id + ')').addClass('plSel');
+		
+		// ANIMATE Start
+                $('html,body').animate({
+                scrollTop: $(".plSel").offset().top-240
+                });
+		// ANIMATE End
+
                 npTitle.text(tracks[id].name);
                 index = id;
                 audio.src = mediaPath + tracks[id].file + extension;
+				//insert track id in anchor value
+				window.location.href="#"+index;
             },
             playTrack = function (id) {
                 loadTrack(id);

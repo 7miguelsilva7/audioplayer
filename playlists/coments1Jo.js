@@ -8,32 +8,39 @@
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
+	
+	//get anchor value and validate value
+	var anchorTrack = window.location.href.split("#")[1];
+	if (!anchorTrack || isNaN(anchorTrack)) {
+		//return defaut value for "index" valiable
+		anchorTrack = 0;
+	}
+	
     var supportsAudio = !!document.createElement('audio').canPlayType;
     if (supportsAudio) {
-        var index = 0,
+        var index = anchorTrack,
             playing = false,
             mediaPath = '',
             extension = '',
             tracks = [
-                
-{"track":	1	,	 "name": "Atos dos Apóstolos", "file": "player.html?ip=comentsActs"},
-{"track":	2	,	 "name": "Romanos", "file": "player.html?ip=comentsRm"},
-{"track":	3	,	 "name": "1ª Coríntios", "file": "player.html?ip=coments1co"},
-{"track":	4	,	 "name": "Apocalipse",	  	"file": "player.html?ip=comentsAp"},
-{"track":	5	,	 "name": "Efésios",	  	"file": "player.html?ip=comentsEf"},
-{"track":	6	,	 "name": "Filipenses",	  	"file": "player.html?ip=comentsFl"},
-{"track":	7	,	 "name": "Colossenses",	  	"file": "player.html?ip=comentsCl"},
-{"track":	8	,	 "name": "1ª Tessalonissenses",	  	"file": "player.html?ip=coments1Ts"},
-{"track":	9	,	 "name": "2ª Tessalonissenses",	  	"file": "player.html?ip=coments2Ts"},
-{"track":	10	,	 "name": "1ª Timóteo",	  	"file": "player.html?ip=coments1Tm"},
-{"track":	11	,	 "name": "2ª Timóteo",	  	"file": "player.html?ip=coments2Tm"},
-{"track":	12	,	 "name": "Tito",	  	"file": "player.html?ip=comentsTt"},
-{"track":	13	,	 "name": "Filemon",	  	"file": "player.html?ip=comentsFm"},
-{"track":	14	,	 "name": "Hebreus",	  	"file": "player.html?ip=comentsHb"},
-{"track":	15	,	 "name": "1ª Pedro",	  	"file": "player.html?ip=coments1Pe"},
-{"track":	16	,	 "name": "2ª Pedro",	  	"file": "player.html?ip=coments2Pe"},
-{"track":	16	,	 "name": "1ª João",	  	"file": "player.html?ip=coments1Jo"},
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{"track":	1	,	 "name": "	1ª Joao-1-1-Mario-Persona	",	 "length": "	09:56	",	 "file": "	http://www.mediafire.com/file/	3p3mfzsmu63os89	/	"},
+{"track":	2	,	 "name": "	1ª Joao 1 - 1a parte	",	 "length": "	1:03:57	",	 "file": "	http://www.mediafire.com/file/	jvr1vdvmxh8hou1	/	"},
+{"track":	3	,	 "name": "	1ª Joao 1 - 2a parte	",	 "length": "	45:00	",	 "file": "	http://www.mediafire.com/file/	drlrqakm30h4hoh	/	"},
+{"track":	4	,	 "name": "	1ª Joao 1 - 3a parte	",	 "length": "	1:09:45	",	 "file": "	http://www.mediafire.com/file/	1836cta0l9v1i29	/	"},
+{"track":	5	,	 "name": "	1ª Joao-2-15-29-Concupiscencias-Anticristos-Mario-Persona-Lineu-Binotti	",	 "length": "	27:19	",	 "file": "	http://www.mediafire.com/file/	stkkwx7h8t9w388	/	"},
+{"track":	6	,	 "name": "	1ª Joao-2-15-29-Vida-Selo-Penhor-Uncao-Mandamentos-Mario-Persona-Valfredo-Pereira	",	 "length": "	31:30	",	 "file": "	http://www.mediafire.com/file/	9e4d2on5xni1q6d	/	"},
+{"track":	7	,	 "name": "	1ª Joao-3-1a10-Jose-Batista-Pereira-Mario-Persona-Paulo-Roberto-Lenci	",	 "length": "	33:35	",	 "file": "	http://www.mediafire.com/file/	4e5be5opf4s7fen	/	"},
+{"track":	8	,	 "name": "	1ª Joao-4-Luiz-Lemao-Soares-Campos-Mario-Persona-Valfredo-Pereira	",	 "length": "	41:35	",	 "file": "	http://www.mediafire.com/file/	9lrvj411hmse9kr	/	"},
+{"track":	9	,	 "name": "	1ª Joao-4-7a21-Valfredo-Pereira-Mario-Persona	",	 "length": "	38:37	",	 "file": "	http://www.mediafire.com/file/	su9pcrxno1988zv	/	"},
+{"track":	10	,	 "name": "	1ª Joao-5-1-Mario-Persona	",	 "length": "	38:50	",	 "file": "	http://www.mediafire.com/file/	02mp3yy2grmvu57	/	"},
+{"track":	11	,	 "name": "	1ª Joao-5-14a21-Mario-Persona-Jose-Roberto-Pizzinatto-Paulo-Roberto-Lenci	",	 "length": "	42:58	",	 "file": "	http://www.mediafire.com/file/	lzhlbcofh58q58i	/	"},
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {
@@ -45,7 +52,7 @@ jQuery(function ($) {
                 } else {
                     trackNumber = '' + trackNumber;
                 }
-                $('#plList').append('<div align="center" class="container" class="column add-bottom" center><a href=" ' + value.file + ' ">' + value.name + '<br><br></a></div>');
+                $('#plList').append('<li><div class="plItem"><div class="plNum">' + '-</div><div class="plTitle">' + trackName + '</div><div class="plLength">' + trackLength + '</div></div></li>');
             }),
             trackCount = tracks.length,
             npAction = $('#npAction'),
@@ -103,9 +110,18 @@ jQuery(function ($) {
             loadTrack = function (id) {
                 $('.plSel').removeClass('plSel');
                 $('#plList li:eq(' + id + ')').addClass('plSel');
+		
+		// ANIMATE Start
+                $('html,body').animate({
+                scrollTop: $(".plSel").offset().top-240
+                });
+		// ANIMATE End
+
                 npTitle.text(tracks[id].name);
                 index = id;
                 audio.src = mediaPath + tracks[id].file + extension;
+				//insert track id in anchor value
+				window.location.href="#"+index;
             },
             playTrack = function (id) {
                 loadTrack(id);

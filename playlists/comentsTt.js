@@ -8,32 +8,34 @@
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
+	
+	//get anchor value and validate value
+	var anchorTrack = window.location.href.split("#")[1];
+	if (!anchorTrack || isNaN(anchorTrack)) {
+		//return defaut value for "index" valiable
+		anchorTrack = 0;
+	}
+	
     var supportsAudio = !!document.createElement('audio').canPlayType;
     if (supportsAudio) {
-        var index = 0,
+        var index = anchorTrack,
             playing = false,
             mediaPath = '',
             extension = '',
             tracks = [
-                
-{"track":	1	,	 "name": "Atos dos Apóstolos", "file": "player.html?ip=comentsActs"},
-{"track":	2	,	 "name": "Romanos", "file": "player.html?ip=comentsRm"},
-{"track":	3	,	 "name": "1ª Coríntios", "file": "player.html?ip=coments1co"},
-{"track":	4	,	 "name": "Apocalipse",	  	"file": "player.html?ip=comentsAp"},
-{"track":	5	,	 "name": "Efésios",	  	"file": "player.html?ip=comentsEf"},
-{"track":	6	,	 "name": "Filipenses",	  	"file": "player.html?ip=comentsFl"},
-{"track":	7	,	 "name": "Colossenses",	  	"file": "player.html?ip=comentsCl"},
-{"track":	8	,	 "name": "1ª Tessalonissenses",	  	"file": "player.html?ip=coments1Ts"},
-{"track":	9	,	 "name": "2ª Tessalonissenses",	  	"file": "player.html?ip=coments2Ts"},
-{"track":	10	,	 "name": "1ª Timóteo",	  	"file": "player.html?ip=coments1Tm"},
-{"track":	11	,	 "name": "2ª Timóteo",	  	"file": "player.html?ip=coments2Tm"},
-{"track":	12	,	 "name": "Tito",	  	"file": "player.html?ip=comentsTt"},
-{"track":	13	,	 "name": "Filemon",	  	"file": "player.html?ip=comentsFm"},
-{"track":	14	,	 "name": "Hebreus",	  	"file": "player.html?ip=comentsHb"},
-{"track":	15	,	 "name": "1ª Pedro",	  	"file": "player.html?ip=coments1Pe"},
-{"track":	16	,	 "name": "2ª Pedro",	  	"file": "player.html?ip=coments2Pe"},
-{"track":	16	,	 "name": "1ª João",	  	"file": "player.html?ip=coments1Jo"},
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{"track":	1	,	 "name": "	Tito-1-Lineu-Binotti-Valfredo-Pereira	",	 "length": "	22:05	",	 "file": "	http://www.mediafire.com/file/	e3kagi9boz41gew	/	"},
+{"track":	2	,	 "name": "	Tito-2-Mario-Persona-Lineu-Binotti-Valfredo-Pereira	",	 "length": "	32:55	",	 "file": "	http://www.mediafire.com/file/	2qznfp5noxd29od	/	"},
+{"track":	3	,	 "name": "	Tito-2 - parte 1	",	 "length": "	38:56	",	 "file": "	http://www.mediafire.com/file/	kp7jgsc1qj8ad8z	/	"},
+{"track":	4	,	 "name": "	Tito-2 - parte 2	",	 "length": "	24:07	",	 "file": "	http://www.mediafire.com/file/	1nrvhb33daq2y5q	/	"},
+{"track":	5	,	 "name": "	Tito-3-Mario-Persona-Valfredo-Pereira	",	 "length": "	28:55	",	 "file": "	http://www.mediafire.com/file/	9ua41elp39okbrx	/	"},
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {
@@ -45,7 +47,7 @@ jQuery(function ($) {
                 } else {
                     trackNumber = '' + trackNumber;
                 }
-                $('#plList').append('<div align="center" class="container" class="column add-bottom" center><a href=" ' + value.file + ' ">' + value.name + '<br><br></a></div>');
+                $('#plList').append('<li><div class="plItem"><div class="plNum">' + '-</div><div class="plTitle">' + trackName + '</div><div class="plLength">' + trackLength + '</div></div></li>');
             }),
             trackCount = tracks.length,
             npAction = $('#npAction'),
@@ -103,9 +105,18 @@ jQuery(function ($) {
             loadTrack = function (id) {
                 $('.plSel').removeClass('plSel');
                 $('#plList li:eq(' + id + ')').addClass('plSel');
+		
+		// ANIMATE Start
+                $('html,body').animate({
+                scrollTop: $(".plSel").offset().top-240
+                });
+		// ANIMATE End
+
                 npTitle.text(tracks[id].name);
                 index = id;
                 audio.src = mediaPath + tracks[id].file + extension;
+				//insert track id in anchor value
+				window.location.href="#"+index;
             },
             playTrack = function (id) {
                 loadTrack(id);

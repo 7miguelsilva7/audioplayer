@@ -25,6 +25,16 @@ if (quebra[1]=="audioplayer"){ document.write('<script type="text/javascript" sr
 
 //Ministério
 
+//Antigo Testamento
+} else if (quebra[1]=="comentsGn") { document.write('<script type="text/javascript" src="playlists/comentsGn.js"><\/script>');
+} else if (quebra[1]=="comentsJz") { document.write('<script type="text/javascript" src="playlists/comentsJz.js"><\/script>');
+} else if (quebra[1]=="comentsSl") { document.write('<script type="text/javascript" src="playlists/comentsSl.js"><\/script>');
+} else if (quebra[1]=="comentsPv") { document.write('<script type="text/javascript" src="playlists/comentsPv.js"><\/script>');
+} else if (quebra[1]=="comentsEc") { document.write('<script type="text/javascript" src="playlists/comentsEc.js"><\/script>');
+} else if (quebra[1]=="comentsIs") { document.write('<script type="text/javascript" src="playlists/comentsIs.js"><\/script>');
+} else if (quebra[1]=="comentsJr") { document.write('<script type="text/javascript" src="playlists/comentsJr.js"><\/script>');
+
+//Novo Testanento
 } else if (quebra[1]=="comentsActs") { document.write('<script type="text/javascript" src="playlists/comentsActs.js"><\/script>');
 
 } else if (quebra[1]=="comentsRm") { document.write('<script type="text/javascript" src="playlists/comentsRm.js"><\/script>');

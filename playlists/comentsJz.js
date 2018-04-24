@@ -8,21 +8,29 @@
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
+	
+	//get anchor value and validate value
+	var anchorTrack = window.location.href.split("#")[1];
+	if (!anchorTrack || isNaN(anchorTrack)) {
+		//return defaut value for "index" valiable
+		anchorTrack = 0;
+	}
+	
     var supportsAudio = !!document.createElement('audio').canPlayType;
     if (supportsAudio) {
-        var index = 0,
+        var index = anchorTrack,
             playing = false,
             mediaPath = '',
             extension = '',
             tracks = [
-                
-{"track":	1	,	 "name": "Gênesis",	  	"file": "player.html?ip=comentsGn"},
-{"track":	2	,	 "name": "Juízes",	  	"file": "player.html?ip=comentsJz"},
-{"track":	3	,	 "name": "Salmos",	  	"file": "player.html?ip=comentsSl"},
-{"track":	4	,	 "name": "Provérbios",	  	"file": "player.html?ip=comentsPv"},
-{"track":	4	,	 "name": "Eclesiastes",	  	"file": "player.html?ip=comentsEc"},
-{"track":	5	,	 "name": "Isaías",	  	"file": "player.html?ip=comentsIs"},
-{"track":	6	,	 "name": "Jeremias",	  	"file": "player.html?ip=comentsJr"},
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{"track":	1	,	 "name": "	Juizes 17a19-PRLenci	",	 "length": "	43:42	",	 "file": "	http://www.mediafire.com/file/bpzz31cbjq9g999/	"},
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {
@@ -34,7 +42,7 @@ jQuery(function ($) {
                 } else {
                     trackNumber = '' + trackNumber;
                 }
-                $('#plList').append('<div align="center" class="container" class="column add-bottom" center><a href=" ' + value.file + ' ">' + value.name + '<br><br></a></div>');
+                $('#plList').append('<li><div class="plItem"><div class="plNum">' + '-</div><div class="plTitle">' + trackName + '</div><div class="plLength">' + trackLength + '</div></div></li>');
             }),
             trackCount = tracks.length,
             npAction = $('#npAction'),
@@ -92,9 +100,18 @@ jQuery(function ($) {
             loadTrack = function (id) {
                 $('.plSel').removeClass('plSel');
                 $('#plList li:eq(' + id + ')').addClass('plSel');
+		
+		// ANIMATE Start
+                $('html,body').animate({
+                scrollTop: $(".plSel").offset().top-240
+                });
+		// ANIMATE End
+
                 npTitle.text(tracks[id].name);
                 index = id;
                 audio.src = mediaPath + tracks[id].file + extension;
+				//insert track id in anchor value
+				window.location.href="#"+index;
             },
             playTrack = function (id) {
                 loadTrack(id);

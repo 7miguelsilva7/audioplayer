@@ -15,14 +15,13 @@ jQuery(function ($) {
             mediaPath = '',
             extension = '',
             tracks = [
-
-{"track":	1	,	 "name": "Evangelho em 3 min",	  	"file": "3min.html"},
-{"track":	3	,	 "name": "Dispensações", 	"file": "player.html?ip=dispensacao"},
-{"track":	4	,	 "name": "Músicas",	"file": "musicas.html"},
-// {"track":	4	,	 "name": "Músicas",	"file": "player.html?ip=hinarioCantado"},
-{"track":	5	,	 "name": "Ministério Antigo Testamento",	"file": "biblacomentadaAt.html"},
-{"track":	5	,	 "name": "Ministério Novo Testamento",	"file": "biblacomentadaNt.html"},
-
+                
+{"track":	1	,	 "name": "Gênesis",	  	"file": "player.html?ip=comentsGn"},
+{"track":	1	,	 "name": "Juizes",	  	"file": "player.html?ip=comentsJz"},
+{"track":	1	,	 "name": "Salmos",	  	"file": "player.html?ip=comentsSl"},
+{"track":	1	,	 "name": "Proverbios",	  	"file": "player.html?ip=comentsPv"},
+{"track":	1	,	 "name": "Isaias",	  	"file": "player.html?ip=comentsIs"},
+{"track":	1	,	 "name": "Jeremias",	  	"file": "player.html?ip=comentsJr"},
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

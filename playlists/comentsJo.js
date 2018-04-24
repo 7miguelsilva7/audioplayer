@@ -8,42 +8,40 @@
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
+	
+	//get anchor value and validate value
+	var anchorTrack = window.location.href.split("#")[1];
+	if (!anchorTrack || isNaN(anchorTrack)) {
+		//return defaut value for "index" valiable
+		anchorTrack = 0;
+	}
+	
     var supportsAudio = !!document.createElement('audio').canPlayType;
     if (supportsAudio) {
-        var index = 0,
+        var index = anchorTrack,
             playing = false,
             mediaPath = '',
             extension = '',
             tracks = [
-                
 
-                {"track":	20	,	 "name": "Mateus",	  	"file": "player.html?ip=comentsMt"},
-                {"track":	20	,	 "name": "Marcos",	  	"file": "player.html?ip=comentsMc"},
-                {"track":	20	,	 "name": "Lucas",	  	"file": "player.html?ip=comentsLc"},
-                {"track":	20	,	 "name": "João",	  	"file": "player.html?ip=comentsJo"},
-                
-{"track":	1	,	 "name": "Atos dos Apóstolos", "file": "player.html?ip=comentsActs"},
-{"track":	2	,	 "name": "Romanos", "file": "player.html?ip=comentsRm"},
-{"track":	3	,	 "name": "1ª Coríntios", "file": "player.html?ip=coments1co"},
-{"track":	4	,	 "name": "Efésios",	  	"file": "player.html?ip=comentsEf"},
-{"track":	5	,	 "name": "Filipenses",	  	"file": "player.html?ip=comentsFl"},
-{"track":	6	,	 "name": "Colossenses",	  	"file": "player.html?ip=comentsCl"},
-{"track":	7	,	 "name": "1ª Tessalonissenses",	  	"file": "player.html?ip=coments1Ts"},
-{"track":	8	,	 "name": "2ª Tessalonissenses",	  	"file": "player.html?ip=coments2Ts"},
-{"track":	9	,	 "name": "1ª Timóteo",	  	"file": "player.html?ip=coments1Tm"},
-{"track":	10	,	 "name": "2ª Timóteo",	  	"file": "player.html?ip=coments2Tm"},
-{"track":	11	,	 "name": "Tito",	  	"file": "player.html?ip=comentsTt"},
-{"track":	12	,	 "name": "Filemon",	  	"file": "player.html?ip=comentsFm"},
-{"track":	13  ,	 "name": "Hebreus",	  	"file": "player.html?ip=comentsHb"},
-{"track":	14	,	 "name": "1ª Pedro",	  	"file": "player.html?ip=coments1Pe"},
-{"track":	15	,	 "name": "2ª Pedro",	  	"file": "player.html?ip=coments2Pe"},
-{"track":	16	,	 "name": "1ª João",	  	"file": "player.html?ip=coments1Jo"},
-{"track":	17	,	 "name": "2ª João",	  	"file": "player.html?ip=coments2Jo"},
-{"track":	18	,	 "name": "3ª João",	  	"file": "player.html?ip=coments3Jo"},
-{"track":	19	,	 "name": "Judas",	  	"file": "player.html?ip=comentsJd"},
-{"track":	20	,	 "name": "Apocalipse",	  	"file": "player.html?ip=comentsAp"},
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
+{"track":	1	,	 "name": "	Joao 1 - parte 1	",	 "length": "	39:05	",	 "file": "	http://www.mediafire.com/file/	0jgfpc16j2t0b9y	/	"},
+{"track":	2	,	 "name": "	Joao 1 - parte 2	",	 "length": "	29:23	",	 "file": "	http://www.mediafire.com/file/	pcdydb6t502dua3	/	"},
+{"track":	3	,	 "name": "	Joao 1 - parte 3	",	 "length": "	37:09	",	 "file": "	http://www.mediafire.com/file/	d1br3w7uq63b1ba	/	"},
+{"track":	4	,	 "name": "	Joao 4 - 1a parte	",	 "length": "	48:10	",	 "file": "	http://www.mediafire.com/file/	nghidk6nka9s6lj	/	"},
+{"track":	5	,	 "name": "	Joao 4 - 2a parte	",	 "length": "	46:16	",	 "file": "	http://www.mediafire.com/file/	l35xm0d030qp7tr	/	"},
+{"track":	6	,	 "name": "	Joao 4 - 3a parte	",	 "length": "	59:24	",	 "file": "	http://www.mediafire.com/file/	80n3bu9c0mmmbri	/	"},
+{"track":	7	,	 "name": "	Joao 6 - 1a parte	",	 "length": "	44:50	",	 "file": "	http://www.mediafire.com/file/	4ve883a7iabxuf4	/	"},
+{"track":	8	,	 "name": "	Joao 6 - 2a parte	",	 "length": "	1:00:02	",	 "file": "	http://www.mediafire.com/file/	vfmxlyhsafxt5ks	/	"},
+{"track":	9	,	 "name": "	Joao 18-1a26-Mario-Persona-25012014	",	 "length": "	16:12	",	 "file": "	http://www.mediafire.com/file/	ha8luamwh7trqsx	/	"},
+{"track":	10	,	 "name": "	Joao 19-1a16-Jose-Batista-Mario-Persona-Lineu-Binotti	",	 "length": "	27:37	",	 "file": "	http://www.mediafire.com/file/	dkala8iwwzr2jys	/	"},
+{"track":	11	,	 "name": "	Joao 19-17a42-Jose-Batista-Pereira-Mario-Persona-Lineu-Binotti-Paulo-Roberto-Lenci	",	 "length": "	31:58	",	 "file": "	http://www.mediafire.com/file/	0p838t0y8s5vvpz	/	"},
+{"track":	12	,	 "name": "	Joao 21-Persona-Pizzinatto	",	 "length": "	35:08	",	 "file": "	http://www.mediafire.com/file/	xcelpl0dou8xdd5	/	"},
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {
@@ -55,7 +53,7 @@ jQuery(function ($) {
                 } else {
                     trackNumber = '' + trackNumber;
                 }
-                $('#plList').append('<div align="center" class="container" class="column add-bottom" center><a href=" ' + value.file + ' ">' + value.name + '<br><br></a></div>');
+                $('#plList').append('<li><div class="plItem"><div class="plNum">' + '-</div><div class="plTitle">' + trackName + '</div><div class="plLength">' + trackLength + '</div></div></li>');
             }),
             trackCount = tracks.length,
             npAction = $('#npAction'),
@@ -113,9 +111,18 @@ jQuery(function ($) {
             loadTrack = function (id) {
                 $('.plSel').removeClass('plSel');
                 $('#plList li:eq(' + id + ')').addClass('plSel');
+		
+		// ANIMATE Start
+                $('html,body').animate({
+                scrollTop: $(".plSel").offset().top-240
+                });
+		// ANIMATE End
+
                 npTitle.text(tracks[id].name);
                 index = id;
                 audio.src = mediaPath + tracks[id].file + extension;
+				//insert track id in anchor value
+				window.location.href="#"+index;
             },
             playTrack = function (id) {
                 loadTrack(id);

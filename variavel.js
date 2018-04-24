@@ -56,6 +56,10 @@ if (quebra[1]=="audioplayer"){ document.write('<script type="text/javascript" sr
 } else if (quebra[1]=="coments2Jo") { document.write('<script type="text/javascript" src="playlists/coments2Jo.js"><\/script>');
 } else if (quebra[1]=="coments3Jo") { document.write('<script type="text/javascript" src="playlists/coments3Jo.js"><\/script>');
 } else if (quebra[1]=="comentsJd") { document.write('<script type="text/javascript" src="playlists/comentsJd.js"><\/script>');
+} else if (quebra[1]=="comentsMt") { document.write('<script type="text/javascript" src="playlists/comentsMt.js"><\/script>');
+} else if (quebra[1]=="comentsMc") { document.write('<script type="text/javascript" src="playlists/comentsMc.js"><\/script>');
+} else if (quebra[1]=="comentsLc") { document.write('<script type="text/javascript" src="playlists/comentsLc.js"><\/script>');
+} else if (quebra[1]=="comentsJo") { document.write('<script type="text/javascript" src="playlists/comentsJo.js"><\/script>');
 
 //Ministério end
 

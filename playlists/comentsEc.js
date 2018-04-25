@@ -27,23 +27,14 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-{"track":	1	,	 "name": "	Salmo 119-137a152-Mario-Persona	",	 "length": "	15:13	",	 "file": "	http://www.mediafire.com/file/	q140x4tp01pnuaa	/	"},
-{"track":	2	,	 "name": "	Salmo 121-Mario-Persona	",	 "length": "	14:28	",	 "file": "	http://www.mediafire.com/file/	jmrb2dpa1erg1xd	/	"},
-{"track":	3	,	 "name": "	Salmo 122-Mario-Persona-Lineu-Binotti-Paulo-Roberto-Lenci	",	 "length": "	23:06	",	 "file": "	http://www.mediafire.com/file/	oecf7a8fyx15um1	/	"},
-{"track":	4	,	 "name": "	Salmo 123-124-125-Mario-Persona	",	 "length": "	15:53	",	 "file": "	http://www.mediafire.com/file/	wpgz40ql7m4b2mq	/	"},
-{"track":	5	,	 "name": "	Salmos 126-127-128-Mario-Persona	",	 "length": "	13:49	",	 "file": "	http://www.mediafire.com/file/	18k59meyk8edocp	/	"},
-{"track":	6	,	 "name": "	Salmos 129-130-131-Mario-Persona	",	 "length": "	09:33	",	 "file": "	http://www.mediafire.com/file/	u3ysuqw3375uns4	/	"},
-{"track":	7	,	 "name": "	Salmo 137-Mario-Persona	",	 "length": "	23:00	",	 "file": "	http://www.mediafire.com/file/	74f9vla3b571oaa	/	"},
-{"track":	8	,	 "name": "	Salmo 138-Mario-Persona-Luis-Campos-Valfredo-Pereira	",	 "length": "	23:11	",	 "file": "	http://www.mediafire.com/file/	o4ozybrkcxg5cs9	/	"},
-{"track":	9	,	 "name": "	Salmo 139-Valfredo-Pereira-Lineu-Binotti	",	 "length": "	19:54	",	 "file": "	http://www.mediafire.com/file/	cv9g4auqfyw35ea	/	"},
-{"track":	10	,	 "name": "	Salmo 140-Mario-Persona-Lineu-Binotti-Valfredo-Pereira	",	 "length": "	12:54	",	 "file": "	http://www.mediafire.com/file/	dztcdv546766arc	/	"},
-{"track":	11	,	 "name": "	Salmo 141-Mario-Persona-Jose-Batista-Pereira	",	 "length": "	14:58	",	 "file": "	http://www.mediafire.com/file/	kd9gm4x619p7a9a	/	"},
-{"track":	12	,	 "name": "	Salmo 142-John-Kemp-Jose-Pizzinatto-Mario-Persona	",	 "length": "	21:17	",	 "file": "	http://www.mediafire.com/file/	qwhc1yyjkm40d4q	/	"},
-{"track":	13	,	 "name": "	Salmo 143-Mario-Persona-Beto-Lenci	",	 "length": "	20:39	",	 "file": "	http://www.mediafire.com/file/	4byfld1iktxgs1p	/	"},
-{"track":	14	,	 "name": "	Salmo 144-Lineu-Binotti-Valfredo-Pereira-Beto-Lenci	",	 "length": "	18:43	",	 "file": "	http://www.mediafire.com/file/	tqojv3vpf5a65ma	/	"},
-{"track":	15	,	 "name": "	Salmo 145-Valfredo-Pereira-Luis-Soares-Campos	",	 "length": "	17:34	",	 "file": "	http://www.mediafire.com/file/	3lz3u70hk7bsjd8	/	"},
-{"track":	16	,	 "name": "	Salmo 147-Luis-Soares-Campos-Jose-Batista-Pereira	",	 "length": "	20:34	",	 "file": "	http://www.mediafire.com/file/	0d6id7wreq5dpk9	/	"},
-{"track":	17	,	 "name": "	Salmo 149a150-Mario-Persona-Luis-Campos	",	 "length": "	16:30	",	 "file": "	http://www.mediafire.com/file/	bqxt9hv45ntl4g2	/	"},
+{"track":	1	,	 "name": "	Eclesiastes 01-Mario-Persona-Valfredo-Pereira-Lineu-Binotti-Jose-Batista-Pereira	",	 "length": "	23:05	",	 "file": "	http://www.mediafire.com/file/	14imbxtai7icnkr	/	"},
+{"track":	2	,	 "name": "	Eclesiastes 02-Lineu-Binotti	",	 "length": "	08:48	",	 "file": "	http://www.mediafire.com/file/	piitiko84m288a2	/	"},
+{"track":	3	,	 "name": "	Eclesiastes 04-Mario-Persona-Lineu-Binotti-Jose-Batista-Pereira-Paulo-Lenci	",	 "length": "	35:14	",	 "file": "	http://www.mediafire.com/file/	41834g86z3i2ort	/	"},
+{"track":	4	,	 "name": "	Eclesiastes 07-Lineu-Binotti-Mario-Persona-Jose-Batista-Pereira-Jose-Roberto-Pizzinatto	",	 "length": "	21:10	",	 "file": "	http://www.mediafire.com/file/	qryrueed291w51r	/	"},
+{"track":	5	,	 "name": "	Eclesiastes 08-Mario-Persona-Jose-Batista-Pereira-Lineu-Binotti-Bob-Thonney-Paulo-Lenci	",	 "length": "	24:54	",	 "file": "	http://www.mediafire.com/file/	qt7029dvxrma2o4	/	"},
+{"track":	6	,	 "name": "	Eclesiastes 09-Mario-Persona-Jose-Batista-Pereira-Lineu-Binotti	",	 "length": "	24:50	",	 "file": "	http://www.mediafire.com/file/	jvghgn91wl9beew	/	"},
+{"track":	7	,	 "name": "	Eclesiastes 10-Mario-Persona-Luiz-Soares	",	 "length": "	14:14	",	 "file": "	http://www.mediafire.com/file/	yei2bz3qpx3fzny	/	"},
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////

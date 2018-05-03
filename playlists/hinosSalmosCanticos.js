@@ -97,6 +97,7 @@ jQuery(function ($) {
                 {"track":	70	,	 "name": "	REDENÇÃO CONSUMADA	",	 "length": "	02:59	",	 "file": "	http://www.mediafire.com/file/i8a4441dw378n08/	"},
                 {"track":	71	,	 "name": "	A ÚLTIMA HORA	",	 "length": "	03:29	",	 "file": "	http://www.mediafire.com/file/gm5hf4o5z8c62d3/	"},
                 {"track":	72	,	 "name": "	PODES CRER QUE JESUS É DEUS	",	 "length": "	02:29	",	 "file": "	http://www.mediafire.com/file/89813vr6hkl910a/	"},
+                {"track":	73	,	 "name": "	A LINDA HISTÓRIA (EVANGELISMO)	",	 "length": "	02:49	",	 "file": "	http://www.mediafire.com/file/p2xw6ltn30iye4n/	"},
                 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

@@ -340,8 +340,9 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
             $('#btnShare').on('click', function() {
 	console.log(window.location.href);
-			var n = $('#plList .plSel').find('.plTitle').text().trim(),
+			var n = $('#plList .plSel').find('.plTitle').text().trim().toUpperCase(),
                 l = window.location.href;
+
                 // npTitle = $('#plsel').text();
                 $(this).toggleClass('btnIcon-active');
 		$('#shareList').fadeToggle('fast', function() {

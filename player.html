@@ -330,10 +330,12 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
                     $('#shareList').fadeToggle('fast', function() {
                         $('#cShareWhatsApp').on('click', function() {
                             var n = $('#plList .plSel').find('.plTitle').text().trim().toUpperCase();
+                            l = window.location.href;
                             window.location = 'whatsapp://send?text=*' + n + '*  %0D' + '%0D' + encodeURIComponent(l);
                         });
                         $('#cShareFacebook').on('click', function() {
                             var n = $('#plList .plSel').find('.plTitle').text().trim().toUpperCase();
+                            l = window.location.href;
                             window.open('http://www.facebook.com/sharer.php?u=' + encodeURIComponent(l) + '&quote=' + n,'_blank ','menubar=no');
                         });
                     });
@@ -350,10 +352,14 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 		        $('#shareList').fadeToggle('fast', function() {
 			$('#cShareWhatsApp').on('click', function() {
                 var n = $('#plList .plSel').find('.plTitle').text().trim().toUpperCase();
+                l = window.location.href;
+
 				window.open('https://web.whatsapp.com/send?text=*' + n + '*  %0D'+ '%0D' + encodeURIComponent(l),'_blank ');
 			});
 			$('#cShareFacebook').on('click', function() {
                 var n = $('#plList .plSel').find('.plTitle').text().trim().toUpperCase();
+                l = window.location.href;
+
 				window.open('http://www.facebook.com/sharer.php?u=' + encodeURIComponent(l) + '&quote=' + n,'_blank ','menubar=no');
                 
                 

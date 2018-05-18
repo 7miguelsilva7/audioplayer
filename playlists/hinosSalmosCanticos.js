@@ -98,7 +98,7 @@ jQuery(function ($) {
                 {"track":	71	,	 "name": "	A ÚLTIMA HORA	",	 "length": "	03:29	",	 "file": "	http://www.mediafire.com/file/gm5hf4o5z8c62d3/	"},
                 {"track":	72	,	 "name": "	PODES CRER QUE JESUS É DEUS	",	 "length": "	02:29	",	 "file": "	http://www.mediafire.com/file/89813vr6hkl910a/	"},
                 {"track":	73	,	 "name": "	A LINDA HISTÓRIA (EVANGELISMO)	",	 "length": "	02:49	",	 "file": "	http://www.mediafire.com/file/p2xw6ltn30iye4n/	"},
-                {"track":	74	,	 "name": "	QUÃO GRANDE ÉS TÚ	",	 "length": "	05:20	",	 "file": "	http://www.mediafire.com/file/46myaap2uo6e632/	"},
+                {"track":	74	,	 "name": "	QUÃO GRANDE ÉS TU	",	 "length": "	05:20	",	 "file": "	http://www.mediafire.com/file/46myaap2uo6e632/	"},
                 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

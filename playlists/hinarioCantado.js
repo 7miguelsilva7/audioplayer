@@ -134,7 +134,7 @@ jQuery(function ($) {
 {"track":	107	,	 "name": "	Hino 125 - Firmeza	",	 "length": "	02:18	",	 "file": "	http://www.mediafire.com/file/	i15kpec5fyycv5f	/	Hino 125 - Firmeza.mp3	"},
 {"track":	108	,	 "name": "	Hino 126 - Vem, Senhor, Vem Nos Guiar	",	 "length": "	01:45	",	 "file": "	http://www.mediafire.com/file/	rze8zv0fb55ib70	/	Hino 126 - Vem, Senhor, Vem Nos Guiar.mp3	"},
 {"track":	109	,	 "name": "	Hino 127 - Toma	",	 "length": "	02:55	",	 "file": "	http://www.mediafire.com/file/	w7trboh2zk11yzo	/	Hino 127 - Toma.mp3	"},
-{"track":	110	,	 "name": "	Hino 128 - Trabalho Cristão	",	 "length": "	03:27	",	 "file": "	http://www.mediafire.com/file/	451tlmp6wrevn3g	/	Hino 128 - Trabalho Cristão.mp3	"},
+{"track":	144	,	 "name": "	Hino 128 - Deus Nos Guarde	",	 "length": "	04:16	",	 "file": "	http://www.mediafire.com/file/	68jy6cqejae2vbw	/	Hino 213 - Deus Nos Guarde.mp3	"},
 {"track":	111	,	 "name": "	Hino 129 - Obedecer	",	 "length": "	03:55	",	 "file": "	http://www.mediafire.com/file/	uxu8nvx2azmx6rd	/	Hino 129 - Obedecer.mp3	"},
 {"track":	112	,	 "name": "	Hino 130 - Tua Senda, Ó Mestre	",	 "length": "	03:04	",	 "file": "	http://www.mediafire.com/file/	opdda4dtvqi98um	/	Hino 130 - Tua Senda, Ó Mestre.mp3	"},
 {"track":	113	,	 "name": "	Hino 131 - Cristo Está Conosco	",	 "length": "	04:39	",	 "file": "	http://www.mediafire.com/file/	8nsdnvyii3xvk78	/	Hino 131 - Cristo Está Conosco.mp3	"},
@@ -156,6 +156,7 @@ jQuery(function ($) {
 {"track":	129	,	 "name": "	Hino 147 - Doce Paz	",	 "length": "	02:47	",	 "file": "	http://www.mediafire.com/file/	zq6qtd86ts2fjt2	/	Hino 147 - Doce Paz.mp3	"},
 {"track":	130	,	 "name": "	Hino 148 - Nos Levarás ao Lar	",	 "length": "	04:01	",	 "file": "	http://www.mediafire.com/file/	r64bm565dri1mh9	/	Hino 148 - Nos Levarás ao Lar.mp3	"},
 {"track":	131	,	 "name": "	Hino 149 - Tu, Senhor, Nos Guias Sempre	",	 "length": "	03:20	",	 "file": "	http://www.mediafire.com/file/	o1gvub16dcg5shd	/	Hino 149 - Tu, Senhor, Nos Guias Sempre.mp3	"},
+{"track":	131	,	 "name": "	Hino 150 - Admirável Amor	",	 "length": "	00:40	",	 "file": "	http://www.mediafire.com/file/	3bm3773q0c9u54b/	"},
 {"track":	132	,	 "name": "	Hino 201 - Oh! Graça Sublime!	",	 "length": "	02:25	",	 "file": "	http://www.mediafire.com/file/	0sao0r6ooi512k4	/	Hino 201 - Oh! Graça Sublime!.mp3	"},
 {"track":	133	,	 "name": "	Hino 202 - Mais Além do Sol	",	 "length": "	04:14	",	 "file": "	http://www.mediafire.com/file/	02y0akv5r4377u3	/	Hino 202 - Mais Além do Sol.mp3	"},
 {"track":	134	,	 "name": "	Hino 203 - Já Salvo Sou	",	 "length": "	03:23	",	 "file": "	http://www.mediafire.com/file/	o7090w9ozd6vm56	/	Hino 203 - Já Salvo Sou.mp3	"},
@@ -168,7 +169,6 @@ jQuery(function ($) {
 {"track":	141	,	 "name": "	Hino 210 - Meu Salvador	",	 "length": "	02:51	",	 "file": "	http://www.mediafire.com/file/	6cahhco8q3kujy5	/	Hino 210 - Meu Salvador.mp3	"},
 {"track":	142	,	 "name": "	Hino 211 - Sou Feliz	",	 "length": "	03:51	",	 "file": "	http://www.mediafire.com/file/	4y72f4u5qz0y425	/	Hino 211 - Sou Feliz.mp3	"},
 {"track":	143	,	 "name": "	Hino 212 - Deus Cuidará de Ti	",	 "length": "	03:03	",	 "file": "	http://www.mediafire.com/file/	fi6vubbqby2a5bk	/	Hino 212 - Deus Cuidará de Ti.mp3	"},
-{"track":	144	,	 "name": "	Hino 213 - Deus Nos Guarde	",	 "length": "	04:16	",	 "file": "	http://www.mediafire.com/file/	68jy6cqejae2vbw	/	Hino 213 - Deus Nos Guarde.mp3	"},
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {
@@ -180,7 +180,7 @@ jQuery(function ($) {
                 } else {
                     trackNumber = '' + trackNumber;
                 }
-                $('#plList').append('<li><div class="plItem"><div class="plNum">' + trackNumber + '.</div><div class="plTitle">' + trackName + '</div><div class="plLength">' + trackLength + '</div></div></li>');
+                $('#plList').append('<li><div class="plItem"><div class="plNum">' +  '.</div><div class="plTitle">' + trackName + '</div><div class="plLength">' + trackLength + '</div></div></li>');
             }),
             trackCount = tracks.length,
             npAction = $('#npAction'),

@@ -100,6 +100,7 @@ jQuery(function ($) {
                 {"track":	73	,	 "name": "	A LINDA HISTÓRIA (EVANGELISMO)	",	 "length": "	02:49	",	 "file": "	http://www.mediafire.com/file/p2xw6ltn30iye4n/	"},
                 {"track":	74	,	 "name": "	QUÃO GRANDE ÉS TU	",	 "length": "	05:20	",	 "file": "	http://www.mediafire.com/file/46myaap2uo6e632/	"},
                 {"track":	75	,	 "name": "	AO SOM DA ÚLTIMA TROMBETA - 1 CORÍNTIOS 15",	 "length": "	03:01	",	 "file": "	http://www.mediafire.com/file/5g37n233rvfg1f8/	"},
+                {"track":	76	,	 "name": "	O SENHOR É O MEU PASTOR (Salmos 23)",	 "length": "	03:12	",	 "file": "	http://www.mediafire.com/file/00nq57l9nau4py0/	"},
                 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

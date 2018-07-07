@@ -103,6 +103,7 @@ jQuery(function ($) {
                 {"track":	76	,	 "voz": "José Batista Pereira",	 "name": "	O SENHOR É O MEU PASTOR (Salmos 23)",	 "length": "	03:12	",	 "file": "	http://www.mediafire.com/file/00nq57l9nau4py0/	"},
                 {"track":	77	,	 "voz": "Lineu Arruda Binotti",	 "name": "	PORQUE TANTO AMOU!",	 "length": "	04:22	",	 "file": "	http://www.mediafire.com/file/7b8d9eetzpd4vxt/	"},
                 {"track":	78	,	 "voz": "José Batista Pereira",	 "name": "	RECORDAÇÃO DO TEU AMOR!",	 "length": "	03:31	",	 "file": "	http://www.mediafire.com/file/gqdv00lephys539/	"},
+                // {"track":	79	,	 "voz": "Francisco",	 "name": "	RECORDAÇÃO DO TEU AMOR!",	 "length": "	03:31	",	 "file": "	http://www.mediafire.com/file/gqdv00lephys539/	"},
                 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

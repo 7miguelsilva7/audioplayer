@@ -101,7 +101,7 @@ jQuery(function ($) {
                 {"track":	74	,	 "voz": "José Batista Pereira",	 "name": "	QUÃO GRANDE ÉS TU	",	 "length": "	05:20	",	 "file": "	http://www.mediafire.com/file/46myaap2uo6e632/	"},
                 {"track":	75	,	 "voz": "José Batista Pereira",	 "name": "	AO SOM DA ÚLTIMA TROMBETA - 1 CORÍNTIOS 15",	 "length": "	03:01	",	 "file": "	http://www.mediafire.com/file/5g37n233rvfg1f8/	"},
                 {"track":	76	,	 "voz": "José Batista Pereira",	 "name": "	O SENHOR É O MEU PASTOR (Salmos 23)",	 "length": "	03:12	",	 "file": "	http://www.mediafire.com/file/00nq57l9nau4py0/	"},
-                {"track":	77	,	 "voz": "José Batista Pereira",	 "name": "	PORQUE TANTO AMOU!",	 "length": "	04:22	",	 "file": "	http://www.mediafire.com/file/7b8d9eetzpd4vxt/	"},
+                {"track":	77	,	 "voz": "Lineu Arruda Binotti",	 "name": "	PORQUE TANTO AMOU!",	 "length": "	04:22	",	 "file": "	http://www.mediafire.com/file/7b8d9eetzpd4vxt/	"},
                 {"track":	78	,	 "voz": "José Batista Pereira",	 "name": "	RECORDAÇÃO DO TEU AMOR!",	 "length": "	03:31	",	 "file": "	http://www.mediafire.com/file/gqdv00lephys539/	"},
                 
 ],

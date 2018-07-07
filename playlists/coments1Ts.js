@@ -4,7 +4,7 @@
 
 
 // HTML5 audio player + playlist controls...
-// Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
+// Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
@@ -27,12 +27,12 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-{"track":	2	,	 "name": "	1 Tessalonicenses 1a parte	",	 "length": "	57:59	",	 "file": "	http://www.mediafire.com/file/	nszafsqea70r522	/	"},
-{"track":	3	,	 "name": "	1 Tessalonicenses 2a parte	",	 "length": "	1:18:12	",	 "file": "	http://www.mediafire.com/file/	wc6uvclhy85gyo5	/	"},
-{"track":	1	,	 "name": "	1 Tessalonicenses-2-17a20-3-1a13-Mario-Persona-Lineu-Binotti	",	 "length": "	27:21	",	 "file": "	http://www.mediafire.com/file/	c6f4h5g2hzeclwn	/	"},
-{"track":	6	,	 "name": "	1 Tessalonicenses-4-1a12-Lineu-Binotti-Valfredo-Pereira-Mario-Persona	",	 "length": "	27:54	",	 "file": "	http://www.mediafire.com/file/	m2xzbl9998jqkgi	/	"},
-{"track":	4	,	 "name": "	1 Tessalonicenses-4-13-Valfredo-Pereira-Mario-Persona-Paulo-Lenci	",	 "length": "	30:00	",	 "file": "	http://www.mediafire.com/file/	wseda2r299yzd8s	/	"},
-{"track":	5	,	 "name": "	1 Tessalonicenses-4-13a18-5-Valfredo-Pereira-Mario-Persona	",	 "length": "	30:10	",	 "file": "	http://www.mediafire.com/file/	u0jceuhh4oyqrj1	/	"},
+{"track":	2	,	 "name": "	1 Tessalonicenses 1a parte	",	 "length": "	57:59	",	 "file": "	https://www.mediafire.com/file/	nszafsqea70r522	/	"},
+{"track":	3	,	 "name": "	1 Tessalonicenses 2a parte	",	 "length": "	1:18:12	",	 "file": "	https://www.mediafire.com/file/	wc6uvclhy85gyo5	/	"},
+{"track":	1	,	 "name": "	1 Tessalonicenses-2-17a20-3-1a13-Mario-Persona-Lineu-Binotti	",	 "length": "	27:21	",	 "file": "	https://www.mediafire.com/file/	c6f4h5g2hzeclwn	/	"},
+{"track":	6	,	 "name": "	1 Tessalonicenses-4-1a12-Lineu-Binotti-Valfredo-Pereira-Mario-Persona	",	 "length": "	27:54	",	 "file": "	https://www.mediafire.com/file/	m2xzbl9998jqkgi	/	"},
+{"track":	4	,	 "name": "	1 Tessalonicenses-4-13-Valfredo-Pereira-Mario-Persona-Paulo-Lenci	",	 "length": "	30:00	",	 "file": "	https://www.mediafire.com/file/	wseda2r299yzd8s	/	"},
+{"track":	5	,	 "name": "	1 Tessalonicenses-4-13a18-5-Valfredo-Pereira-Mario-Persona	",	 "length": "	30:10	",	 "file": "	https://www.mediafire.com/file/	u0jceuhh4oyqrj1	/	"},
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////

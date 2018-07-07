@@ -4,7 +4,7 @@
 
 
 // HTML5 audio player + playlist controls...
-// Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
+// Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'

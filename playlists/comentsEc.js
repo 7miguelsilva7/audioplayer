@@ -4,7 +4,7 @@
 
 
 // HTML5 audio player + playlist controls...
-// Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
+// Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
@@ -27,13 +27,13 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-{"track":	1	,	 "name": "	Eclesiastes 01-Mario-Persona-Valfredo-Pereira-Lineu-Binotti-Jose-Batista-Pereira	",	 "length": "	23:05	",	 "file": "	http://www.mediafire.com/file/	14imbxtai7icnkr	/	"},
-{"track":	2	,	 "name": "	Eclesiastes 02-Lineu-Binotti	",	 "length": "	08:48	",	 "file": "	http://www.mediafire.com/file/	piitiko84m288a2	/	"},
-{"track":	3	,	 "name": "	Eclesiastes 04-Mario-Persona-Lineu-Binotti-Jose-Batista-Pereira-Paulo-Lenci	",	 "length": "	35:14	",	 "file": "	http://www.mediafire.com/file/	41834g86z3i2ort	/	"},
-{"track":	4	,	 "name": "	Eclesiastes 07-Lineu-Binotti-Mario-Persona-Jose-Batista-Pereira-Jose-Roberto-Pizzinatto	",	 "length": "	21:10	",	 "file": "	http://www.mediafire.com/file/	qryrueed291w51r	/	"},
-{"track":	5	,	 "name": "	Eclesiastes 08-Mario-Persona-Jose-Batista-Pereira-Lineu-Binotti-Bob-Thonney-Paulo-Lenci	",	 "length": "	24:54	",	 "file": "	http://www.mediafire.com/file/	qt7029dvxrma2o4	/	"},
-{"track":	6	,	 "name": "	Eclesiastes 09-Mario-Persona-Jose-Batista-Pereira-Lineu-Binotti	",	 "length": "	24:50	",	 "file": "	http://www.mediafire.com/file/	jvghgn91wl9beew	/	"},
-{"track":	7	,	 "name": "	Eclesiastes 10-Mario-Persona-Luiz-Soares	",	 "length": "	14:14	",	 "file": "	http://www.mediafire.com/file/	yei2bz3qpx3fzny	/	"},
+{"track":	1	,	 "name": "	Eclesiastes 01-Mario-Persona-Valfredo-Pereira-Lineu-Binotti-Jose-Batista-Pereira	",	 "length": "	23:05	",	 "file": "	https://www.mediafire.com/file/	14imbxtai7icnkr	/	"},
+{"track":	2	,	 "name": "	Eclesiastes 02-Lineu-Binotti	",	 "length": "	08:48	",	 "file": "	https://www.mediafire.com/file/	piitiko84m288a2	/	"},
+{"track":	3	,	 "name": "	Eclesiastes 04-Mario-Persona-Lineu-Binotti-Jose-Batista-Pereira-Paulo-Lenci	",	 "length": "	35:14	",	 "file": "	https://www.mediafire.com/file/	41834g86z3i2ort	/	"},
+{"track":	4	,	 "name": "	Eclesiastes 07-Lineu-Binotti-Mario-Persona-Jose-Batista-Pereira-Jose-Roberto-Pizzinatto	",	 "length": "	21:10	",	 "file": "	https://www.mediafire.com/file/	qryrueed291w51r	/	"},
+{"track":	5	,	 "name": "	Eclesiastes 08-Mario-Persona-Jose-Batista-Pereira-Lineu-Binotti-Bob-Thonney-Paulo-Lenci	",	 "length": "	24:54	",	 "file": "	https://www.mediafire.com/file/	qt7029dvxrma2o4	/	"},
+{"track":	6	,	 "name": "	Eclesiastes 09-Mario-Persona-Jose-Batista-Pereira-Lineu-Binotti	",	 "length": "	24:50	",	 "file": "	https://www.mediafire.com/file/	jvghgn91wl9beew	/	"},
+{"track":	7	,	 "name": "	Eclesiastes 10-Mario-Persona-Luiz-Soares	",	 "length": "	14:14	",	 "file": "	https://www.mediafire.com/file/	yei2bz3qpx3fzny	/	"},
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////

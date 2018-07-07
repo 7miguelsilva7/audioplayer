@@ -4,7 +4,7 @@
 
 
 // HTML5 audio player + playlist controls...
-// Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
+// Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
@@ -28,18 +28,18 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
  
-{"track":	1	,	 "name": "  1a Coríntios 1 (Lineu Binotti, Luis Amalfi, Ednei Cesar Silva)	",	 "length": "	41:54	",	 "file": "	http://www.mediafire.com/file/obrae6g28996k0i/	"},
-{"track":	2	,	 "name": "	1a Coríntios 1 - parte 1	",	 "length": "	41:54	",	 "file": "	http://www.mediafire.com/file/	6dq7powa5wu67qc	/	"},
-{"track":	3	,	 "name": "	1a Coríntios 1 - parte 2	",	 "length": "	45:33	",	 "file": "	http://www.mediafire.com/file/	vid35557mzo96cv	/	"},
-{"track":	4	,	 "name": "	1a Coríntios 1 - parte 3	",	 "length": "	1:00:14	",	 "file": "	http://www.mediafire.com/file/	9a3h1wq3m974jhb	/	"},
-{"track":	5	,	 "name": "	1a Coríntios 2	",	 "length": "	56:23	",	 "file": "	http://www.mediafire.com/file/	qy9bsfy7vf0lzlv	/	"},
-{"track":	6	,	 "name": "	1a Coríntios 12	",	 "length": "	54:37	",	 "file": "	http://www.mediafire.com/file/	s4vs3z3sc755d0u	/	"},
-{"track":	7	,	 "name": "	1a Coríntios 14	",	 "length": "	54:51	",	 "file": "	http://www.mediafire.com/file/	mob53vxjhn0hyo2	/	"},
-{"track":	8	,	 "name": "	1a Coríntios 14 - 1a parte	",	 "length": "	30:44	",	 "file": "	http://www.mediafire.com/file/	4m708ummzqnl2x5	/	"},
-{"track":	9	,	 "name": "	1a Coríntios 14 - 2a parte	",	 "length": "	56:13	",	 "file": "	http://www.mediafire.com/file/	ra0abr0cgeyi64r	/	"},
-{"track":	10	,	 "name": "	1a Coríntios 14 - 3a parte	",	 "length": "	52:53	",	 "file": "	http://www.mediafire.com/file/	3j86w6al9354o6w	/	"},
-{"track":	11	,	 "name": "	1a Coríntios 15 - 1a parte	",	 "length": "	34:45	",	 "file": "	http://www.mediafire.com/file/	a8o9pit9rtoa3r1	/	"},
-{"track":	12	,	 "name": "	1a Coríntios 15 - 2a parte	",	 "length": "	1:03:39	",	 "file": "	http://www.mediafire.com/file/	434fa1b62xg318d	/	"},
+{"track":	1	,	 "name": "  1a Coríntios 1 (Lineu Binotti, Luis Amalfi, Ednei Cesar Silva)	",	 "length": "	41:54	",	 "file": "	https://www.mediafire.com/file/obrae6g28996k0i/	"},
+{"track":	2	,	 "name": "	1a Coríntios 1 - parte 1	",	 "length": "	41:54	",	 "file": "	https://www.mediafire.com/file/	6dq7powa5wu67qc	/	"},
+{"track":	3	,	 "name": "	1a Coríntios 1 - parte 2	",	 "length": "	45:33	",	 "file": "	https://www.mediafire.com/file/	vid35557mzo96cv	/	"},
+{"track":	4	,	 "name": "	1a Coríntios 1 - parte 3	",	 "length": "	1:00:14	",	 "file": "	https://www.mediafire.com/file/	9a3h1wq3m974jhb	/	"},
+{"track":	5	,	 "name": "	1a Coríntios 2	",	 "length": "	56:23	",	 "file": "	https://www.mediafire.com/file/	qy9bsfy7vf0lzlv	/	"},
+{"track":	6	,	 "name": "	1a Coríntios 12	",	 "length": "	54:37	",	 "file": "	https://www.mediafire.com/file/	s4vs3z3sc755d0u	/	"},
+{"track":	7	,	 "name": "	1a Coríntios 14	",	 "length": "	54:51	",	 "file": "	https://www.mediafire.com/file/	mob53vxjhn0hyo2	/	"},
+{"track":	8	,	 "name": "	1a Coríntios 14 - 1a parte	",	 "length": "	30:44	",	 "file": "	https://www.mediafire.com/file/	4m708ummzqnl2x5	/	"},
+{"track":	9	,	 "name": "	1a Coríntios 14 - 2a parte	",	 "length": "	56:13	",	 "file": "	https://www.mediafire.com/file/	ra0abr0cgeyi64r	/	"},
+{"track":	10	,	 "name": "	1a Coríntios 14 - 3a parte	",	 "length": "	52:53	",	 "file": "	https://www.mediafire.com/file/	3j86w6al9354o6w	/	"},
+{"track":	11	,	 "name": "	1a Coríntios 15 - 1a parte	",	 "length": "	34:45	",	 "file": "	https://www.mediafire.com/file/	a8o9pit9rtoa3r1	/	"},
+{"track":	12	,	 "name": "	1a Coríntios 15 - 2a parte	",	 "length": "	1:03:39	",	 "file": "	https://www.mediafire.com/file/	434fa1b62xg318d	/	"},
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////

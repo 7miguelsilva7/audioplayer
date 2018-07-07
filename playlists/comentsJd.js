@@ -4,7 +4,7 @@
 
 
 // HTML5 audio player + playlist controls...
-// Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
+// Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
@@ -27,14 +27,14 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-{"track":	1	,	 "name": "	Judas - 1a parte	",	 "length": "	45:53	",	 "file": "	http://www.mediafire.com/file/	c9u10772z0v2w2k	/	"},
-{"track":	2	,	 "name": "	Judas - 2a parte	",	 "length": "	1:09:56	",	 "file": "	http://www.mediafire.com/file/	95nsln1g9iop8of	/	"},
-{"track":	3	,	 "name": "	Judas - parte 1	",	 "length": "	27:05	",	 "file": "	http://www.mediafire.com/file/	ocb9p1vk6dp1124	/	"},
-{"track":	4	,	 "name": "	Judas - parte 2	",	 "length": "	24:43	",	 "file": "	http://www.mediafire.com/file/	p66ys68mn3iuya8	/	"},
-{"track":	5	,	 "name": "	Judas - parte 3	",	 "length": "	43:06	",	 "file": "	http://www.mediafire.com/file/	a2sadptq8dsdabp	/	"},
-{"track":	6	,	 "name": "	Judas 1-1a7-Mario-Persona-Valfredo-Pereira	",	 "length": "	31:57	",	 "file": "	http://www.mediafire.com/file/	q2hpcarbqhcdbkn	/	"},
-{"track":	7	,	 "name": "	Judas 1-8a11-Mario-Persona-Petrus-Portilho-Lemao-Luis-Campos-Paulo-Roberto-Lenci	",	 "length": "	41:27	",	 "file": "	http://www.mediafire.com/file/	jmjhktvsmv44798	/	"},
-{"track":	8	,	 "name": "	Judas 1-11a15-Mario-Persona-Valfredo-Pereira	",	 "length": "	34:05	",	 "file": "	http://www.mediafire.com/file/	yyip5vr3l33ypp3	/	"},
+{"track":	1	,	 "name": "	Judas - 1a parte	",	 "length": "	45:53	",	 "file": "	https://www.mediafire.com/file/	c9u10772z0v2w2k	/	"},
+{"track":	2	,	 "name": "	Judas - 2a parte	",	 "length": "	1:09:56	",	 "file": "	https://www.mediafire.com/file/	95nsln1g9iop8of	/	"},
+{"track":	3	,	 "name": "	Judas - parte 1	",	 "length": "	27:05	",	 "file": "	https://www.mediafire.com/file/	ocb9p1vk6dp1124	/	"},
+{"track":	4	,	 "name": "	Judas - parte 2	",	 "length": "	24:43	",	 "file": "	https://www.mediafire.com/file/	p66ys68mn3iuya8	/	"},
+{"track":	5	,	 "name": "	Judas - parte 3	",	 "length": "	43:06	",	 "file": "	https://www.mediafire.com/file/	a2sadptq8dsdabp	/	"},
+{"track":	6	,	 "name": "	Judas 1-1a7-Mario-Persona-Valfredo-Pereira	",	 "length": "	31:57	",	 "file": "	https://www.mediafire.com/file/	q2hpcarbqhcdbkn	/	"},
+{"track":	7	,	 "name": "	Judas 1-8a11-Mario-Persona-Petrus-Portilho-Lemao-Luis-Campos-Paulo-Roberto-Lenci	",	 "length": "	41:27	",	 "file": "	https://www.mediafire.com/file/	jmjhktvsmv44798	/	"},
+{"track":	8	,	 "name": "	Judas 1-11a15-Mario-Persona-Valfredo-Pereira	",	 "length": "	34:05	",	 "file": "	https://www.mediafire.com/file/	yyip5vr3l33ypp3	/	"},
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -4,7 +4,7 @@
 
 
 // HTML5 audio player + playlist controls...
-// Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
+// Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
@@ -27,7 +27,7 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-{"track":	1	,	 "name": "	3 João - Mario-Persona-Valfredo-Pereira-Lemao-Luis-Campos-Paulo-Roberto-Lenci ",	 "length": "	38:49	",	 "file": "	http://www.mediafire.com/file/cqfbw6dhp7er765/3-Joao-Mario-Persona-Valfredo-Pereira-Lemao-Luis-Campos-Paulo-Roberto-Lenci.mp3	"},
+{"track":	1	,	 "name": "	3 João - Mario-Persona-Valfredo-Pereira-Lemao-Luis-Campos-Paulo-Roberto-Lenci ",	 "length": "	38:49	",	 "file": "	https://www.mediafire.com/file/cqfbw6dhp7er765/3-Joao-Mario-Persona-Valfredo-Pereira-Lemao-Luis-Campos-Paulo-Roberto-Lenci.mp3	"},
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////

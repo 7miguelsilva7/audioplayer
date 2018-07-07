@@ -4,7 +4,7 @@
 
 
 // HTML5 audio player + playlist controls...
-// Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
+// Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
@@ -27,11 +27,11 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-{"track":	1	,	 "name": "	Hebreus 1 - Lineu-Binotti-Mario-Persona-Valfredo-Pereira	",	 "length": "	35:40	",	 "file": "	http://www.mediafire.com/file/	8o92mw4ut5xdwa9	/	"},
-{"track":	2	,	 "name": "	Hebreus 2 - Lineu-Binotti-Valfredo-Pereira-Mario-Persona	",	 "length": "	32:28	",	 "file": "	http://www.mediafire.com/file/	t8uslt3b2lj8oba	/	"},
-{"track":	3	,	 "name": "	Hebreus 2 - parte 1	",	 "length": "	52:48	",	 "file": "	http://www.mediafire.com/file/	jtybe8f98b8weei	/	"},
-{"track":	4	,	 "name": "	Hebreus 2 - parte 2	",	 "length": "	29:32	",	 "file": "	http://www.mediafire.com/file/	35n745y1y8wjgrq	/	"},
-{"track":	5	,	 "name": "	Hebreus 2 - parte 3	",	 "length": "	32:32	",	 "file": "	http://www.mediafire.com/file/	7man07p30eifuq8	/	"},
+{"track":	1	,	 "name": "	Hebreus 1 - Lineu-Binotti-Mario-Persona-Valfredo-Pereira	",	 "length": "	35:40	",	 "file": "	https://www.mediafire.com/file/	8o92mw4ut5xdwa9	/	"},
+{"track":	2	,	 "name": "	Hebreus 2 - Lineu-Binotti-Valfredo-Pereira-Mario-Persona	",	 "length": "	32:28	",	 "file": "	https://www.mediafire.com/file/	t8uslt3b2lj8oba	/	"},
+{"track":	3	,	 "name": "	Hebreus 2 - parte 1	",	 "length": "	52:48	",	 "file": "	https://www.mediafire.com/file/	jtybe8f98b8weei	/	"},
+{"track":	4	,	 "name": "	Hebreus 2 - parte 2	",	 "length": "	29:32	",	 "file": "	https://www.mediafire.com/file/	35n745y1y8wjgrq	/	"},
+{"track":	5	,	 "name": "	Hebreus 2 - parte 3	",	 "length": "	32:32	",	 "file": "	https://www.mediafire.com/file/	7man07p30eifuq8	/	"},
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////

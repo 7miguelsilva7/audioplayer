@@ -4,7 +4,7 @@
 
 
 // HTML5 audio player + playlist controls...
-// Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
+// Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
@@ -27,9 +27,9 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-{"track":	1	,	 "name": "	1a Pedro 1 - 1a parte	",	 "length": "	48:47	",	 "file": "	http://www.mediafire.com/file/	mtkzw5xfkc9ko3y	/	"},
-{"track":	2	,	 "name": "	1a Pedro 1 - 2a parte	",	 "length": "	39:27	",	 "file": "	http://www.mediafire.com/file/	xg1af2ah9201qv9	/	"},
-{"track":	3	,	 "name": "	1a Pedro 1 - 3a parte	",	 "length": "	46:41	",	 "file": "	http://www.mediafire.com/file/	dabacn3jcqr9aa1	/	"},
+{"track":	1	,	 "name": "	1a Pedro 1 - 1a parte	",	 "length": "	48:47	",	 "file": "	https://www.mediafire.com/file/	mtkzw5xfkc9ko3y	/	"},
+{"track":	2	,	 "name": "	1a Pedro 1 - 2a parte	",	 "length": "	39:27	",	 "file": "	https://www.mediafire.com/file/	xg1af2ah9201qv9	/	"},
+{"track":	3	,	 "name": "	1a Pedro 1 - 3a parte	",	 "length": "	46:41	",	 "file": "	https://www.mediafire.com/file/	dabacn3jcqr9aa1	/	"},
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////

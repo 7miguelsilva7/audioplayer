@@ -4,7 +4,7 @@
 
 
 // HTML5 audio player + playlist controls...
-// Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
+// Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
@@ -27,25 +27,25 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-{"track":	1	,	 "name": "	Mateus 1-1a17-Mario-Persona-Jose-Batista-Pereira-Paulo-Roberto-Lenci-Jose-Roberto-Pizzinatto	",	 "length": "	36:05	",	 "file": "	http://www.mediafire.com/file/	efw98ywckybjh2a	/	"},
-{"track":	2	,	 "name": "	Mateus 1-18a25-Jose-Batista-Pereira-Paulo-Roberto-Lenci-Luiz-Soares-Campos	",	 "length": "	24:25	",	 "file": "	http://www.mediafire.com/file/	yofwnco5z7snopu	/	"},
-{"track":	3	,	 "name": "	Mateus 2-Mario-Persona-Jose-Roberto-Pizzinato-Paulo-Roberto-Lenci	",	 "length": "	27:09	",	 "file": "	http://www.mediafire.com/file/	4m6c7yxaz7opknk	/	"},
-{"track":	4	,	 "name": "	Mateus 2-13-23-Mario-Persona-Jose-Batista-Pereira-Paulo-Roberto-Lenci	",	 "length": "	26:50	",	 "file": "	http://www.mediafire.com/file/	0kjtwn1m2jan6bm	/	"},
-{"track":	5	,	 "name": "	Mateus 3-Mario-Persona-Jose-Batista-Pereira-Jose-Roberto-Pizzinatto	",	 "length": "	31:46	",	 "file": "	http://www.mediafire.com/file/	53a1n8dnfi1ctg3	/	"},
-{"track":	6	,	 "name": "	Mateus 4-1a11-Mario-Persona-Valfredo-Pereira-Jose-Roberto-Pizzinatto-Lineu-Binotti	",	 "length": "	31:09	",	 "file": "	http://www.mediafire.com/file/	apt11w1zd25jh90	/	"},
-{"track":	7	,	 "name": "	Mateus 4-12a25-Valfredo-Pereira-Mario-Persona-Luiz-Campos-Lineu-Binotti-Jose-Pizzinatto	",	 "length": "	36:05	",	 "file": "	http://www.mediafire.com/file/	6c4vl139ucg9v9v	/	"},
-{"track":	8	,	 "name": "	Mateus 5-1a12-Mario-Persona	",	 "length": "	28:17	",	 "file": "	http://www.mediafire.com/file/	mi8a2zjedaidwyj	/	"},
-{"track":	9	,	 "name": "	Mateus 6-Lineu-Binotti	",	 "length": "	16:12	",	 "file": "	http://www.mediafire.com/file/	g2fod957hsvtlq9	/	"},
-{"track":	10	,	 "name": "	Mateus 6-19a34-Lineu-Binotti-Jose-Roberto-Pizzinatto-Paulo-Roberto-Lenci-Jose-Batista-Pereira	",	 "length": "	27:55	",	 "file": "	http://www.mediafire.com/file/	sdfgzhn69ljswuf	/	"},
-{"track":	11	,	 "name": "	Mateus 7-7a23-Mario-Persona-Jose-Roberto-Pizzinatto-Lineu-Binotti	",	 "length": "	29:26	",	 "file": "	http://www.mediafire.com/file/	qm6c4o7j247sjy7	/	"},
-{"track":	12	,	 "name": "	Mateus 7-19a29-Mario-Persona-Valfredo-Pereira-Jose-Batista-Pereira-Jose-Roberto-Pizzinatto-Paulo-Roberto-Lenci	",	 "length": "	38:42	",	 "file": "	http://www.mediafire.com/file/	21k4m68uza6weev	/	"},
-{"track":	13	,	 "name": "	Mateus 7-Mario-Persona-Lineu-Binotti	",	 "length": "	21:51	",	 "file": "	http://www.mediafire.com/file/	a57l6ev62d5lhvr	/	"},
-{"track":	14	,	 "name": "	Mateus 8-18a34-Mario-Persona-Valfredo-Pereira	",	 "length": "	34:07	",	 "file": "	http://www.mediafire.com/file/	7kscjy1i8ki9g0i	/	"},
-{"track":	15	,	 "name": "	Mateus 9-Lineu-Binotti-Jose-Roberto-Pizzinatto-Mario-Persona-Paulo-Roberto-Lenci	",	 "length": "	26:06	",	 "file": "	http://www.mediafire.com/file/	ot74xmw6utropy9	/	"},
-{"track":	16	,	 "name": "	Mateus 9-9a38-Mario-Persona-Valfredo-Pereira-Jose-Batista-Pereira	",	 "length": "	33:31	",	 "file": "	http://www.mediafire.com/file/	5oo73qmh4qbw6h4	/	"},
-{"track":	17	,	 "name": "	Mateus 13 - 1a parte.	",	 "length": "	50:36	",	 "file": "	http://www.mediafire.com/file/	ahf5ms3h3v3zqcb	/	"},
-{"track":	18	,	 "name": "	Mateus 13 - 2a parte.	",	 "length": "	1:05:38	",	 "file": "	http://www.mediafire.com/file/	m8wb89ax1xr6xi4	/	"},
-{"track":	19	,	 "name": "	Mateus 28-Jose-Batista-Pereira-Mario-Persona	",	 "length": "	18:46	",	 "file": "	http://www.mediafire.com/file/	v7wrolq9qzva8r8	/	"},
+{"track":	1	,	 "name": "	Mateus 1-1a17-Mario-Persona-Jose-Batista-Pereira-Paulo-Roberto-Lenci-Jose-Roberto-Pizzinatto	",	 "length": "	36:05	",	 "file": "	https://www.mediafire.com/file/	efw98ywckybjh2a	/	"},
+{"track":	2	,	 "name": "	Mateus 1-18a25-Jose-Batista-Pereira-Paulo-Roberto-Lenci-Luiz-Soares-Campos	",	 "length": "	24:25	",	 "file": "	https://www.mediafire.com/file/	yofwnco5z7snopu	/	"},
+{"track":	3	,	 "name": "	Mateus 2-Mario-Persona-Jose-Roberto-Pizzinato-Paulo-Roberto-Lenci	",	 "length": "	27:09	",	 "file": "	https://www.mediafire.com/file/	4m6c7yxaz7opknk	/	"},
+{"track":	4	,	 "name": "	Mateus 2-13-23-Mario-Persona-Jose-Batista-Pereira-Paulo-Roberto-Lenci	",	 "length": "	26:50	",	 "file": "	https://www.mediafire.com/file/	0kjtwn1m2jan6bm	/	"},
+{"track":	5	,	 "name": "	Mateus 3-Mario-Persona-Jose-Batista-Pereira-Jose-Roberto-Pizzinatto	",	 "length": "	31:46	",	 "file": "	https://www.mediafire.com/file/	53a1n8dnfi1ctg3	/	"},
+{"track":	6	,	 "name": "	Mateus 4-1a11-Mario-Persona-Valfredo-Pereira-Jose-Roberto-Pizzinatto-Lineu-Binotti	",	 "length": "	31:09	",	 "file": "	https://www.mediafire.com/file/	apt11w1zd25jh90	/	"},
+{"track":	7	,	 "name": "	Mateus 4-12a25-Valfredo-Pereira-Mario-Persona-Luiz-Campos-Lineu-Binotti-Jose-Pizzinatto	",	 "length": "	36:05	",	 "file": "	https://www.mediafire.com/file/	6c4vl139ucg9v9v	/	"},
+{"track":	8	,	 "name": "	Mateus 5-1a12-Mario-Persona	",	 "length": "	28:17	",	 "file": "	https://www.mediafire.com/file/	mi8a2zjedaidwyj	/	"},
+{"track":	9	,	 "name": "	Mateus 6-Lineu-Binotti	",	 "length": "	16:12	",	 "file": "	https://www.mediafire.com/file/	g2fod957hsvtlq9	/	"},
+{"track":	10	,	 "name": "	Mateus 6-19a34-Lineu-Binotti-Jose-Roberto-Pizzinatto-Paulo-Roberto-Lenci-Jose-Batista-Pereira	",	 "length": "	27:55	",	 "file": "	https://www.mediafire.com/file/	sdfgzhn69ljswuf	/	"},
+{"track":	11	,	 "name": "	Mateus 7-7a23-Mario-Persona-Jose-Roberto-Pizzinatto-Lineu-Binotti	",	 "length": "	29:26	",	 "file": "	https://www.mediafire.com/file/	qm6c4o7j247sjy7	/	"},
+{"track":	12	,	 "name": "	Mateus 7-19a29-Mario-Persona-Valfredo-Pereira-Jose-Batista-Pereira-Jose-Roberto-Pizzinatto-Paulo-Roberto-Lenci	",	 "length": "	38:42	",	 "file": "	https://www.mediafire.com/file/	21k4m68uza6weev	/	"},
+{"track":	13	,	 "name": "	Mateus 7-Mario-Persona-Lineu-Binotti	",	 "length": "	21:51	",	 "file": "	https://www.mediafire.com/file/	a57l6ev62d5lhvr	/	"},
+{"track":	14	,	 "name": "	Mateus 8-18a34-Mario-Persona-Valfredo-Pereira	",	 "length": "	34:07	",	 "file": "	https://www.mediafire.com/file/	7kscjy1i8ki9g0i	/	"},
+{"track":	15	,	 "name": "	Mateus 9-Lineu-Binotti-Jose-Roberto-Pizzinatto-Mario-Persona-Paulo-Roberto-Lenci	",	 "length": "	26:06	",	 "file": "	https://www.mediafire.com/file/	ot74xmw6utropy9	/	"},
+{"track":	16	,	 "name": "	Mateus 9-9a38-Mario-Persona-Valfredo-Pereira-Jose-Batista-Pereira	",	 "length": "	33:31	",	 "file": "	https://www.mediafire.com/file/	5oo73qmh4qbw6h4	/	"},
+{"track":	17	,	 "name": "	Mateus 13 - 1a parte.	",	 "length": "	50:36	",	 "file": "	https://www.mediafire.com/file/	ahf5ms3h3v3zqcb	/	"},
+{"track":	18	,	 "name": "	Mateus 13 - 2a parte.	",	 "length": "	1:05:38	",	 "file": "	https://www.mediafire.com/file/	m8wb89ax1xr6xi4	/	"},
+{"track":	19	,	 "name": "	Mateus 28-Jose-Batista-Pereira-Mario-Persona	",	 "length": "	18:46	",	 "file": "	https://www.mediafire.com/file/	v7wrolq9qzva8r8	/	"},
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////

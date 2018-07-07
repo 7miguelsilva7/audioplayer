@@ -4,7 +4,7 @@
 
 
 // HTML5 audio player + playlist controls...
-// Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
+// Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
@@ -27,17 +27,17 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-{"track":	1	,	 "name": "	1ª Joao-1-1-Mario-Persona	",	 "length": "	09:56	",	 "file": "	http://www.mediafire.com/file/	3p3mfzsmu63os89	/	"},
-{"track":	2	,	 "name": "	1ª Joao 1 - 1a parte	",	 "length": "	1:03:57	",	 "file": "	http://www.mediafire.com/file/	jvr1vdvmxh8hou1	/	"},
-{"track":	3	,	 "name": "	1ª Joao 1 - 2a parte	",	 "length": "	45:00	",	 "file": "	http://www.mediafire.com/file/	drlrqakm30h4hoh	/	"},
-{"track":	4	,	 "name": "	1ª Joao 1 - 3a parte	",	 "length": "	1:09:45	",	 "file": "	http://www.mediafire.com/file/	1836cta0l9v1i29	/	"},
-{"track":	5	,	 "name": "	1ª Joao-2-15-29-Concupiscencias-Anticristos-Mario-Persona-Lineu-Binotti	",	 "length": "	27:19	",	 "file": "	http://www.mediafire.com/file/	stkkwx7h8t9w388	/	"},
-{"track":	6	,	 "name": "	1ª Joao-2-15-29-Vida-Selo-Penhor-Uncao-Mandamentos-Mario-Persona-Valfredo-Pereira	",	 "length": "	31:30	",	 "file": "	http://www.mediafire.com/file/	9e4d2on5xni1q6d	/	"},
-{"track":	7	,	 "name": "	1ª Joao-3-1a10-Jose-Batista-Pereira-Mario-Persona-Paulo-Roberto-Lenci	",	 "length": "	33:35	",	 "file": "	http://www.mediafire.com/file/	4e5be5opf4s7fen	/	"},
-{"track":	8	,	 "name": "	1ª Joao-4-Luiz-Lemao-Soares-Campos-Mario-Persona-Valfredo-Pereira	",	 "length": "	41:35	",	 "file": "	http://www.mediafire.com/file/	9lrvj411hmse9kr	/	"},
-{"track":	9	,	 "name": "	1ª Joao-4-7a21-Valfredo-Pereira-Mario-Persona	",	 "length": "	38:37	",	 "file": "	http://www.mediafire.com/file/	su9pcrxno1988zv	/	"},
-{"track":	10	,	 "name": "	1ª Joao-5-1-Mario-Persona	",	 "length": "	38:50	",	 "file": "	http://www.mediafire.com/file/	02mp3yy2grmvu57	/	"},
-{"track":	11	,	 "name": "	1ª Joao-5-14a21-Mario-Persona-Jose-Roberto-Pizzinatto-Paulo-Roberto-Lenci	",	 "length": "	42:58	",	 "file": "	http://www.mediafire.com/file/	lzhlbcofh58q58i	/	"},
+{"track":	1	,	 "name": "	1ª Joao-1-1-Mario-Persona	",	 "length": "	09:56	",	 "file": "	https://www.mediafire.com/file/	3p3mfzsmu63os89	/	"},
+{"track":	2	,	 "name": "	1ª Joao 1 - 1a parte	",	 "length": "	1:03:57	",	 "file": "	https://www.mediafire.com/file/	jvr1vdvmxh8hou1	/	"},
+{"track":	3	,	 "name": "	1ª Joao 1 - 2a parte	",	 "length": "	45:00	",	 "file": "	https://www.mediafire.com/file/	drlrqakm30h4hoh	/	"},
+{"track":	4	,	 "name": "	1ª Joao 1 - 3a parte	",	 "length": "	1:09:45	",	 "file": "	https://www.mediafire.com/file/	1836cta0l9v1i29	/	"},
+{"track":	5	,	 "name": "	1ª Joao-2-15-29-Concupiscencias-Anticristos-Mario-Persona-Lineu-Binotti	",	 "length": "	27:19	",	 "file": "	https://www.mediafire.com/file/	stkkwx7h8t9w388	/	"},
+{"track":	6	,	 "name": "	1ª Joao-2-15-29-Vida-Selo-Penhor-Uncao-Mandamentos-Mario-Persona-Valfredo-Pereira	",	 "length": "	31:30	",	 "file": "	https://www.mediafire.com/file/	9e4d2on5xni1q6d	/	"},
+{"track":	7	,	 "name": "	1ª Joao-3-1a10-Jose-Batista-Pereira-Mario-Persona-Paulo-Roberto-Lenci	",	 "length": "	33:35	",	 "file": "	https://www.mediafire.com/file/	4e5be5opf4s7fen	/	"},
+{"track":	8	,	 "name": "	1ª Joao-4-Luiz-Lemao-Soares-Campos-Mario-Persona-Valfredo-Pereira	",	 "length": "	41:35	",	 "file": "	https://www.mediafire.com/file/	9lrvj411hmse9kr	/	"},
+{"track":	9	,	 "name": "	1ª Joao-4-7a21-Valfredo-Pereira-Mario-Persona	",	 "length": "	38:37	",	 "file": "	https://www.mediafire.com/file/	su9pcrxno1988zv	/	"},
+{"track":	10	,	 "name": "	1ª Joao-5-1-Mario-Persona	",	 "length": "	38:50	",	 "file": "	https://www.mediafire.com/file/	02mp3yy2grmvu57	/	"},
+{"track":	11	,	 "name": "	1ª Joao-5-14a21-Mario-Persona-Jose-Roberto-Pizzinatto-Paulo-Roberto-Lenci	",	 "length": "	42:58	",	 "file": "	https://www.mediafire.com/file/	lzhlbcofh58q58i	/	"},
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -4,7 +4,7 @@
 
 
 // HTML5 audio player + playlist controls...
-// Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
+// Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
@@ -27,30 +27,30 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-{"track":	1	,	 "name": "	Isaias 35-Mario-Persona-Lineu-Binotti-Jose-Roberto-Pizzinatto	",	 "length": "	26:16	",	 "file": "	http://www.mediafire.com/file/	7hhqyvahgl8a72p	/	"},
-{"track":	2	,	 "name": "	Isaias 38-Jose-Batista-Pereira-Mario-Persona-Valfredo-Pereira-Jose-Roberto-Pizzinatto	",	 "length": "	22:10	",	 "file": "	http://www.mediafire.com/file/	xqoss7l3ttdpoil	/	"},
-{"track":	3	,	 "name": "	Isaias 40-Valfredo-Pereira-Jose-Batista-Pereira-Mario-Persona-Jose-Roberto-Pizzinatto-Paulo-Roberto-Lenci	",	 "length": "	30:38	",	 "file": "	http://www.mediafire.com/file/	aasqn3osup6iooy	/	"},
-{"track":	4	,	 "name": "	Isaias 42-Valfredo-Pereira-Jose-Roberto-Pizzinatto	",	 "length": "	25:42	",	 "file": "	http://www.mediafire.com/file/	hq3u71ahyal4zx6	/	"},
-{"track":	5	,	 "name": "	Isaias 45-Mario-Persona-Daniel-Brimlow-Valfredo-Pereira-Paulo-Roberto-Lenci-Jose-Batista-Pereira	",	 "length": "	26:54	",	 "file": "	http://www.mediafire.com/file/	sn4sz73z29grv7o	/	"},
-{"track":	6	,	 "name": "	Isaias 46-Jose-Batista-Pereira-Mario-Persona-Jose-Roberto-Pizzinatto	",	 "length": "	27:32	",	 "file": "	http://www.mediafire.com/file/	wln0va1b42sp1du	/	"},
-{"track":	7	,	 "name": "	Isaias 47-Mario-Persona-Lemao-Luis-Campos-Jose-Batista-Pereira	",	 "length": "	23:58	",	 "file": "	http://www.mediafire.com/file/	adi114qu40rk6m0	/	"},
-{"track":	8	,	 "name": "	Isaias 48-Jose-Batista-Pereira-Mario-Persona	",	 "length": "	21:48	",	 "file": "	http://www.mediafire.com/file/	xn4g5hyald4h5x4	/	"},
-{"track":	9	,	 "name": "	Isaias 49-Valfredo-Pereira-Mario-Persona-Jose-Roberto-Pizzinatto-Jose-Batista-Pereira	",	 "length": "	22:17	",	 "file": "	http://www.mediafire.com/file/	jnoyt4bbgeh1a75	/	"},
-{"track":	10	,	 "name": "	Isaias 50-Mario-Persona-Jose-Batista-Pereira	",	 "length": "	25:25	",	 "file": "	http://www.mediafire.com/file/	bwr6xljc89w3mra	/	"},
-{"track":	11	,	 "name": "	Isaias 51-Mario-Persona-Jose-Batista-Pereira	",	 "length": "	25:03	",	 "file": "	http://www.mediafire.com/file/	5n4oap8y6so2485	/	"},
-{"track":	12	,	 "name": "	Isaias 52-MPersona-VPereira-JBatista	",	 "length": "	28:26	",	 "file": "	http://www.mediafire.com/file/	tmytffz1m66fs9x	/	"},
-{"track":	13	,	 "name": "	Isaias 53-MPersona-VPereira-JPizzinatto	",	 "length": "	26:36	",	 "file": "	http://www.mediafire.com/file/	a0bby7bbgbj2ebm	/	"},
-{"track":	14	,	 "name": "	Isaias 54-JBatista-LCampos-JRPizzinatto	",	 "length": "	24:39	",	 "file": "	http://www.mediafire.com/file/	mlb0l2ptz5hbbvi	/	"},
-{"track":	15	,	 "name": "	Isaias 55-MPersona-VPereira	",	 "length": "	22:04	",	 "file": "	http://www.mediafire.com/file/	7am6cwp5nmiha3s	/	"},
-{"track":	16	,	 "name": "	Isaias 56-VPereira-MPersona	",	 "length": "	22:26	",	 "file": "	http://www.mediafire.com/file/	d6dy1d7rujnr777	/	"},
-{"track":	17	,	 "name": "	Isaias 57-MPersona-JRPizzinatto	",	 "length": "	26:14	",	 "file": "	http://www.mediafire.com/file/	bp8on83cjp9lc7b	/	"},
-{"track":	18	,	 "name": "	Isaias 58-VPereira-MPersona-PRLenci	",	 "length": "	28:31	",	 "file": "	http://www.mediafire.com/file/	d8z72940fbfp33a	/	"},
-{"track":	19	,	 "name": "	Isaias 59-MPersona-JRPizzinatto-VPereira	",	 "length": "	27:42	",	 "file": "	http://www.mediafire.com/file/	6whubzzznk6lfnr	/	"},
-{"track":	20	,	 "name": "	Isaias 61-MPersona-VPereira-JBPereira	",	 "length": "	28:33	",	 "file": "	http://www.mediafire.com/file/	d1055239v38sa4l	/	"},
-{"track":	21	,	 "name": "	Isaias 62-MPersona-VPereira-JRPizzinatto	",	 "length": "	27:55	",	 "file": "	http://www.mediafire.com/file/	cc029e0rt7d9n0a	/	"},
-{"track":	22	,	 "name": "	Isaias 64-RBoulard-PRLenci	",	 "length": "	31:58	",	 "file": "	http://www.mediafire.com/file/	ufueyq97errw98f	/	"},
-{"track":	23	,	 "name": "	Isaias 65-PRLenci	",	 "length": "	13:34	",	 "file": "	http://www.mediafire.com/file/	84q8b83f0v2dqc3	/	"},
-{"track":	24	,	 "name": "	Isaias 66-LCampos-JBPereira-PFroese	",	 "length": "	20:14	",	 "file": "	http://www.mediafire.com/file/	zwx1c0omhmite40	/	"},
+{"track":	1	,	 "name": "	Isaias 35-Mario-Persona-Lineu-Binotti-Jose-Roberto-Pizzinatto	",	 "length": "	26:16	",	 "file": "	https://www.mediafire.com/file/	7hhqyvahgl8a72p	/	"},
+{"track":	2	,	 "name": "	Isaias 38-Jose-Batista-Pereira-Mario-Persona-Valfredo-Pereira-Jose-Roberto-Pizzinatto	",	 "length": "	22:10	",	 "file": "	https://www.mediafire.com/file/	xqoss7l3ttdpoil	/	"},
+{"track":	3	,	 "name": "	Isaias 40-Valfredo-Pereira-Jose-Batista-Pereira-Mario-Persona-Jose-Roberto-Pizzinatto-Paulo-Roberto-Lenci	",	 "length": "	30:38	",	 "file": "	https://www.mediafire.com/file/	aasqn3osup6iooy	/	"},
+{"track":	4	,	 "name": "	Isaias 42-Valfredo-Pereira-Jose-Roberto-Pizzinatto	",	 "length": "	25:42	",	 "file": "	https://www.mediafire.com/file/	hq3u71ahyal4zx6	/	"},
+{"track":	5	,	 "name": "	Isaias 45-Mario-Persona-Daniel-Brimlow-Valfredo-Pereira-Paulo-Roberto-Lenci-Jose-Batista-Pereira	",	 "length": "	26:54	",	 "file": "	https://www.mediafire.com/file/	sn4sz73z29grv7o	/	"},
+{"track":	6	,	 "name": "	Isaias 46-Jose-Batista-Pereira-Mario-Persona-Jose-Roberto-Pizzinatto	",	 "length": "	27:32	",	 "file": "	https://www.mediafire.com/file/	wln0va1b42sp1du	/	"},
+{"track":	7	,	 "name": "	Isaias 47-Mario-Persona-Lemao-Luis-Campos-Jose-Batista-Pereira	",	 "length": "	23:58	",	 "file": "	https://www.mediafire.com/file/	adi114qu40rk6m0	/	"},
+{"track":	8	,	 "name": "	Isaias 48-Jose-Batista-Pereira-Mario-Persona	",	 "length": "	21:48	",	 "file": "	https://www.mediafire.com/file/	xn4g5hyald4h5x4	/	"},
+{"track":	9	,	 "name": "	Isaias 49-Valfredo-Pereira-Mario-Persona-Jose-Roberto-Pizzinatto-Jose-Batista-Pereira	",	 "length": "	22:17	",	 "file": "	https://www.mediafire.com/file/	jnoyt4bbgeh1a75	/	"},
+{"track":	10	,	 "name": "	Isaias 50-Mario-Persona-Jose-Batista-Pereira	",	 "length": "	25:25	",	 "file": "	https://www.mediafire.com/file/	bwr6xljc89w3mra	/	"},
+{"track":	11	,	 "name": "	Isaias 51-Mario-Persona-Jose-Batista-Pereira	",	 "length": "	25:03	",	 "file": "	https://www.mediafire.com/file/	5n4oap8y6so2485	/	"},
+{"track":	12	,	 "name": "	Isaias 52-MPersona-VPereira-JBatista	",	 "length": "	28:26	",	 "file": "	https://www.mediafire.com/file/	tmytffz1m66fs9x	/	"},
+{"track":	13	,	 "name": "	Isaias 53-MPersona-VPereira-JPizzinatto	",	 "length": "	26:36	",	 "file": "	https://www.mediafire.com/file/	a0bby7bbgbj2ebm	/	"},
+{"track":	14	,	 "name": "	Isaias 54-JBatista-LCampos-JRPizzinatto	",	 "length": "	24:39	",	 "file": "	https://www.mediafire.com/file/	mlb0l2ptz5hbbvi	/	"},
+{"track":	15	,	 "name": "	Isaias 55-MPersona-VPereira	",	 "length": "	22:04	",	 "file": "	https://www.mediafire.com/file/	7am6cwp5nmiha3s	/	"},
+{"track":	16	,	 "name": "	Isaias 56-VPereira-MPersona	",	 "length": "	22:26	",	 "file": "	https://www.mediafire.com/file/	d6dy1d7rujnr777	/	"},
+{"track":	17	,	 "name": "	Isaias 57-MPersona-JRPizzinatto	",	 "length": "	26:14	",	 "file": "	https://www.mediafire.com/file/	bp8on83cjp9lc7b	/	"},
+{"track":	18	,	 "name": "	Isaias 58-VPereira-MPersona-PRLenci	",	 "length": "	28:31	",	 "file": "	https://www.mediafire.com/file/	d8z72940fbfp33a	/	"},
+{"track":	19	,	 "name": "	Isaias 59-MPersona-JRPizzinatto-VPereira	",	 "length": "	27:42	",	 "file": "	https://www.mediafire.com/file/	6whubzzznk6lfnr	/	"},
+{"track":	20	,	 "name": "	Isaias 61-MPersona-VPereira-JBPereira	",	 "length": "	28:33	",	 "file": "	https://www.mediafire.com/file/	d1055239v38sa4l	/	"},
+{"track":	21	,	 "name": "	Isaias 62-MPersona-VPereira-JRPizzinatto	",	 "length": "	27:55	",	 "file": "	https://www.mediafire.com/file/	cc029e0rt7d9n0a	/	"},
+{"track":	22	,	 "name": "	Isaias 64-RBoulard-PRLenci	",	 "length": "	31:58	",	 "file": "	https://www.mediafire.com/file/	ufueyq97errw98f	/	"},
+{"track":	23	,	 "name": "	Isaias 65-PRLenci	",	 "length": "	13:34	",	 "file": "	https://www.mediafire.com/file/	84q8b83f0v2dqc3	/	"},
+{"track":	24	,	 "name": "	Isaias 66-LCampos-JBPereira-PFroese	",	 "length": "	20:14	",	 "file": "	https://www.mediafire.com/file/	zwx1c0omhmite40	/	"},
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////

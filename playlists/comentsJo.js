@@ -4,7 +4,7 @@
 
 
 // HTML5 audio player + playlist controls...
-// Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
+// Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
@@ -27,18 +27,18 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-{"track":	1	,	 "name": "	Joao 1 - parte 1	",	 "length": "	39:05	",	 "file": "	http://www.mediafire.com/file/	0jgfpc16j2t0b9y	/	"},
-{"track":	2	,	 "name": "	Joao 1 - parte 2	",	 "length": "	29:23	",	 "file": "	http://www.mediafire.com/file/	pcdydb6t502dua3	/	"},
-{"track":	3	,	 "name": "	Joao 1 - parte 3	",	 "length": "	37:09	",	 "file": "	http://www.mediafire.com/file/	d1br3w7uq63b1ba	/	"},
-{"track":	4	,	 "name": "	Joao 4 - 1a parte	",	 "length": "	48:10	",	 "file": "	http://www.mediafire.com/file/	nghidk6nka9s6lj	/	"},
-{"track":	5	,	 "name": "	Joao 4 - 2a parte	",	 "length": "	46:16	",	 "file": "	http://www.mediafire.com/file/	l35xm0d030qp7tr	/	"},
-{"track":	6	,	 "name": "	Joao 4 - 3a parte	",	 "length": "	59:24	",	 "file": "	http://www.mediafire.com/file/	80n3bu9c0mmmbri	/	"},
-{"track":	7	,	 "name": "	Joao 6 - 1a parte	",	 "length": "	44:50	",	 "file": "	http://www.mediafire.com/file/	4ve883a7iabxuf4	/	"},
-{"track":	8	,	 "name": "	Joao 6 - 2a parte	",	 "length": "	1:00:02	",	 "file": "	http://www.mediafire.com/file/	vfmxlyhsafxt5ks	/	"},
-{"track":	9	,	 "name": "	Joao 18-1a26-Mario-Persona-25012014	",	 "length": "	16:12	",	 "file": "	http://www.mediafire.com/file/	ha8luamwh7trqsx	/	"},
-{"track":	10	,	 "name": "	Joao 19-1a16-Jose-Batista-Mario-Persona-Lineu-Binotti	",	 "length": "	27:37	",	 "file": "	http://www.mediafire.com/file/	dkala8iwwzr2jys	/	"},
-{"track":	11	,	 "name": "	Joao 19-17a42-Jose-Batista-Pereira-Mario-Persona-Lineu-Binotti-Paulo-Roberto-Lenci	",	 "length": "	31:58	",	 "file": "	http://www.mediafire.com/file/	0p838t0y8s5vvpz	/	"},
-{"track":	12	,	 "name": "	Joao 21-Persona-Pizzinatto	",	 "length": "	35:08	",	 "file": "	http://www.mediafire.com/file/	xcelpl0dou8xdd5	/	"},
+{"track":	1	,	 "name": "	Joao 1 - parte 1	",	 "length": "	39:05	",	 "file": "	https://www.mediafire.com/file/	0jgfpc16j2t0b9y	/	"},
+{"track":	2	,	 "name": "	Joao 1 - parte 2	",	 "length": "	29:23	",	 "file": "	https://www.mediafire.com/file/	pcdydb6t502dua3	/	"},
+{"track":	3	,	 "name": "	Joao 1 - parte 3	",	 "length": "	37:09	",	 "file": "	https://www.mediafire.com/file/	d1br3w7uq63b1ba	/	"},
+{"track":	4	,	 "name": "	Joao 4 - 1a parte	",	 "length": "	48:10	",	 "file": "	https://www.mediafire.com/file/	nghidk6nka9s6lj	/	"},
+{"track":	5	,	 "name": "	Joao 4 - 2a parte	",	 "length": "	46:16	",	 "file": "	https://www.mediafire.com/file/	l35xm0d030qp7tr	/	"},
+{"track":	6	,	 "name": "	Joao 4 - 3a parte	",	 "length": "	59:24	",	 "file": "	https://www.mediafire.com/file/	80n3bu9c0mmmbri	/	"},
+{"track":	7	,	 "name": "	Joao 6 - 1a parte	",	 "length": "	44:50	",	 "file": "	https://www.mediafire.com/file/	4ve883a7iabxuf4	/	"},
+{"track":	8	,	 "name": "	Joao 6 - 2a parte	",	 "length": "	1:00:02	",	 "file": "	https://www.mediafire.com/file/	vfmxlyhsafxt5ks	/	"},
+{"track":	9	,	 "name": "	Joao 18-1a26-Mario-Persona-25012014	",	 "length": "	16:12	",	 "file": "	https://www.mediafire.com/file/	ha8luamwh7trqsx	/	"},
+{"track":	10	,	 "name": "	Joao 19-1a16-Jose-Batista-Mario-Persona-Lineu-Binotti	",	 "length": "	27:37	",	 "file": "	https://www.mediafire.com/file/	dkala8iwwzr2jys	/	"},
+{"track":	11	,	 "name": "	Joao 19-17a42-Jose-Batista-Pereira-Mario-Persona-Lineu-Binotti-Paulo-Roberto-Lenci	",	 "length": "	31:58	",	 "file": "	https://www.mediafire.com/file/	0p838t0y8s5vvpz	/	"},
+{"track":	12	,	 "name": "	Joao 21-Persona-Pizzinatto	",	 "length": "	35:08	",	 "file": "	https://www.mediafire.com/file/	xcelpl0dou8xdd5	/	"},
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////

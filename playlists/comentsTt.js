@@ -4,7 +4,7 @@
 
 
 // HTML5 audio player + playlist controls...
-// Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
+// Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
@@ -27,11 +27,11 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-{"track":	1	,	 "name": "	Tito-1-Lineu-Binotti-Valfredo-Pereira	",	 "length": "	22:05	",	 "file": "	http://www.mediafire.com/file/	e3kagi9boz41gew	/	"},
-{"track":	2	,	 "name": "	Tito-2-Mario-Persona-Lineu-Binotti-Valfredo-Pereira	",	 "length": "	32:55	",	 "file": "	http://www.mediafire.com/file/	2qznfp5noxd29od	/	"},
-{"track":	3	,	 "name": "	Tito-2 - parte 1	",	 "length": "	38:56	",	 "file": "	http://www.mediafire.com/file/	kp7jgsc1qj8ad8z	/	"},
-{"track":	4	,	 "name": "	Tito-2 - parte 2	",	 "length": "	24:07	",	 "file": "	http://www.mediafire.com/file/	1nrvhb33daq2y5q	/	"},
-{"track":	5	,	 "name": "	Tito-3-Mario-Persona-Valfredo-Pereira	",	 "length": "	28:55	",	 "file": "	http://www.mediafire.com/file/	9ua41elp39okbrx	/	"},
+{"track":	1	,	 "name": "	Tito-1-Lineu-Binotti-Valfredo-Pereira	",	 "length": "	22:05	",	 "file": "	https://www.mediafire.com/file/	e3kagi9boz41gew	/	"},
+{"track":	2	,	 "name": "	Tito-2-Mario-Persona-Lineu-Binotti-Valfredo-Pereira	",	 "length": "	32:55	",	 "file": "	https://www.mediafire.com/file/	2qznfp5noxd29od	/	"},
+{"track":	3	,	 "name": "	Tito-2 - parte 1	",	 "length": "	38:56	",	 "file": "	https://www.mediafire.com/file/	kp7jgsc1qj8ad8z	/	"},
+{"track":	4	,	 "name": "	Tito-2 - parte 2	",	 "length": "	24:07	",	 "file": "	https://www.mediafire.com/file/	1nrvhb33daq2y5q	/	"},
+{"track":	5	,	 "name": "	Tito-3-Mario-Persona-Valfredo-Pereira	",	 "length": "	28:55	",	 "file": "	https://www.mediafire.com/file/	9ua41elp39okbrx	/	"},
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -4,7 +4,7 @@
 
 
 // HTML5 audio player + playlist controls...
-// Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
+// Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
@@ -27,10 +27,10 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-{"track":	1	,	 "name": "	2 Tessalonicenses-1-Mario-Persona-Lineu-Binotti-Valfredo-Pereira	",	 "length": "	32:04	",	 "file": "	http://www.mediafire.com/file/	slx82hdxxlzgjxd	/	"},
-{"track":	2	,	 "name": "	2 Tessalonicenses-2-Lineu-Binotti-Mario-Persona	",	 "length": "	29:07	",	 "file": "	http://www.mediafire.com/file/	278ypdc3y4ycglz	/	"},
-{"track":	3	,	 "name": "	2 Tessalonicenses-2-13-17-Lineu-Binotti-Luis-Soares-Campos-Mario-Persona-Valfredo-Pereira	",	 "length": "	34:54	",	 "file": "	http://www.mediafire.com/file/	2m1wick75pcb5wn	/	"},
-{"track":	4	,	 "name": "	2 Tessalonicenses-3-Mario-Persona-Lineu-Binotti	",	 "length": "	29:07	",	 "file": "	http://www.mediafire.com/file/	u39ak5k998drvqo	/	"},
+{"track":	1	,	 "name": "	2 Tessalonicenses-1-Mario-Persona-Lineu-Binotti-Valfredo-Pereira	",	 "length": "	32:04	",	 "file": "	https://www.mediafire.com/file/	slx82hdxxlzgjxd	/	"},
+{"track":	2	,	 "name": "	2 Tessalonicenses-2-Lineu-Binotti-Mario-Persona	",	 "length": "	29:07	",	 "file": "	https://www.mediafire.com/file/	278ypdc3y4ycglz	/	"},
+{"track":	3	,	 "name": "	2 Tessalonicenses-2-13-17-Lineu-Binotti-Luis-Soares-Campos-Mario-Persona-Valfredo-Pereira	",	 "length": "	34:54	",	 "file": "	https://www.mediafire.com/file/	2m1wick75pcb5wn	/	"},
+{"track":	4	,	 "name": "	2 Tessalonicenses-3-Mario-Persona-Lineu-Binotti	",	 "length": "	29:07	",	 "file": "	https://www.mediafire.com/file/	u39ak5k998drvqo	/	"},
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////

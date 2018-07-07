@@ -4,7 +4,7 @@
 
 
 // HTML5 audio player + playlist controls...
-// Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
+// Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
 jQuery(function ($) {
     'use strict'
@@ -27,15 +27,15 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-{"track":	1	,	 "name": "	1 Timoteo-1-Luiz-Soares-Campos-Lineu-Binotti-Mario-Persona	",	 "length": "	25:22	",	 "file": "	http://www.mediafire.com/file/	rt9rft3jgwdnv7c	/	"},
-{"track":	2	,	 "name": "	1 Timoteo-1-7a20-Lineu-Binotti-Valfredo-Pereira-Paulo-Lenci	",	 "length": "	24:30	",	 "file": "	http://www.mediafire.com/file/	smo21g8nxskdv00	/	"},
-{"track":	3	,	 "name": "	1 Timoteo-2-1a8-Mario-Persona-Valfredo-Pereira	",	 "length": "	34:38	",	 "file": "	http://www.mediafire.com/file/	48v11a55ogi61am	/	"},
-{"track":	4	,	 "name": "	1 Timoteo-2-7a15-Mario-Persona-Lineu-Binotti	",	 "length": "	35:32	",	 "file": "	http://www.mediafire.com/file/	2z4bi2pcb1kbbjj	/	"},
-{"track":	5	,	 "name": "	1 Timoteo-3-1a13-Mario-Persona-Lineu-Binotti	",	 "length": "	32:42	",	 "file": "	http://www.mediafire.com/file/	ful5eut9n5qw9o9	/	"},
-{"track":	6	,	 "name": "	1 Timoteo-3-14a16-4-1a5-Mario-Persona-Lineu-Binotti	",	 "length": "	34:57	",	 "file": "	http://www.mediafire.com/file/	wfuwuqp76vu7peb	/	"},
-{"track":	7	,	 "name": "	1 Timoteo-4-6a16-Lineu-Binotti-Mario-Persona-Valfredo-Pereira	",	 "length": "	40:41	",	 "file": "	http://www.mediafire.com/file/	99i3nsmz9d4qvjz	/	"},
-{"track":	8	,	 "name": "	1 Timoteo-5-Mario-Persona-Lineu-Binotti	",	 "length": "	31:46	",	 "file": "	http://www.mediafire.com/file/	0261k3forn6gk73	/	"},
-{"track":	9	,	 "name": "	1 Timoteo-6-Mario-Persona-Lineu-Binotti	",	 "length": "	33:39	",	 "file": "	http://www.mediafire.com/file/	m2yzbufecp7zymu	/	"},
+{"track":	1	,	 "name": "	1 Timoteo-1-Luiz-Soares-Campos-Lineu-Binotti-Mario-Persona	",	 "length": "	25:22	",	 "file": "	https://www.mediafire.com/file/	rt9rft3jgwdnv7c	/	"},
+{"track":	2	,	 "name": "	1 Timoteo-1-7a20-Lineu-Binotti-Valfredo-Pereira-Paulo-Lenci	",	 "length": "	24:30	",	 "file": "	https://www.mediafire.com/file/	smo21g8nxskdv00	/	"},
+{"track":	3	,	 "name": "	1 Timoteo-2-1a8-Mario-Persona-Valfredo-Pereira	",	 "length": "	34:38	",	 "file": "	https://www.mediafire.com/file/	48v11a55ogi61am	/	"},
+{"track":	4	,	 "name": "	1 Timoteo-2-7a15-Mario-Persona-Lineu-Binotti	",	 "length": "	35:32	",	 "file": "	https://www.mediafire.com/file/	2z4bi2pcb1kbbjj	/	"},
+{"track":	5	,	 "name": "	1 Timoteo-3-1a13-Mario-Persona-Lineu-Binotti	",	 "length": "	32:42	",	 "file": "	https://www.mediafire.com/file/	ful5eut9n5qw9o9	/	"},
+{"track":	6	,	 "name": "	1 Timoteo-3-14a16-4-1a5-Mario-Persona-Lineu-Binotti	",	 "length": "	34:57	",	 "file": "	https://www.mediafire.com/file/	wfuwuqp76vu7peb	/	"},
+{"track":	7	,	 "name": "	1 Timoteo-4-6a16-Lineu-Binotti-Mario-Persona-Valfredo-Pereira	",	 "length": "	40:41	",	 "file": "	https://www.mediafire.com/file/	99i3nsmz9d4qvjz	/	"},
+{"track":	8	,	 "name": "	1 Timoteo-5-Mario-Persona-Lineu-Binotti	",	 "length": "	31:46	",	 "file": "	https://www.mediafire.com/file/	0261k3forn6gk73	/	"},
+{"track":	9	,	 "name": "	1 Timoteo-6-Mario-Persona-Lineu-Binotti	",	 "length": "	33:39	",	 "file": "	https://www.mediafire.com/file/	m2yzbufecp7zymu	/	"},
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////

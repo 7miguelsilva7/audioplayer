@@ -105,6 +105,7 @@ jQuery(function ($) {
                 {"track":	78	,	 "voz": "José Batista Pereira",	 "name": "	RECORDAÇÃO DO TEU AMOR!",	 "length": "	03:31	",	 "file": "	https://www.mediafire.com/file/gqdv00lephys539/	"},
                 {"track":	79	,	 "voz": "Francisco Gregório Júnior",	 "name": "	ATÉ QUANDO (Salmo 4)",	 "length": "	02:36	",	 "file": "	https://www.mediafire.com/file/c0gr8fu6y1nz2dy/	"},
                 {"track":	80	,	 "voz": "José Batista Pereira",	 "name": "	ROSTO DIVINO",	 "length": "	03:30	",	 "file": "	http://www.mediafire.com/file/7g68swt74s88bey/	"},
+                {"track":	81	,	 "voz": "Lineu Arruda Binotti",	 "name": "	JÁ SALVO SOU",	 "length": "	03:28	",	 "file": "	http://www.mediafire.com/file/ycbak33fj1pm3g4/	"},
                 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

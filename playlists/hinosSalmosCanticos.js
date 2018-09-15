@@ -106,7 +106,7 @@ jQuery(function ($) {
                 {"track":	79	,	 "voz": "Francisco Gregório Júnior",	 "name": "	ATÉ QUANDO (Salmo 4)",	 "length": "	02:36	",	 "file": "	https://www.mediafire.com/file/c0gr8fu6y1nz2dy/	"},
                 {"track":	80	,	 "voz": "José Batista Pereira",	 "name": "	ROSTO DIVINO",	 "length": "	03:30	",	 "file": "	http://www.mediafire.com/file/7g68swt74s88bey/	"},
                 {"track":	81	,	 "voz": "Lineu Arruda Binotti",	 "name": "	JÁ SALVO SOU",	 "length": "	03:28	",	 "file": "	http://www.mediafire.com/file/ycbak33fj1pm3g4/	"},
-                {"track":	82	,	 "voz": "José Batista Pereira",	 "name": "Buscai Primeiro o Reino de Deus",	 "length": "	02:48	",	 "file": "	http://www.mediafire.com/file/o2u16cxx64ub4ah/ "},
+                {"track":	82	,	 "voz": "José Batista Pereira",	 "name": "Buscai Primeiro o Reino de Deus",	 "length": "	02:35	",	 "file": "	http://www.mediafire.com/file/o2u16cxx64ub4ah/ "},
                 {"track":	83	,	 "voz": "José Batista Pereira",	 "name": "Quando Nós Formos Chamados",	 "length": "	02:58	",	 "file": "	http://www.mediafire.com/file/hoeviwwe4edb6yl/	"},
 
 ],

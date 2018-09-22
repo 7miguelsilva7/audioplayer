@@ -108,6 +108,7 @@ jQuery(function ($) {
                 {"track":	81	,	 "voz": "Lineu Arruda Binotti",	 "name": "	JÁ SALVO SOU",	 "length": "	03:28	",	 "file": "	http://www.mediafire.com/file/ycbak33fj1pm3g4/	"},
                 {"track":	82	,	 "voz": "José Batista Pereira",	 "name": "Buscai Primeiro o Reino de Deus",	 "length": "	02:35	",	 "file": "	http://www.mediafire.com/file/o2u16cxx64ub4ah/ "},
                 {"track":	83	,	 "voz": "José Batista Pereira",	 "name": "Quando Nós Formos Chamados",	 "length": "	02:58	",	 "file": "	http://www.mediafire.com/file/hoeviwwe4edb6yl/	"},
+                {"track":	84	,	 "voz": "José Batista Pereira",	 "name": "Para Salvar-te",	 "length": "	05:01	",	 "file": "	http://www.mediafire.com/file/uu95d5vz8ivzlr5/	"},
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

@@ -110,6 +110,7 @@ jQuery(function ($) {
                 {"track":	83	,	 "voz": "José Batista Pereira",	 "name": "QUANDO NÓS FORMOS CHAMADOS",	 "length": "	02:58	",	 "file": "	http://www.mediafire.com/file/hoeviwwe4edb6yl/	"},
                 {"track":	84	,	 "voz": "José Batista Pereira",	 "name": "PARA SALVAR-TE",	 "length": "	05:01	",	 "file": "	http://www.mediafire.com/file/uu95d5vz8ivzlr5/	"},
                 {"track":	85	,	 "voz": "Lineu Arruda Binotti",	 "name": "HOJE REMIDOS!",	 "length": "	03:17	",	 "file": "	http://www.mediafire.com/file/4dc6yj9z2y84i5c/	"},
+                {"track":	86	,	 "voz": "José Batista Pereira",	 "name": "BOM AMIGO",	 "length": "	02:29	",	 "file": "	http://www.mediafire.com/file/rtrq42cfca96l6i/	"},
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

@@ -1,0 +1,65 @@
+
+
+<div class="single">
+
+  <!DOCTYPE html>
+<html>
+ 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1")'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+
+<script>
+    var loadURL = function (url) {
+      console.log($('#myInframe').attr({
+        frameborder: 0,
+        allowtransparency: true,
+        src: url
+      })
+      )
+    }
+</script>
+
+</head>
+
+<body>
+
+<div style="position: fixed;bottom: 5px;right:70%;left:30%" class="section share">
+            <a class="fb-share-button" data-layout="button_count" data-size="large" ><a href="http://www.facebook.com/sharer.php?src=bm&u=<script>document.write(document.URL);</script>&t=A%20Fonte" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"></a>          
+ </div>
+
+</header>
+
+
+  <div class="modal fade" data-backdrop="static" id="myModal" tabindex="1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+       
+        <div class="modal-body">
+          <iframe id="myInframe"  name="myFrame" src="#" width="100%" height="75%" frameborder="0" allowtransparency="true"></iframe>
+        </div>
+        <div class="modal-footer">
+          <button onclick="$('#myModal iframe').attr('src', '');" type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+  
+<a data-toggle="modal" href="#myModal" onclick='loadURL("share01.html")'>Compartilahr
+4:23</a>
+   
+
+<script>
+var links = document.links;
+for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+    if (links[i].hostname != window.location.hostname) {
+        links[i].target = 'right';
+    }
+}
+</script>
+

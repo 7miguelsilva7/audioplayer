@@ -111,6 +111,8 @@ jQuery(function ($) {
                 {"track":	84	,	 "voz": "José Batista Pereira",	 "name": "PARA SALVAR-TE",	 "length": "	05:01	",	 "file": "	http://www.mediafire.com/file/uu95d5vz8ivzlr5/	"},
                 {"track":	85	,	 "voz": "Lineu Arruda Binotti",	 "name": "HOJE REMIDOS!",	 "length": "	03:17	",	 "file": "	http://www.mediafire.com/file/4dc6yj9z2y84i5c/	"},
                 {"track":	86	,	 "voz": "José Batista Pereira",	 "name": "BOM AMIGO",	 "length": "	02:29	",	 "file": "	http://www.mediafire.com/file/rtrq42cfca96l6i/	"},
+                {"track":	87	,	 "voz": "José Batista Pereira",	 "name": "TERNO E SUAVE",	 "length": "	04:41	",	 "file": "	https://www.mediafire.com/file/r971n5vo4p9335j/	"},
+                {"track":	88	,	 "voz": "José Batista Pereira",	 "name": "NO PUEDE EL MUNDO SER MI HOGAR",	 "length": "	02:31	",	 "file": "	https://www.mediafire.com/file/xrcn627aj3s20oi/	"},
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

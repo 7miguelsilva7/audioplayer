@@ -2,14 +2,14 @@
 // https://api.html5media.info/1.1.8/html5media.min.js (enables <video> and <audio> tags in all major browsers)
 // https://cdn.plyr.io/2.0.13/plyr.js
 
-// var url_atual = window.location.href;
+var url_atual = window.location.href;
 
-// var str = url_atual;
-// var match = str.split('&fbclid=');
+var str = url_atual;
+var match = str.split('&fbclid=');
 
-// // document.write(match[1]);
+// document.write(match[1]);
 
-// window.location.replace(match[1]);
+window.location.replace(match[0]);
 
 // HTML5 audio player + playlist controls...
 // Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio

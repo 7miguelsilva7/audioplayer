@@ -115,6 +115,8 @@ jQuery(function ($) {
                 {"track":	87	,	 "voz": "José Batista Pereira",	 "name": "TERNO E SUAVE",	 "length": "	04:41	",	 "file": "	https://www.mediafire.com/file/r971n5vo4p9335j/	"},
                 {"track":	88	,	 "voz": "José Batista Pereira",	 "name": "NO PUEDE EL MUNDO SER MI HOGAR",	 "length": "	02:31	",	 "file": "	https://www.mediafire.com/file/xrcn627aj3s20oi/	"},
                 {"track":	89	,	 "voz": "José Batista Pereira",	 "name": "A PALAVRA DE DEUS",	 "length": "	03:56	",	 "file": "	https://www.mediafire.com/file/8q6lhpdnpb59ag1/	"},
+                {"track":	90	,	 "voz": "José Batista Pereira",	 "name": "VEM JESUS NOS BUSCAR",	 "length": "	03:01	",	 "file": "	https://www.mediafire.com/file/882i0mxtm544b4o/	"},
+                {"track":	91	,	 "voz": "José Batista Pereira",	 "name": "SALMO 23 - VERSÃO II",	 "length": "	03:24	",	 "file": "	https://www.mediafire.com/file/83vb9lj55ackjyr/	"},
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

@@ -26,19 +26,19 @@ jQuery(function ($) {
 
                 ///////////////////////////////////////////////////////////////////////////////////////////////////////
                 ///////////////////////////////////////////////////////////////////////////////////////////////////////
-{ "track": 1.1, "voz": "Felipe TTS", "name": "Mateus Capítulo 1", "length": "2:58", "file": "http://www.mediafire.com/file/h5jjflo7n55g5du" },
+{ "track": 1, "voz": "Felipe TTS", "name": "Mateus Capítulo 1", "length": "2:58", "file": "http://www.mediafire.com/file/h5jjflo7n55g5du" },
 
                 
-                { "track": 1.2,	 "voz": "Mario Persona",	 "name": "	 So pode ser verdade	", "length": "	02:31	", "file": "	https://www.mediafire.com/file/	tttbf3lc3bmkc45	/	 So pode ser verdade	" },
+                { "track": 2,	 "voz": "Mario Persona",	 "name": "	 So pode ser verdade	", "length": "	02:31	", "file": "	https://www.mediafire.com/file/	tttbf3lc3bmkc45	/	 So pode ser verdade	" },
                 
 
-                { "track": 2,	 "voz": "Mario Persona",	 "name": "	 De mal a pior	", "length": "	02:15	", "file": "	https://www.mediafire.com/file/	aph1bhppv1b85om	/	 De mal a pior	" },
+                { "track": 3,	 "voz": "Mario Persona",	 "name": "	 De mal a pior	", "length": "	02:15	", "file": "	https://www.mediafire.com/file/	aph1bhppv1b85om	/	 De mal a pior	" },
                 
 
-                { "track": 3,	 "voz": "Mario Persona",	 "name": "	 O precursor do Rei	", "length": "	03:42	", "file": "	https://www.mediafire.com/file/	opj2zkt1cyb74r0	/	 O precursor do Rei	" },
+                { "track": 4,	 "voz": "Mario Persona",	 "name": "	 O precursor do Rei	", "length": "	03:42	", "file": "	https://www.mediafire.com/file/	opj2zkt1cyb74r0	/	 O precursor do Rei	" },
                 
 
-                { "track": 4,	 "voz": "Mario Persona",	 "name": "	 Bem acompanhado	", "length": "	03:06	", "file": "	https://www.mediafire.com/file/	7thaa6cjip7yhrb	/	 Bem acompanhado	" },
+                { "track": 5,	 "voz": "Mario Persona",	 "name": "	 Bem acompanhado	", "length": "	03:06	", "file": "	https://www.mediafire.com/file/	7thaa6cjip7yhrb	/	 Bem acompanhado	" },
                 
 
                 { "track": 5,	 "voz": "Mario Persona",	 "name": "	 As respostas	", "length": "	02:56	", "file": "	https://www.mediafire.com/file/	u0jmg46hxbiojtb	/	 As respostas	" },

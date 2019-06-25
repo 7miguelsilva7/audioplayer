@@ -28,9 +28,8 @@ jQuery(function ($) {
                 ///////////////////////////////////////////////////////////////////////////////////////////////////////
                 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-                { "track": 1,	 "voz": "Mario Persona",	 "name": "	#658 De paraquedas	", "length": "	03:27	", "file": "	https://www.mediafire.com/file/	xym175d6h8oz3r7	/	#658 De paraquedas	" },
-                { "track": 2,	 "voz": "Mario Persona",	 "name": "	#659 Jesus Jeova'	", "length": "	03:45	", "file": "	https://www.mediafire.com/file/	6960496j4u4ph4y	/	#659 Jesus Jeova'	" },
+                { "track": 1,	 "voz": "Mario Persona",	 "name": "	#658 De paraquedas	", "length": "	03:27	", "file": "	http://www.mediafire.com/file/xym175d6h8oz3r7/	#658 De paraquedas	" },
+                { "track": 2,	 "voz": "Mario Persona",	 "name": "	#659 Jesus Jeova'	", "length": "	03:45	", "file": "	https://www.mediafire.com/file/6960496j4u4ph4y	/	#659 Jesus Jeova'	" },
                 { "track": 3,	 "voz": "Mario Persona",	 "name": "	#660 Um encontro no deserto	", "length": "	03:36	", "file": "	https://www.mediafire.com/file/	oc714wl88swd0eb	/	#660 Um encontro no deserto	" },
                 { "track": 4,	 "voz": "Mario Persona",	 "name": "	#661 Jeova' busca por uma esposa	", "length": "	03:29	", "file": "	https://www.mediafire.com/file/	guy0dvo84311cv7	/	#661 Jeova' busca por uma esposa	" },
                 { "track": 5,	 "voz": "Mario Persona",	 "name": "	#662 A assinatura de Deus	", "length": "	03:32	", "file": "	https://www.mediafire.com/file/	vd9hlfgij9t7r5a	/	#662 A assinatura de Deus	" },

@@ -16,13 +16,14 @@ jQuery(function ($) {
             extension = '',
             tracks = [
 
-{"track":	1	,	 "name": "3 Min Mateus", "file": "player.html?ip=3minMateus"},
-{"track":	2	,	 "name": "3 Min Marcos", "file": "player.html?ip=3minMarcos"},
-{"track":	3	,	 "name": "3 Min Lucas",	  "file": "player.html?ip=3minLucas"},
-{"track":	4	,	 "name": "3 Min João",	  "file": "player.html?ip=3minJoao"},
-{"track":	5	,	 "name": "Respondi Parte 01",	  "file": "player.html?ip=respondi-1-500"},
-{"track":	6	,	 "name": "Respondi Parte 02",	  "file": "player.html?ip=respondi-501-1000"},
-{"track":	7	,	 "name": "Respondi Parte 03",	  "file": "player.html?ip=respondi-1001-1437"},
+{"track":	1	,	 "name": "<a href=\"./\"  style=\"padding: 3px 10px; cursor: pointer; margin: 0; font-size: 1.5rem\" id=\"btnReturn\"><i class=\"fa fa-home\"></i></a>", "file": "player.html?ip=3minMateus"},
+{"track":	2	,	 "name": "3 Min Mateus", "file": "player.html?ip=3minMateus"},
+{"track":	3	,	 "name": "3 Min Marcos", "file": "player.html?ip=3minMarcos"},
+{"track":	4	,	 "name": "3 Min Lucas",	  "file": "player.html?ip=3minLucas"},
+{"track":	5	,	 "name": "3 Min João",	  "file": "player.html?ip=3minJoao"},
+{"track":	6	,	 "name": "Respondi Parte 01",	  "file": "player.html?ip=respondi-1-500"},
+{"track":	7	,	 "name": "Respondi Parte 02",	  "file": "player.html?ip=respondi-501-1000"},
+{"track":	8	,	 "name": "Respondi Parte 03",	  "file": "player.html?ip=respondi-1001-1437"},
 
 
 ],

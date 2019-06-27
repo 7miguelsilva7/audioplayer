@@ -215,7 +215,8 @@ audio1.addEventListener('ended',localStorageAudioNext)
     if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML))
   {
     location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
-  } 
+    //initialize plyr
+    plyr.setup($('#audio1'), {});  } 
 // }
 
 // Título da playlist
@@ -244,7 +245,8 @@ audio1.addEventListener('ended',localStorageAudioNext)
     if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML))
   {
     location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
-  } 
+    //initialize plyr
+    plyr.setup($('#audio1'), {});  } 
 // }
 
 //initialize plyr

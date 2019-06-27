@@ -16,13 +16,14 @@ jQuery(function ($) {
             extension = '',
             tracks = [
                 
-{"track":	1	,	 "name": "Gênesis",	  	"file": "player.html?ip=comentsGn"},
-{"track":	2	,	 "name": "Juízes",	  	"file": "player.html?ip=comentsJz"},
-{"track":	3	,	 "name": "Salmos",	  	"file": "player.html?ip=comentsSl"},
-{"track":	4	,	 "name": "Provérbios",	  	"file": "player.html?ip=comentsPv"},
-{"track":	4	,	 "name": "Eclesiastes",	  	"file": "player.html?ip=comentsEc"},
-{"track":	5	,	 "name": "Isaías",	  	"file": "player.html?ip=comentsIs"},
-{"track":	6	,	 "name": "Jeremias",	  	"file": "player.html?ip=comentsJr"},
+{"track":	1	,	 "name": "<a href=\"./\"  style=\"padding: 3px 10px; cursor: pointer; margin: 0; font-size: 1.5rem\" id=\"btnReturn\"><i class=\"fa fa-home\"></i></a>", "file": "player.html?ip=3minMateus"},
+{"track":	2	,	 "name": "Gênesis",	  	"file": "player.html?ip=comentsGn"},
+{"track":	3	,	 "name": "Juízes",	  	"file": "player.html?ip=comentsJz"},
+{"track":	4	,	 "name": "Salmos",	  	"file": "player.html?ip=comentsSl"},
+{"track":	5	,	 "name": "Provérbios",	  	"file": "player.html?ip=comentsPv"},
+{"track":	6	,	 "name": "Eclesiastes",	  	"file": "player.html?ip=comentsEc"},
+{"track":	7	,	 "name": "Isaías",	  	"file": "player.html?ip=comentsIs"},
+{"track":	8	,	 "name": "Jeremias",	  	"file": "player.html?ip=comentsJr"},
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

@@ -375,8 +375,8 @@ var audioNextKey = (document.getElementsByTagName("title"));
 // Salva próximo audio ao termino de cada audio
 function localStorageAudioNext()
 {
-    // var a = window.location.href.split("#")[1];
-    // next = parseInt(a)+parseInt(1);
+    var a = window.location.href.split("#")[1];
+    next = parseInt(a)+parseInt(1);
     // Salva em LocalStorage
     var audioNextKey = (document.getElementsByTagName("title"));
     // alert(audioNextKey[0].innerHTML)

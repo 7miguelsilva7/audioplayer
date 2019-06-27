@@ -6,6 +6,8 @@
 // HTML5 audio player + playlist controls...
 // Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
+document.write('<link rel=\'shortcut icon\' type=\'image/x-icon\' href=\'./img/audioIcon.png\' />')
+
 jQuery(function ($) {
     'use strict'
     var supportsAudio = !!document.createElement('audio').canPlayType;

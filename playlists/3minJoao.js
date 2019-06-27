@@ -333,11 +333,11 @@ jQuery(function ($) {
         // ANIMATE End
         
 //   Restaura posição do pŕoximo audio
-//   if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML))
-//   {
-//     location.replace(localStorage.getItem(audioNextKey[0].innerHTML));
-//     btnNext;
-//   } 
+  if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML))
+  {
+    location.replace(localStorage.getItem(audioNextKey[0].innerHTML));
+    btnNext
+  } 
 
 
                 npTitle.text(tracks[id].name);
@@ -391,11 +391,10 @@ audio1.addEventListener('ended',localStorageAudioNext)
 
 // function restoreAudioNext()
 // {
-    if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML))
-  {
-    location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
-    btnNext;
-  } 
+//     if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML))
+//   {
+//     location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
+//   } 
 // }    
 
 //initialize plyr

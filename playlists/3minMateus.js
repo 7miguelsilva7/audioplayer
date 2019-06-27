@@ -294,9 +294,8 @@ jQuery(function ($) {
     }
 });
 
-
 // Título da playlist
-document.write('<title>3 Min Mateus</title>')
+document.write('<title>Audio Player - 3 Min Mateus</title>')
 
 var audioNextKey = (document.getElementsByTagName("title"));
 

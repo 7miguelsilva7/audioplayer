@@ -354,12 +354,8 @@ jQuery(function ($) {
     }
 });
 
-
-
-
-
 // Título da playlist
-document.write('<title>3 Min João</title>')
+document.write('<title>Audio Player - 3 Min João</title>')
 
 var audioNextKey = (document.getElementsByTagName("title"));
 
@@ -385,7 +381,7 @@ audio1.addEventListener('ended',localStorageAudioNext)
   {
     location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
   } 
-// }    
+// }
 
 //initialize plyr
 plyr.setup($('#audio1'), {});

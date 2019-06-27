@@ -261,10 +261,8 @@ jQuery(function ($) {
 });
 
 
-
-
 // Título da playlist
-document.write('<title>3 Min Marcos</title>')
+document.write('<title>Audio Player - 3 Min Marcos</title>')
 
 var audioNextKey = (document.getElementsByTagName("title"));
 
@@ -275,7 +273,7 @@ function localStorageAudioNext()
     next = parseInt(a)+parseInt(1);
     // Salva em LocalStorage
     var audioNextKey = (document.getElementsByTagName("title"));
-    alert(audioNextKey[0].innerHTML)
+    // alert(audioNextKey[0].innerHTML)
     var audioNext = (window.location.href.split("#")[0]+'#'+next);
 
     localStorage.setItem(audioNextKey[0].innerHTML, audioNext);

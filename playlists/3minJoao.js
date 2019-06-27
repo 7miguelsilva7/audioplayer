@@ -2,7 +2,6 @@
 // https://api.html5media.info/1.1.8/html5media.min.js (enables <video> and <audio> tags in all major browsers)
 // https://cdn.plyr.io/2.0.13/plyr.js
 
-
 // HTML5 audio player + playlist controls...
 // Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
@@ -354,6 +353,39 @@ jQuery(function ($) {
         loadTrack(index);
     }
 });
+
+
+
+
+
+// Título da playlist
+document.write('<title>3 Min João</title>')
+
+var audioNextKey = (document.getElementsByTagName("title"));
+
+// Salva próximo audio ao termino de cada audio
+function localStorageAudioNext()
+{
+    var a = window.location.href.split("#")[1];
+    next = parseInt(a)+parseInt(1);
+    // Salva em LocalStorage
+    var audioNextKey = (document.getElementsByTagName("title"));
+    // alert(audioNextKey[0].innerHTML)
+    var audioNext = (window.location.href.split("#")[0]+'#'+next);
+
+    localStorage.setItem(audioNextKey[0].innerHTML, audioNext);
+    // alert(audioNext)
+}
+audio1.addEventListener('ended',localStorageAudioNext)
+
+
+// function restoreAudioNext()
+// {
+    if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML))
+  {
+    location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
+  } 
+// }    
 
 //initialize plyr
 plyr.setup($('#audio1'), {});

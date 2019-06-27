@@ -260,5 +260,37 @@ jQuery(function ($) {
     }
 });
 
+
+
+
+// Título da playlist
+document.write('<title>3 Min Marcos</title>')
+
+var audioNextKey = (document.getElementsByTagName("title"));
+
+// Salva próximo audio ao termino de cada audio
+function localStorageAudioNext()
+{
+    var a = window.location.href.split("#")[1];
+    next = parseInt(a)+parseInt(1);
+    // Salva em LocalStorage
+    var audioNextKey = (document.getElementsByTagName("title"));
+    alert(audioNextKey[0].innerHTML)
+    var audioNext = (window.location.href.split("#")[0]+'#'+next);
+
+    localStorage.setItem(audioNextKey[0].innerHTML, audioNext);
+    // alert(audioNext)
+}
+audio1.addEventListener('ended',localStorageAudioNext)
+
+
+// function restoreAudioNext()
+// {
+    if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML))
+  {
+    location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
+  } 
+// }
+
 //initialize plyr
 plyr.setup($('#audio1'), {});

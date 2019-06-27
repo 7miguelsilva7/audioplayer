@@ -297,8 +297,6 @@ jQuery(function ($) {
                     }
                 }
             }),
-
-            
             btnRandom = $('#btnRandom').click(function () {
                 console.log('first click');
                 recursive = false;
@@ -330,14 +328,7 @@ jQuery(function ($) {
                 $('html,body').animate({
                 scrollTop: $(".plSel").offset().top-240
                 });
-        // ANIMATE End
-        
-//   Restaura posição do pŕoximo audio
-  if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML))
-  {
-    location.replace(localStorage.getItem(audioNextKey[0].innerHTML));
-    btnNext
-  } 
+		// ANIMATE End
 
 
                 npTitle.text(tracks[id].name);
@@ -380,8 +371,7 @@ function localStorageAudioNext()
     // Salva em LocalStorage
     var audioNextKey = (document.getElementsByTagName("title"));
     // alert(audioNextKey[0].innerHTML)
-    // var audioNext = (window.location.href.split("#")[0]+'#'+next);
-    var audioNext = (window.location.href);
+    var audioNext = (window.location.href.split("#")[0]+'#'+next);
 
     localStorage.setItem(audioNextKey[0].innerHTML, audioNext);
     // alert(audioNext)
@@ -391,10 +381,10 @@ audio1.addEventListener('ended',localStorageAudioNext)
 
 // function restoreAudioNext()
 // {
-//     if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML))
-//   {
-//     location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
-//   } 
+    if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML))
+  {
+    location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
+  } 
 // }    
 
 //initialize plyr

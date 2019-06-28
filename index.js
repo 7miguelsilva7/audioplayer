@@ -17,7 +17,7 @@ jQuery(function ($) {
             extension = '',
             tracks = [
 
-{"track":	1	,	 "name": "Evangelho em 3 min | Respondi - Mario Persona",	  	"file": "3min.html"},
+{"track":	1	,	 "name": "3 Minutos | Respondi",	  	"file": "3min.html"},
 {"track":	3	,	 "name": "Dispensações", 	"file": "player.html?ip=dispensacao"},
 {"track":	4	,	 "name": "Músicas",	"file": "musicas.html"},
 // {"track":	4	,	 "name": "Músicas",	"file": "player.html?ip=hinarioCantado"},

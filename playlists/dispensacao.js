@@ -236,7 +236,7 @@ jQuery(function ($) {
 });
 
 // Título da playlist
-document.write('<title>Audio Player - Comentários - Tt</title>')
+document.write('<title>Audio Player - Comentários - Dispensações</title>')
 
 var audioNextKey = (document.getElementsByTagName("title"));
 

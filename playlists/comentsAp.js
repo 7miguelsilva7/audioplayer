@@ -225,10 +225,15 @@ audio1.addEventListener('ended',localStorageAudioNext)
 
 // function restoreAudioNext()
 // {
-    if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML))
+if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML))
   {
-    location.replace(localStorage.getItem(audioNextKey[0].innerHTML))  } 
-// }
+    location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
+    //initialize plyr
+    plyr.setup($('#audio1'), {});
 
-//initialize plyr
-plyr.setup($('#audio1'), {});
+  } else
+  {
+    //initialize plyr
+    plyr.setup($('#audio1'), {});
+  }
+// }

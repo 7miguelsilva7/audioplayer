@@ -381,7 +381,8 @@ audio1.addEventListener('ended',localStorageAudioNext)
   {
     location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
     //initialize plyr
-    plyr.setup($('#audio1'), {});  } 
+    // plyr.setup($('#audio1'), {});  
+} 
 // }
 
 //initialize plyr

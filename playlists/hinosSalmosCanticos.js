@@ -105,13 +105,13 @@ jQuery(function ($) {
                 {"track":	77	,	 "voz": "Lineu Arruda Binotti",	 "name": "	PORQUE TANTO AMOU!",	 "length": "	04:22	",	 "file": "	https://www.mediafire.com/file/7b8d9eetzpd4vxt/	"},
                 {"track":	78	,	 "voz": "José Batista Pereira",	 "name": "	RECORDAÇÃO DO TEU AMOR!",	 "length": "	03:31	",	 "file": "	https://www.mediafire.com/file/gqdv00lephys539/	"},
                 {"track":	79	,	 "voz": "Francisco Gregório Júnior",	 "name": "	ATÉ QUANDO (Salmo 4)",	 "length": "	02:36	",	 "file": "	https://www.mediafire.com/file/c0gr8fu6y1nz2dy/	"},
-                {"track":	80	,	 "voz": "José Batista Pereira",	 "name": "	ROSTO DIVINO",	 "length": "	03:30	",	 "file": "	http://www.mediafire.com/file/7g68swt74s88bey/	"},
-                {"track":	81	,	 "voz": "Lineu Arruda Binotti",	 "name": "	JÁ SALVO SOU",	 "length": "	03:28	",	 "file": "	http://www.mediafire.com/file/ycbak33fj1pm3g4/	"},
-                {"track":	82	,	 "voz": "José Batista Pereira",	 "name": "BUSCAI PRIMEIRO O REINO DE DEUS",	 "length": "	02:35	",	 "file": "	http://www.mediafire.com/file/o2u16cxx64ub4ah/ "},
-                {"track":	83	,	 "voz": "José Batista Pereira",	 "name": "QUANDO NÓS FORMOS CHAMADOS",	 "length": "	02:58	",	 "file": "	http://www.mediafire.com/file/hoeviwwe4edb6yl/	"},
-                {"track":	84	,	 "voz": "José Batista Pereira",	 "name": "PARA SALVAR-TE",	 "length": "	05:01	",	 "file": "	http://www.mediafire.com/file/uu95d5vz8ivzlr5/	"},
-                {"track":	85	,	 "voz": "Lineu Arruda Binotti",	 "name": "HOJE REMIDOS!",	 "length": "	03:17	",	 "file": "	http://www.mediafire.com/file/4dc6yj9z2y84i5c/	"},
-                {"track":	86	,	 "voz": "José Batista Pereira",	 "name": "BOM AMIGO",	 "length": "	02:29	",	 "file": "	http://www.mediafire.com/file/rtrq42cfca96l6i/	"},
+                {"track":	80	,	 "voz": "José Batista Pereira",	 "name": "	ROSTO DIVINO",	 "length": "	03:30	",	 "file": "	https://www.mediafire.com/file/7g68swt74s88bey/	"},
+                {"track":	81	,	 "voz": "Lineu Arruda Binotti",	 "name": "	JÁ SALVO SOU",	 "length": "	03:28	",	 "file": "	https://www.mediafire.com/file/ycbak33fj1pm3g4/	"},
+                {"track":	82	,	 "voz": "José Batista Pereira",	 "name": "BUSCAI PRIMEIRO O REINO DE DEUS",	 "length": "	02:35	",	 "file": "	https://www.mediafire.com/file/o2u16cxx64ub4ah/ "},
+                {"track":	83	,	 "voz": "José Batista Pereira",	 "name": "QUANDO NÓS FORMOS CHAMADOS",	 "length": "	02:58	",	 "file": "	https://www.mediafire.com/file/hoeviwwe4edb6yl/	"},
+                {"track":	84	,	 "voz": "José Batista Pereira",	 "name": "PARA SALVAR-TE",	 "length": "	05:01	",	 "file": "	https://www.mediafire.com/file/uu95d5vz8ivzlr5/	"},
+                {"track":	85	,	 "voz": "Lineu Arruda Binotti",	 "name": "HOJE REMIDOS!",	 "length": "	03:17	",	 "file": "	https://www.mediafire.com/file/4dc6yj9z2y84i5c/	"},
+                {"track":	86	,	 "voz": "José Batista Pereira",	 "name": "BOM AMIGO",	 "length": "	02:29	",	 "file": "	https://www.mediafire.com/file/rtrq42cfca96l6i/	"},
                 {"track":	87	,	 "voz": "José Batista Pereira",	 "name": "TERNO E SUAVE",	 "length": "	04:41	",	 "file": "	https://www.mediafire.com/file/r971n5vo4p9335j/	"},
                 {"track":	88	,	 "voz": "José Batista Pereira",	 "name": "NO PUEDE EL MUNDO SER MI HOGAR",	 "length": "	02:31	",	 "file": "	https://www.mediafire.com/file/xrcn627aj3s20oi/	"},
                 {"track":	89	,	 "voz": "José Batista Pereira",	 "name": "A PALAVRA DE DEUS",	 "length": "	03:56	",	 "file": "	https://www.mediafire.com/file/8q6lhpdnpb59ag1/	"},
@@ -126,15 +126,16 @@ jQuery(function ($) {
 ],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
-                    trackVoz = value.voz,
-                    trackName = value.name,
+                trackVoz = value.voz,
+                trackFile = value.file,
+                trackName = value.name,
                     trackLength = value.length;
                 if (trackNumber.toString().length === 1) {
                     trackNumber = '0' + trackNumber;
                 } else {
                     trackNumber = '' + trackNumber;
                 }
-                $('#plList').append('<li><div class="plItem"><div class="plNum">' + trackNumber + '.</div><div class="plTitle">' + trackName + ' - (' + trackVoz + ')' + '</div><div class="plLength">' + trackLength + '</div></div></li>');
+                $('#plList').append('<li ><div class="plItem" ><div class="plNum">'+ trackNumber + '.</div><div class="plTitle"><a target="_blank" href="' + trackFile + '"><i class="fa fa-download fa-lg"></i></a>' + trackName + ' - (' + trackVoz + ')' + '</div><div class="plLength">' + trackLength + '</div></div></li>');
             }),
             trackCount = tracks.length,
             npAction = $('#npAction'),

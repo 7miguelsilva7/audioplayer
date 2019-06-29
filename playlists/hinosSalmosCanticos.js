@@ -121,8 +121,8 @@ jQuery(function ($) {
                 {"track":	93	,	 "voz": "José Batista Pereira",	 "name": "UMA VEZ MAIS",	 "length": "	03:01	",	 "file": "	https://www.mediafire.com/file/ihnederz4peages/	"},
                 {"track":	94	,	 "voz": "José Batista Pereira",	 "name": "O GRANDE MOTIVO",	 "length": "	03:35	",	 "file": "	https://www.mediafire.com/file/3hhycuc2033bywj/	"},
                 {"track":	95	,	 "voz": "José Batista Pereira",	 "name": "SOU FELIZ COM JESUS",	 "length": "	04:07	",	 "file": "	https://www.mediafire.com/file/iwgv3gcju4qmddz/	"},
-                {"track":	96	,	 "voz": "José Batista Pereira",	 "name": "Escuta, pobre pecador",	 "length": "	03:11	",	 "file": "	https://www.mediafire.com/file/6aud3v475cmbcuj/	"},
-
+                {"track":	96	,	 "voz": "José Batista Pereira",	 "name": "ESCUTA, POBRE PECADOR",	 "length": "	03:11	",	 "file": "	https://www.mediafire.com/file/6aud3v475cmbcuj/	"},
+                                                                                                               
 ],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,

@@ -163,6 +163,8 @@ jQuery(function ($) {
                 var trackNumber = value.track,
                 trackName = value.name,
                 trackVoz = value.voz,
+                trackFile = value.file,
+
                 trackLength = value.length;
                 if (trackNumber.toString().length === 1) {
                     trackNumber = '0' + trackNumber;

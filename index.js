@@ -18,11 +18,11 @@ jQuery(function ($) {
             tracks = [
 
 {"track":	1	,	 "name": "3 Minutos | Respondi",	  	"file": "3min.html"},
-{"track":	3	,	 "name": "Dispensações", 	"file": "player.html?ip=dispensacao"},
-{"track":	4	,	 "name": "Músicas",	"file": "musicas.html"},
+{"track":	2	,	 "name": "Dispensações", 	"file": "player.html?ip=dispensacao"},
 // {"track":	4	,	 "name": "Músicas",	"file": "player.html?ip=hinarioCantado"},
-{"track":	5	,	 "name": "Ministério Antigo Testamento",	"file": "biblacomentadaAt.html"},
-{"track":	5	,	 "name": "Ministério Novo Testamento",	"file": "biblacomentadaNt.html"},
+{"track":	3	,	 "name": "Ministério Antigo Testamento",	"file": "biblacomentadaAt.html"},
+{"track":	4	,	 "name": "Ministério Novo Testamento",	"file": "biblacomentadaNt.html"},
+{"track":	5	,	 "name": "Músicas",	"file": "musicas.html"},
 
 
 ],

@@ -326,7 +326,8 @@ if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML))
     //initialize plyr
     plyr.setup($('#audio1'), {});
     }
-    
+    plyr.setup($('#audio1'), {});
+
   } else
   {
     //initialize plyr

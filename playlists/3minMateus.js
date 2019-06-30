@@ -5,6 +5,7 @@
 // HTML5 audio player + playlist controls...
 // Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
+
 jQuery(function ($) {
     'use strict'
 	
@@ -321,7 +322,9 @@ audio1.addEventListener('ended',localStorageAudioNext)
 
 // function restoreAudioNext()
 // {
-if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML))
+    
+var a = window.location.href.split("#")[1];
+if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML) & a == undefined)
   {
     location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
     //initialize plyr

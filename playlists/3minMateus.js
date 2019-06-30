@@ -338,6 +338,8 @@ if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML) & a == undefined)
     $('audio').on('canplay', function() {
     this.play();
     alert('venho de um compartilhamento')
+        plyr.setup($('#audio1'), {});
+
 
 });
   }

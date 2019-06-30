@@ -328,14 +328,15 @@ if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML) & a == undefined)
   {
     location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
     //initialize plyr
-    // plyr.setup($('#audio1'), {});
-    audio.play();
+    plyr.setup($('#audio1'), {});
+    audio1.play;
 
   } else
   {
     //initialize plyr
-    // plyr.setup($('#audio1'), {});
-    audio.play();
+    plyr.setup($('#audio1'), {});
+    audio1.play;
+
   }
 // }
 

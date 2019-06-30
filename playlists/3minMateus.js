@@ -334,14 +334,6 @@ if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML) & a == undefined)
   } else
   {
     //initialize plyr
-               loadTrack = function (id) {
-                $('.plSel').removeClass('plSel');
-                $('#plList li:eq(' + id + ')').addClass('plSel');}
-               playTrack = function (id) {
-                loadTrack(id);
-                audio.play();:
-                playTrack;
-
     plyr.setup($('#audio1'), {});
 
   }

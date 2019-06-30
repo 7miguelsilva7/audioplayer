@@ -543,8 +543,7 @@ audio1.addEventListener('ended',localStorageAudioNext)
 
 // function restoreAudioNext()
 // {
-var a = window.location.href.split("#")[1];
-if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML) & a == undefined)
+if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML))
   {
     location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
     //initialize plyr

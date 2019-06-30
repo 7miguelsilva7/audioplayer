@@ -297,6 +297,7 @@ jQuery(function ($) {
         extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
         loadTrack(index);
     }
+});
 
 // Título da playlist
 document.write('<title>Audio Player - 3 Min Mateus</title>')
@@ -335,9 +336,6 @@ if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML) & a == undefined)
    
     plyr.setup($('#audio1'), {});
 
-  }    
-});
-
-
+  }
 // }
 

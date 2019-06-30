@@ -335,10 +335,10 @@ if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML) & a == undefined)
   {
     //initialize plyr
     alert('venho de um compartilhamento')
-    // plyr.setup($('#audio1'), {});
     $('audio').on('canplay', function() {
     this.play();
 });
   }
 // }
 
+    plyr.setup($('#audio1'), {});

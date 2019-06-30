@@ -20,7 +20,7 @@ jQuery(function ($) {
     if (supportsAudio) {
 		//return anchor value for "index" valiable
         var index = anchorTrack,
-            playing = true,
+            playing = false,
             mediaPath = '',
             extension = '',
             tracks = [

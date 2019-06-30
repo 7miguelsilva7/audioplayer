@@ -334,7 +334,7 @@ if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML) & a == undefined)
   } else
   {
    
-    plyr.setup($('#audio1'), {});
+    // plyr.setup($('#audio1'), {});
   }
 // }
 

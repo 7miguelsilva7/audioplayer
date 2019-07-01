@@ -27,9 +27,15 @@ jQuery(function ($) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// ATENÇÃO: LEMBRAR DE EDITAR TÍTULO DA PÁGINA ABAIXO
+// ATENÇÃO: LEMBRAR DE EDITAR TÍTULO DA PÁGINA ABAIXO
+// ATENÇÃO: LEMBRAR DE EDITAR TÍTULO DA PÁGINA ABAIXO
  
 {"track":	1	,	 "name": "Teste",	 "length": "10:10",	 "file": "teste.mp3"},
 
+// ATENÇÃO: LEMBRAR DE EDITAR TÍTULO DA PÁGINA ABAIXO
+// ATENÇÃO: LEMBRAR DE EDITAR TÍTULO DA PÁGINA ABAIXO
+// ATENÇÃO: LEMBRAR DE EDITAR TÍTULO DA PÁGINA ABAIXO
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -38,13 +44,15 @@ jQuery(function ($) {
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
                     trackName = value.name,
+                    trackVoz = value.voz,
+                    trackFile = value.file,
                     trackLength = value.length;
                 if (trackNumber.toString().length === 1) {
                     trackNumber = '0' + trackNumber;
                 } else {
                     trackNumber = '' + trackNumber;
                 }
-                $('#plList').append('<li><div class="plItem"><div class="plNum">' + trackNumber + '.</div><div class="plTitle">' + trackName + '</div><div class="plLength">' + trackLength + '</div></div></li>');
+                $('#plList').append('<li ><div class="plItem" ><div class="plNum">'+ '-</div><div class="plTitle"><a target="_blank" href="' + trackFile + '"><i class="fa fa-download fa-lg"></i></a> ' + trackName + '</div><div class="plLength">' + trackLength + '</div></div></li>');
             }),
             trackCount = tracks.length,
             npAction = $('#npAction'),
@@ -125,7 +133,7 @@ jQuery(function ($) {
 });
 
 // Título da playlist
-document.write('<title>Audio Player - Comentários - 1Cor</title>')
+document.write('<title>Audio Player - link - playlist</title>')
 
 var audioNextKey = (document.getElementsByTagName("title"));
 

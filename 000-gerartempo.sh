@@ -28,8 +28,8 @@ gedit 000-duracao.txt
 gedit 000-arquivos.txt
 /opt/lampp/htdocs/audioplayer/tracks.ods
 
-/usr/share/code/code /opt/lampp/htdocs/audioplayer/biblacomentada.js
-/usr/share/code/code /opt/lampp/htdocs/audioplayer/variavel.js
-/usr/share/code/code /opt/lampp/htdocs/audioplayer/playlists/00-copia.js
+#/usr/share/code/code /opt/lampp/htdocs/audioplayer/biblacomentada.js
+#/usr/share/code/code /opt/lampp/htdocs/audioplayer/variavel.js
+#/usr/share/code/code /opt/lampp/htdocs/audioplayer/playlists/00-copia.js
 
 

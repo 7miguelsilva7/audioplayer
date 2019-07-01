@@ -261,7 +261,7 @@ jQuery(function ($) {
 });
 
 // Título da playlist
-document.write('<title>Audio Player - Comentários - Hinos Salmos e Cânticos</title>')
+document.write('<title>Audio Player - Hinos Salmos e Cânticos</title>')
 
 var audioNextKey = (document.getElementsByTagName("title"));
 

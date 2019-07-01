@@ -6,7 +6,6 @@
 // HTML5 audio player + playlist controls...
 // Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
 // Mythium Archive: https://archive.org/details/mythium/
-
 jQuery(function ($) {
     'use strict'
     var supportsAudio = !!document.createElement('audio').canPlayType;
@@ -17,12 +16,11 @@ jQuery(function ($) {
             extension = '',
             tracks = [
 
-{"track":	1	,	 "name": "3 Minutos | Respondi",	  	"file": "3min.html"},
-{"track":	2	,	 "name": "Conferências", 	"file": "conferencias.html"},
-{"track":	3	,	 "name": "Dispensações", 	"file": "player.html?ip=dispensacao"},
-{"track":	4	,	 "name": "Ministério Antigo Testamento",	"file": "biblacomentadaAt.html"},
-{"track":	5	,	 "name": "Ministério Novo Testamento",	"file": "biblacomentadaNt.html"},
-{"track":	6	,	 "name": "Músicas",	"file": "musicas.html"},
+{"track":	1	,	 "name": "<a href=\"./\"  style=\"padding: 3px 10px; cursor: pointer; margin: 0; font-size: 1.5rem\" id=\"btnReturn\"><i class=\"fa fa-home\"></i></a>", "file": "player.html?ip=3minMateus"},
+{"track":	2	,	 "name": "Floripa", "file": "player.html?ip=confFloripa"},
+{"track":	3	,	 "name": "Ipuã", "file": "player.html?ip=confIpua"},
+{"track":	4	,	 "name": "Limeira", "file": "player.html?ip=confLimeira"},
+{"track":	5	,	 "name": "TUDO", "file": "player.html?ip=confTudo"},
 
 
 ],

@@ -51,7 +51,15 @@ jQuery(function ($) {
                 {"track":	24	, "voz": "Catherine",	 "name": "	QUEM FAZ AS LINDAS FLORES (Cantado por uma criança)	",	 "length": "	00:57	",	 "file": "	https://www.mediafire.com/file/	49ixezb48k914et	/	QUEM FAZ AS LINDAS FLORES (Cantado por uma criança)	"},
                 {"track":	25	, "voz": "Catherine",	 "name": "	TOC! TOC! TOC! (Cantado por uma criança)	",	 "length": "	00:52	",	 "file": "	https://www.mediafire.com/file/	d5d3vcl5n3p99ls	/	TOC! TOC! TOC! (Cantado por uma criança)	"},
                 {"track":	26	, "voz": "Catherine",	 "name": "	TODOS PECARAM (Cantado por uma criança)	",	 "length": "	00:29	",	 "file": "	https://www.mediafire.com/file/	npirnm498w4194o	/	TODOS PECARAM (Cantado por uma criança)	"},
-                         
+               
+                {"track":	27	, "voz": "Catherine",	 "name": "	ASSIM DEUS NOS AMOU (Cantado por uma criança)	",	 "length": "	01:08	",	 "file": "	https://www.mediafire.com/file/yx21f7855ja6ml2		"},
+                {"track":	28	, "voz": "Catherine",	 "name": "	PORQUE MORREU POR MIM (Cantado por uma criança)	",	 "length": "	01:00	",	 "file": "	https://www.mediafire.com/file/rjdib9szkjaaibf		"},
+                {"track":	29	, "voz": "Catherine",	 "name": "	SEM EU CONHECÊ-LO (Cantado por uma criança)	",	 "length": "	01:29	",	 "file": "	https://www.mediafire.com/file/gzhrhngdcuh1hmq	"},
+                {"track":	30	, "voz": "Catherine",	 "name": "	CRISTO VIVE (Cantado por uma criança)	",	 "length": "	01:04	",	 "file": "	https://www.mediafire.com/file/1xqoy1z6g923rkw	"},
+                {"track":	31	, "voz": "Catherine",	 "name": "	SUBINDO (Cantado por uma criança)	",	 "length": "	01:03	",	 "file": "	https://www.mediafire.com/file/a2z1v4f5kt740fd		"},
+                {"track":	32	, "voz": "Catherine",	 "name": "	BUSCAI PRIMEIRO (Cantado por uma criança)	",	 "length": "	02:17	",	 "file": "	https://www.mediafire.com/file/tgsfnlsxz40lmyq		"},
+                {"track":	33	, "voz": "Catherine",	 "name": "	SATISFAÇÃO (Cantado por uma criança)	",	 "length": "	02:04	",	 "file": "	https://www.mediafire.com/file/gk955sbcanc9c2y		"},
+          
                 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

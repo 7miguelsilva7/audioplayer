@@ -445,7 +445,7 @@ jQuery(function ($) {
 
 // verifica se a lista foi finalizada
 var ended = tracks.length;
-// var audioNextKey = (document.getElementsByTagName("title"));
+var audioNextKey = (document.getElementsByTagName("title"));
 var atualTrack = localStorage.getItem(audioNextKey[0].innerHTML).split("#")[1];
 var a = window.location.href.split("#")[0];
 

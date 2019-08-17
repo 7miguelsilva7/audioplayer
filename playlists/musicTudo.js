@@ -479,4 +479,8 @@ if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML) & a == undefined)
   }
 // }
 
-console.log(window.location.href.split("#").length);
+var ended = window.location.href.split("#").length;
+if (ended > 2)
+{
+    localStorage.setItem(audioNextKey[0].innerHTML, 0);
+}

@@ -443,7 +443,7 @@ jQuery(function ($) {
 
 // verifica se a lista foi finalizada
 console.log(tracks.length);
-console.log(localStorage.getItem(audioNextKey[0].innerHTML));
+console.log(localStorage.getItem(audioNextKey[0].innerHTML.split('#')[1]));
 var ended = tracks.length;
 if (localStorage.getItem(audioNextKey[0].innerHTML) > ended)
 {        

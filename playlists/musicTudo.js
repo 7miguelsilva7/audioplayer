@@ -445,6 +445,7 @@ jQuery(function ($) {
 // verifica se a lista foi finalizada
 console.log(tracks.length);
 var ended = tracks.length;
+console.log(window.location.href.split("#")[0]);
 var a = window.location.href.split("#")[0];
 if (window.location.href.split("#")[1] == ended)
 {        

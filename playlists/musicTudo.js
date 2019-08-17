@@ -450,7 +450,7 @@ var a = window.location.href.split("#")[0];
 var audioNextKey = (document.getElementsByTagName("title"));
 
 console.log(tracks.length);
-console.log(window.location.href.split("#")[1]);
+console.log(atualTrack);
 console.log(localStorage.setItem(audioNextKey[0].innerHTML, 0))
 
 

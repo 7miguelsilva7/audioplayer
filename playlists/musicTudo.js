@@ -451,10 +451,8 @@ var audioNextKey = (document.getElementsByTagName("title"));
 
 console.log(tracks.length);
 console.log(atualTrack);
-console.log(localStorage.setItem(audioNextKey[0].innerHTML, 0))
-
-
-if (atualTrack == ended)
+console.log(localStorage.setItem(audioNextKey[0].innerHTML, '#' + 0))
+    if (atualTrack == ended)
 {        
     localStorage.setItem(audioNextKey[0].innerHTML, 0);
     location.replace(localStorage.getItem(audioNextKey[0].innerHTML))

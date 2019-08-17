@@ -466,7 +466,7 @@ function localStorageAudioNext()
     // alert(audioNextKey[0].innerHTML)
     var audioNext = (window.location.href.split("#")[0]+'#'+next);
 
-    if (window.location.href.split('#')[1] < (localStorage.getItem('length') -1)
+    if (window.location.href.split('#')[1] < (localStorage.getItem('length') -1))
     {
         localStorage.setItem(audioNextKey[0].innerHTML, audioNext);
     }

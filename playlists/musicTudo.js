@@ -491,4 +491,4 @@ if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML) & a == undefined)
 
 // }
 
-console.log(var a = window.location.href.split("#")[1]);
+console.log(window.location.href.split("#")[1]);

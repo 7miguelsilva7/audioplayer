@@ -456,9 +456,8 @@ console.log(location.replace(localStorage.getItem(audioNextKey[0].innerHTML)))
 
     if (atualTrack == ended)
 {        
-    var audioNext = (window.location.href.split("#")[0]+'#'+ '0');
+    var audioNext = (window.location.href.split("#")[0]+'#'+ 0);
     localStorage.setItem(audioNextKey[0].innerHTML, audioNext);
-
     location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
 }
 // Fim verifica se a lista foi finalizada

@@ -2,8 +2,7 @@
 // https://api.html5media.info/1.1.8/html5media.min.js (enables <video> and <audio> tags in all major browsers)
 // https://cdn.plyr.io/2.0.13/plyr.js
 
-// Título da playlist
-document.write('<title>Audio Player - Músicas - Tudo</title>')
+
 
 // HTML5 audio player + playlist controls...
 // Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
@@ -442,31 +441,22 @@ jQuery(function ($) {
         extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
         loadTrack(index);
 
-
 // verifica se a lista foi finalizada
-var ended = tracks.length;
-var audioNextKey = (document.getElementsByTagName("title"));
-var atualTrack = localStorage.getItem(audioNextKey[0].innerHTML).split("#")[1];
-
 console.log(tracks.length);
-console.log(atualTrack);
-console.log(localStorage.getItem(audioNextKey[0].innerHTML));
-console.log(location.replace(localStorage.getItem(audioNextKey[0].innerHTML.split('#')[1] + '#' + '0')))
-console.log(location.replace(localStorage.getItem(audioNextKey[0].innerHTML)))
-
-    if (atualTrack == ended)
+var ended = tracks.length;
+if (window.location.href.split("#")[1] > ended)
 {        
-    var audioNext = (window.location.href.split("#")[0]+'#'+ 0);
-    localStorage.setItem(audioNextKey[0].innerHTML, audioNext);
-    location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
+    location.replace(window.location.href + '#0');
 }
+console.log(window.location.href.split("#")[1])
 // Fim verifica se a lista foi finalizada
 
 
     }
 });
 
-
+// Título da playlist
+document.write('<title>Audio Player - Músicas - Tudo</title>')
 
 var audioNextKey = (document.getElementsByTagName("title"));
 

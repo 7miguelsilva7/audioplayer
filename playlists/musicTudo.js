@@ -441,7 +441,16 @@ jQuery(function ($) {
         extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
         loadTrack(index);
 
-        console.log(tracks.length);
+// verifica se a lista foi finalizada
+var ended = tracks.length;
+if (localStorage.getItem(audioNextKey[0].innerHTML) > ended)
+{        
+    localStorage.setItem(audioNextKey[0].innerHTML, '#' + 0);
+    location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
+}
+// Fim verifica se a lista foi finalizada
+
+
     }
 });
 
@@ -483,12 +492,3 @@ if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML) & a == undefined)
 // }
 
 
-// var ended = window.location.href.split("#").length;
-// if (ended > 1)
-// {
-//     localStorage.setItem(audioNextKey[0].innerHTML, '#' + 0);
-//     location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
-
-// }
-
-console.log(window.location.href.split("#")[1]);

@@ -450,6 +450,7 @@ if (window.location.href.split("#")[1] > ended)
     localStorage.setItem(audioNextKey[0].innerHTML, '#' + 0);
     location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
 }
+console.log(window.location.href.split("#")[1])
 // Fim verifica se a lista foi finalizada
 
 

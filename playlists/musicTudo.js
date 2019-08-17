@@ -446,6 +446,7 @@ jQuery(function ($) {
 // verifica se a lista foi finalizada
 console.log(tracks.length);
 console.log(window.location.href.split("#")[1]);
+console.log(localStorage.setItem(audioNextKey[0].innerHTML, 0))
 
 var ended = tracks.length;
 atualTrack = window.location.href.split("#")[1];

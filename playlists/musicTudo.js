@@ -445,16 +445,15 @@ jQuery(function ($) {
 
 // verifica se a lista foi finalizada
 var ended = tracks.length;
+// var audioNextKey = (document.getElementsByTagName("title"));
 var atualTrack = localStorage.getItem(audioNextKey[0].innerHTML).split("#")[1];
 var a = window.location.href.split("#")[0];
-var audioNextKey = (document.getElementsByTagName("title"));
 
 console.log(tracks.length);
 console.log(atualTrack);
 console.log(localStorage.getItem(audioNextKey[0].innerHTML));
     if (atualTrack == ended)
 {        
-    localStorage.setItem(audioNextKey[0].innerHTML, 0);
     location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
 }
 // Fim verifica se a lista foi finalizada

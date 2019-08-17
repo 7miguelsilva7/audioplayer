@@ -452,7 +452,7 @@ var audioNextKey = (document.getElementsByTagName("title"));
 if (atualTrack == ended)
 {        
     localStorage.setItem(audioNextKey[0].innerHTML, 0);
-    location.replace(localStorage.setItem(audioNextKey[0].innerHTML));
+    location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
 }
 console.log(window.location.href.split("#")[1])
 // Fim verifica se a lista foi finalizada

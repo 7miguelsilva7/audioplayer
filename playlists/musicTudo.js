@@ -447,14 +447,13 @@ jQuery(function ($) {
 var ended = tracks.length;
 var audioNextKey = (document.getElementsByTagName("title"));
 var atualTrack = localStorage.getItem(audioNextKey[0].innerHTML).split("#")[1];
-var a = window.location.href.split("#")[0];
 
 console.log(tracks.length);
 console.log(atualTrack);
 console.log(localStorage.getItem(audioNextKey[0].innerHTML));
     if (atualTrack == ended)
 {        
-    location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
+    location.replace(localStorage.getItem(audioNextKey[0].innerHTML.split('#')[1] + '#' +0))
 }
 // Fim verifica se a lista foi finalizada
 

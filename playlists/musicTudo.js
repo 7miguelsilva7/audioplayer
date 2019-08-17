@@ -447,6 +447,7 @@ var ended = tracks.length;
 localStorage.setItem('length', ended);
 console.log(localStorage.getItem('length'))
 // Fim de verifica quantidade de audios
+
     }
 });
 

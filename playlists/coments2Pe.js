@@ -122,6 +122,13 @@ jQuery(function ($) {
             };
         extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
         loadTrack(index);
+
+// verifica quantidade de audios
+console.log(tracks.length);
+var ended = tracks.length;
+localStorage.setItem('length', ended);
+console.log(localStorage.getItem('length'))
+// Fim de verifica quantidade de audios
     }
 });
 

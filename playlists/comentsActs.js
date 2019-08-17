@@ -227,7 +227,10 @@ function localStorageAudioNext()
     // alert(audioNextKey[0].innerHTML)
     var audioNext = (window.location.href.split("#")[0]+'#'+next);
 
-    localStorage.setItem(audioNextKey[0].innerHTML, audioNext);
+    if (window.location.href.split('#')[1] < (localStorage.getItem('length') -1))
+    {
+        localStorage.setItem(audioNextKey[0].innerHTML, audioNext);
+    }
     // alert(audioNext)
 }
 audio1.addEventListener('ended',localStorageAudioNext)

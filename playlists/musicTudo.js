@@ -306,6 +306,7 @@ jQuery(function ($) {
           
 
 ],
+            
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
                 trackVoz = value.voz,
@@ -439,6 +440,8 @@ jQuery(function ($) {
             };
         extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
         loadTrack(index);
+
+        console.log(track.length);
     }
 });
 
@@ -478,11 +481,3 @@ if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML) & a == undefined)
     plyr.setup($('#audio1'), {});
   }
 // }
-
-var ended = window.location.href.split("#").length;
-if (ended > 1)
-{
-    localStorage.setItem(audioNextKey[0].innerHTML, '#' + 0);
-    location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
-
-}

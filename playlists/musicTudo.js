@@ -454,8 +454,8 @@ console.log(localStorage.getItem(audioNextKey[0].innerHTML));
     if (atualTrack == ended)
 {        
     // var audioNext = (window.location.href.split("#")[0]+'#'+'0');
-
-    localStorage.setItem(audioNextKey[0].innerHTML, audioNext);
+    // localStorage.setItem(audioNextKey[0].innerHTML, audioNext);
+    
     location.replace(localStorage.getItem(audioNextKey[0].innerHTML.split('#')[1] + '#' + '0'))
 }
 // Fim verifica se a lista foi finalizada

@@ -441,16 +441,12 @@ jQuery(function ($) {
         extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
         loadTrack(index);
 
-// verifica se a lista foi finalizada
+// verifica quantidade de audios
 console.log(tracks.length);
-console.log(window.location.href.split("#")[1])
-
 var ended = tracks.length;
-if (window.location.href.split("#")[1] > ended)
-{        
-    location.replace(window.location.href + '#0');
-}
-// Fim verifica se a lista foi finalizada
+localStorage.setItem('length', ended);
+console.log(localStorage.getItem('length'))
+// Fim de verifica quantidade de audios
 
 
     }

@@ -2,7 +2,8 @@
 // https://api.html5media.info/1.1.8/html5media.min.js (enables <video> and <audio> tags in all major browsers)
 // https://cdn.plyr.io/2.0.13/plyr.js
 
-
+// Título da playlist
+document.write('<title>Audio Player - Músicas - Tudo</title>')
 
 // HTML5 audio player + playlist controls...
 // Inspiration: https://jonhall.info/how_to/create_a_playlist_for_html5_audio
@@ -447,6 +448,7 @@ console.log(tracks.length);
 var ended = tracks.length;
 console.log(window.location.href.split("#")[0]);
 var a = window.location.href.split("#")[0];
+var audioNextKey = (document.getElementsByTagName("title"));
 if (window.location.href.split("#")[1] == ended)
 {        
     localStorage.setItem(audioNextKey[0].innerHTML, 0);
@@ -459,8 +461,7 @@ console.log(window.location.href.split("#")[1])
     }
 });
 
-// Título da playlist
-document.write('<title>Audio Player - Músicas - Tudo</title>')
+
 
 var audioNextKey = (document.getElementsByTagName("title"));
 

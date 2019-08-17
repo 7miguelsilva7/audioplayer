@@ -483,6 +483,6 @@ var ended = window.location.href.split("#").length;
 if (ended > 1)
 {
     localStorage.setItem(audioNextKey[0].innerHTML, '#' + 0);
-    // location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
+    location.replace(localStorage.getItem(audioNextKey[0].innerHTML + '#' + 0))
 
 }

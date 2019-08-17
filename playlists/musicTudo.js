@@ -444,7 +444,7 @@ jQuery(function ($) {
 // verifica se a lista foi finalizada
 console.log(tracks.length);
 var ended = tracks.length;
-if (window.location.href.split("#")[1] > ended)
+if (localStorage.getItem(audioNextKey[0].innerHTML) > ended)
 {        
     location.replace(window.location.href + '#0');
 }

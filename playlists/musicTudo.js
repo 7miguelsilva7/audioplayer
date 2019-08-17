@@ -446,13 +446,13 @@ jQuery(function ($) {
 // verifica se a lista foi finalizada
 console.log(tracks.length);
 var ended = tracks.length;
-console.log(window.location.href.split("#")[0]);
+atualTrack = window.location.href.split("#")[0];
 var a = window.location.href.split("#")[0];
 var audioNextKey = (document.getElementsByTagName("title"));
-if (window.location.href.split("#")[1] == ended)
+if (atualTrack == ended)
 {        
     localStorage.setItem(audioNextKey[0].innerHTML, 0);
-    location.replace(a + '#0');
+    location.replace(localStorage.setItem(audioNextKey[0].innerHTML));
 }
 console.log(window.location.href.split("#")[1])
 // Fim verifica se a lista foi finalizada

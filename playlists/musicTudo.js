@@ -441,10 +441,11 @@ jQuery(function ($) {
         extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
         loadTrack(index);
 
+
 // verifica se a lista foi finalizada
 console.log(tracks.length);
 var ended = tracks.length;
-var a = window.location.href.split("#")[1];
+var a = window.location.href.split("#")[0];
 if (window.location.href.split("#")[1] == ended)
 {        
     location.replace(a + '#0');

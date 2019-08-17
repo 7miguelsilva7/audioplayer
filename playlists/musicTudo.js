@@ -490,3 +490,5 @@ if(localStorage.hasOwnProperty(audioNextKey[0].innerHTML) & a == undefined)
 //     location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
 
 // }
+
+        console.log(tracks.length);

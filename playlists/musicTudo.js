@@ -446,7 +446,7 @@ console.log(tracks.length);
 var ended = tracks.length;
 if (window.location.href.split("#")[1] > ended)
 {        
-    location.replace(window.location.href + '#0'))
+    location.replace(window.location.href + '#0');
 }
 console.log(window.location.href.split("#")[1])
 // Fim verifica se a lista foi finalizada

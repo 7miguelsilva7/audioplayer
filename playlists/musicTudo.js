@@ -452,6 +452,7 @@ console.log(tracks.length);
 console.log(atualTrack);
 console.log(localStorage.getItem(audioNextKey[0].innerHTML));
 console.log(location.replace(localStorage.getItem(audioNextKey[0].innerHTML.split('#')[1] + '#' + '0')))
+console.log(location.replace(localStorage.getItem(audioNextKey[0].innerHTML)))
 
     if (atualTrack == ended)
 {        

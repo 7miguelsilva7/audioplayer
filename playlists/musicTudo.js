@@ -458,7 +458,7 @@ console.log(location.replace(localStorage.getItem(audioNextKey[0].innerHTML.spli
     var audioNext = (window.location.href.split("#")[0]+'#'+ '0');
     localStorage.setItem(audioNextKey[0].innerHTML, audioNext);
 
-    location.replace(localStorage.getItem(audioNextKey[0].innerHTML.split('#')[1] + '#' + '0'))
+    location.replace(localStorage.getItem(audioNextKey[0].innerHTML))
 }
 // Fim verifica se a lista foi finalizada
 

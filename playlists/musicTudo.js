@@ -14,7 +14,7 @@ jQuery(function ($) {
 	var anchorTrack = window.location.href.split("#")[1];
 	if (!anchorTrack || isNaN(anchorTrack)) {
 		//return defaut value for "index" valiable
-		anchorTrack = 0;
+		anchorTrack = 1;
 	}
 	
     var supportsAudio = !!document.createElement('audio').canPlayType;

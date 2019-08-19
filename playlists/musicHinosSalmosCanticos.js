@@ -122,7 +122,8 @@ jQuery(function ($) {
                 {"track":	94	,	 "voz": "José Batista Pereira",	 "name": "O GRANDE MOTIVO",	 "length": "	03:35	",	 "file": "	https://www.mediafire.com/file/3hhycuc2033bywj/	"},
                 {"track":	95	,	 "voz": "José Batista Pereira",	 "name": "SOU FELIZ COM JESUS",	 "length": "	04:07	",	 "file": "	https://www.mediafire.com/file/iwgv3gcju4qmddz/	"},
                 {"track":	96	,	 "voz": "José Batista Pereira",	 "name": "ESCUTA, POBRE PECADOR",	 "length": "	03:11	",	 "file": "	https://www.mediafire.com/file/6aud3v475cmbcuj/	"},
-                {"track":	97	,	 "voz": "Lineu Arruda Binotti",	 "name": "CRISTO JÁ RESSUSCITOU",	 "length": "	03:04	",	 "file": "	http://www.mediafire.com/file/r2pfddmv2e57pe2/	"},
+                {"track":	97	,	 "voz": "Lineu Arruda Binotti",	 "name": "CRISTO JÁ RESSUSCITOU",	 "length": "	03:04	",	 "file": "	httpS://www.mediafire.com/file/r2pfddmv2e57pe2/	"},
+                {"track":	98	,	 "voz": "José Batista Pereira",	 "name": "TOMAREI O CÁLICE DA SALVAÇÃO",	 "length": "	03:14	",	 "file": "	https://www.mediafire.com/file/h6wse2gltr31htl/	"},
                                                                                                                
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

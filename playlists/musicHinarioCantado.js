@@ -168,7 +168,7 @@ jQuery(function ($) {
 {"track":	140	,	"voz": "Lineu Arruda Binotti", "name": "	Hino 209 - A Voz de Cristo	",	 "length": "	02:25	",	 "file": "	https://www.mediafire.com/file/	05fge3aphukef85	/	Hino 209 - A Voz de Cristo.mp3	"},
 {"track":	141	,	"voz": "Lineu Arruda Binotti", "name": "	Hino 210 - Meu Salvador	",	 "length": "	02:51	",	 "file": "	https://www.mediafire.com/file/	6cahhco8q3kujy5	/	Hino 210 - Meu Salvador.mp3	"},
 {"track":	142	,	"voz": "Lineu Arruda Binotti", "name": "	Hino 211 - Sou Feliz	",	 "length": "	03:51	",	 "file": "	https://www.mediafire.com/file/	4y72f4u5qz0y425	/	Hino 211 - Sou Feliz.mp3	"},
-{"track":	143	,	"voz": "Lineu Arruda Binotti", "name": "	Hino 212 - Deus Cuidará de Ti	",	 "length": "	03:03	",	 "file": "	https://www.mediafire.com/file/	fi6vubbqby2a5bk	/	Hino 212 - Deus Cuidará de Ti.mp3	"},
+{"track":	143	,	"voz": "Lineu Arruda Binotti", "name": "	Hino 212 - deus cuidará de ti	",	 "length": "	03:03	",	 "file": "	https://www.mediafire.com/file/	fi6vubbqby2a5bk	/	Hino 212 - Deus Cuidará de Ti.mp3	"},
 
 ],
             buildPlaylist = $.each(tracks, function(key, value) {
@@ -182,7 +182,10 @@ jQuery(function ($) {
                 } else {
                     trackNumber = '' + trackNumber;
                 }
-                $('#plList').append('<li ><div class="plItem" ><div class="plNum">' + '-</div><div class="plTitle"><a target="_blank" href="' + trackFile + '"><i class="fa fa-download fa-lg"></i></a> ' + trackName + ' - (' + trackVoz + ')' + '</div><div class="plLength">' + trackLength + '</div></div></li>');
+
+                     
+                $('#plList').append('<li ><div class="plItem" ><div class="plNum">' + '-</div><div class="plTitle"><a target="_blank" href="' + trackFile + '"><i class="fa fa-download fa-lg"></i></a> ' + trackName.toLowerCase().replace(/(^|\s)\S/g, l => l.toUpperCase())
+                + ' - (' + trackVoz + ')' + '</div><div class="plLength">' + trackLength + '</div></div></li>');
             }),
             trackCount = tracks.length,
             npAction = $('#npAction'),

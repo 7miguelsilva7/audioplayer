@@ -116,7 +116,7 @@ jQuery(function ($) {
                 {"track":	88	,	 "voz": "José Batista Pereira",	 "name": "NO PUEDE EL MUNDO SER MI HOGAR",	 "length": "	02:31	",	 "file": "	https://www.mediafire.com/file/xrcn627aj3s20oi/	"},
                 {"track":	89	,	 "voz": "José Batista Pereira",	 "name": "A PALAVRA DE DEUS",	 "length": "	03:56	",	 "file": "	https://www.mediafire.com/file/8q6lhpdnpb59ag1/	"},
                 {"track":	90	,	 "voz": "José Batista Pereira",	 "name": "VEM JESUS NOS BUSCAR",	 "length": "	03:01	",	 "file": "	https://www.mediafire.com/file/882i0mxtm544b4o/	"},
-                {"track":	91	,	 "voz": "José Batista Pereira",	 "name": "SALMO 23 - VERSÃO II",	 "length": "	03:24	",	 "file": "	https://www.mediafire.com/file/83vb9lj55ackjyr/	"},
+                {"track":	91	,	 "voz": "José Batista Pereira",	 "name": "SALMO 23 - VERSÃO 2",	 "length": "	03:24	",	 "file": "	https://www.mediafire.com/file/83vb9lj55ackjyr/	"},
                 {"track":	92	,	 "voz": "José Batista Pereira",	 "name": "SUBSTITUiÇÃO",	 "length": "	03:09	",	 "file": "	https://www.mediafire.com/file/ff6j2pycylznawa/	"},
                 {"track":	93	,	 "voz": "José Batista Pereira",	 "name": "UMA VEZ MAIS",	 "length": "	03:01	",	 "file": "	https://www.mediafire.com/file/ihnederz4peages/	"},
                 {"track":	94	,	 "voz": "José Batista Pereira",	 "name": "O GRANDE MOTIVO",	 "length": "	03:35	",	 "file": "	https://www.mediafire.com/file/3hhycuc2033bywj/	"},
@@ -138,7 +138,7 @@ jQuery(function ($) {
                     trackNumber = '' + trackNumber;
                 }
                 // $('#plList').append('<li ><div class="plItem" ><div class="plNum">'+ trackNumber + '.</div><div class="plTitle">' + trackName + ' - (' + trackVoz + ')' + '</div><div class="plLength">' + trackLength + '</div></div></li>');
-                $('#plList').append('<li ><div class="plItem" ><div class="plNum">'+ trackNumber + '.</div><div class="plTitle"><a target="_blank" href="' + trackFile + '"><i class="fa fa-download fa-lg"></i></a> ' + trackName + ' - (' + trackVoz + ')' + '</div><div class="plLength">' + trackLength + '</div></div></li>');
+                $('#plList').append('<li ><div class="plItem" ><div class="plNum">'+ trackNumber + '.</div><div class="plTitle"><a target="_blank" href="' + trackFile + '"><i class="fa fa-download fa-lg"></i></a> ' + trackName.toLowerCase().replace(/(^|\s)\S/g, l => l.toUpperCase()) + ' - (' + trackVoz + ')' + '</div><div class="plLength">' + trackLength + '</div></div></li>');
             }),
             trackCount = tracks.length,
             npAction = $('#npAction'),

@@ -122,6 +122,8 @@ jQuery(function ($) {
                 {"track":	94	,	 "voz": "José Batista Pereira",	 "name": "O GRANDE MOTIVO",	 "length": "	03:35	",	 "file": "	https://www.mediafire.com/file/3hhycuc2033bywj/	"},
                 {"track":	95	,	 "voz": "José Batista Pereira",	 "name": "SOU FELIZ COM JESUS",	 "length": "	04:07	",	 "file": "	https://www.mediafire.com/file/iwgv3gcju4qmddz/	"},
                 {"track":	96	,	 "voz": "José Batista Pereira",	 "name": "ESCUTA, POBRE PECADOR",	 "length": "	03:11	",	 "file": "	https://www.mediafire.com/file/6aud3v475cmbcuj/	"},
+                {"track":	97	,	 "voz": "Lineu Arruda Binotti",	 "name": "CRISTO JÁ RESSUSCITOU",	 "length": "	03:04	",	 "file": "	httpS://www.mediafire.com/file/r2pfddmv2e57pe2/	"},
+                {"track":	98	,	 "voz": "José Batista Pereira",	 "name": "TOMAREI O CÁLICE DA SALVAÇÃO",	 "length": "	03:14	",	 "file": "	https://www.mediafire.com/file/h6wse2gltr31htl/	"},
 
                 {"track":	1	,	"voz": "Lineu Arruda Binotti", "name": "	Hino 001 - Aba, Pai, a Ti Chegamos	",	 "length": "	03:16	",	 "file": "	https://www.mediafire.com/file/	b1o25cfx24zq3aq	/	Hino 001 - Aba, Pai, a Ti Chegamos.mp3	"},
                 {"track":	2	,	"voz": "Lineu Arruda Binotti", "name": "	Hino 002 - Foi Nessa Noite Escura	",	 "length": "	04:03	",	 "file": "	https://www.mediafire.com/file/	70g76ph8lca4kra	/	Hino 002 - Foi Nessa Noite Escura.mp3	"},

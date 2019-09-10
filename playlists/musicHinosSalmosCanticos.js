@@ -124,6 +124,7 @@ jQuery(function ($) {
                 {"track":	96	,	 "voz": "José Batista Pereira",	 "name": "ESCUTA, POBRE PECADOR",	 "length": "	03:11	",	 "file": "	https://www.mediafire.com/file/6aud3v475cmbcuj/	"},
                 {"track":	97	,	 "voz": "Lineu Arruda Binotti",	 "name": "CRISTO JÁ RESSUSCITOU",	 "length": "	03:04	",	 "file": "	httpS://www.mediafire.com/file/r2pfddmv2e57pe2/	"},
                 {"track":	98	,	 "voz": "José Batista Pereira",	 "name": "TOMAREI O CÁLICE DA SALVAÇÃO",	 "length": "	03:14	",	 "file": "	https://www.mediafire.com/file/h6wse2gltr31htl/	"},
+                {"track":	99	,	 "voz": "José Batista Pereira",	 "name": "Santo Santo Santo",	 "length": "	03:23	",	 "file": "	https://www.mediafire.com/file/a375dwly8qbmixw/	"},
                                                                                                                
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

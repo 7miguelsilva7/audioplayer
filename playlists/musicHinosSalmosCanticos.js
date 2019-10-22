@@ -125,6 +125,7 @@ jQuery(function ($) {
                 {"track":	97	,	 "voz": "Lineu Arruda Binotti",	 "name": "CRISTO JÁ RESSUSCITOU",	 "length": "	03:04	",	 "file": "	httpS://www.mediafire.com/file/r2pfddmv2e57pe2/	"},
                 {"track":	98	,	 "voz": "José Batista Pereira",	 "name": "TOMAREI O CÁLICE DA SALVAÇÃO",	 "length": "	03:14	",	 "file": "	https://www.mediafire.com/file/h6wse2gltr31htl/	"},
                 {"track":	99	,	 "voz": "José Batista Pereira",	 "name": "Santo Santo Santo",	 "length": "	03:23	",	 "file": "	https://www.mediafire.com/file/a375dwly8qbmixw/	"},
+                {"track":	100	,	 "voz": "José Batista Pereira",	 "name": "Sou de Jesus agora - Meu é Jesus também",	 "length": "	03:14	",	 "file": "	http://www.mediafire.com/file/r8swlkxnz7rrt7f/Sou_de_Jesus_agora_-_Meu_%C3%A9_Jesus_tamb%C3%A9m.mp3	"},
                                                                                                                
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

@@ -126,6 +126,8 @@ jQuery(function ($) {
                 {"track":	98	,	 "voz": "José Batista Pereira",	 "name": "TOMAREI O CÁLICE DA SALVAÇÃO",	 "length": "	03:14	",	 "file": "	https://www.mediafire.com/file/h6wse2gltr31htl/	"},
                 {"track":	99	,	 "voz": "José Batista Pereira",	 "name": "Santo Santo Santo",	 "length": "	03:23	",	 "file": "	https://www.mediafire.com/file/a375dwly8qbmixw/	"},
                 {"track":	100	,	 "voz": "José Batista Pereira",	 "name": "Sou de Jesus agora - Meu é Jesus também",	 "length": "	03:14	",	 "file": "	http://www.mediafire.com/file/r8swlkxnz7rrt7f/Sou_de_Jesus_agora_-_Meu_%C3%A9_Jesus_tamb%C3%A9m.mp3	"},
+                {"track":	101	,	 "voz": "Lineu Arruda Binotti",	 "name": "Oh! Que amor teve Deus Pai",	 "length": "	03:17	",	 "file": "	https://www.mediafire.com/file/gi6hf6wpbnj2umy/Oh%21_Que_amor_teve_Deus_Pai.mp3/file	"},
+                {"track":	102	,	 "voz": "José Batista Pereira",	 "name": "Seu grande amor me levantou",	 "length": "	03:35	",	 "file": "	https://www.mediafire.com/file/jeothvqzefl735q/Seu_grande_amor_me_levantou.mp3/file	"},
                                                                                                                
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

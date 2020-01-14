@@ -128,6 +128,8 @@ jQuery(function ($) {
                 {"track":	100	,	 "voz": "José Batista Pereira",	 "name": "Sou de Jesus agora - Meu é Jesus também",	 "length": "	03:14	",	 "file": "	http://www.mediafire.com/file/r8swlkxnz7rrt7f/Sou_de_Jesus_agora_-_Meu_%C3%A9_Jesus_tamb%C3%A9m.mp3	"},
                 {"track":	101	,	 "voz": "Lineu Arruda Binotti",	 "name": "Oh! Que amor teve Deus Pai",	 "length": "	03:17	",	 "file": "	https://www.mediafire.com/file/gi6hf6wpbnj2umy/Oh%21_Que_amor_teve_Deus_Pai.mp3/file	"},
                 {"track":	102	,	 "voz": "José Batista Pereira",	 "name": "Seu grande amor me levantou",	 "length": "	03:35	",	 "file": "	https://www.mediafire.com/file/jeothvqzefl735q/Seu_grande_amor_me_levantou.mp3/file	"},
+                {"track":	103	,	 "voz": "José Batista Pereira",	 "name": "Tema_encantador",	 "length": "	03:22	",	 "file": "	https://www.mediafire.com/file/a1n8s5zm5dfj7tg/	"},
+                {"track":	104	,	 "voz": "José Batista Pereira",	 "name": "Prefiero_a_Jesus",	 "length": "	03:55	",	 "file": "	https://www.mediafire.com/file/w553oqywzagmwo8/	"},
                                                                                                                
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

@@ -217,6 +217,15 @@ jQuery(function ($) {
 {"track":	184	,	 "name": "	Limeira 2018-Pregacao para crentes-Os sofrimentos de Cristo-Lineu	",	 "length": "	48:35	",	 "file": "	http://www.mediafire.com/file/	tmbp22x7u47btq2	/	"},
 {"track":	185	,	 "name": "	Limeira 2018-Pregacao para jovens-O Espirito Santo-Bernardo	",	 "length": "	18:53	",	 "file": "	http://www.mediafire.com/file/	rvnmaivrbk1rq17	/	"},
 
+{"track":	186	,	 "name": "	Limeira 2019-Escolinha dominical-Jose Luiz	",	 "length": "	32:08	",	 "file": "	http://www.mediafire.com/file/	b6ixnj7tabxckhs	/	"},
+{"track":	187	,	 "name": "	Limeira 2019-Estudos sobre 2 Pedro 1-1a parte	",	 "length": "	50:20	",	 "file": "	http://www.mediafire.com/file/	f4m66y8ou7nxyj6	/	"},
+{"track":	188	,	 "name": "	Limeira 2019-Estudos sobre 2 Pedro 1-2a parte	",	 "length": "	55:02	",	 "file": "	http://www.mediafire.com/file/	y3eb2xbznmtgukg	/	"},
+{"track":	189	,	 "name": "	Limeira 2019-Estudos sobre 2 Pedro 1-3a parte	",	 "length": "	46:49	",	 "file": "	http://www.mediafire.com/file/	1j4ugzwoy2xeyw7	/	"},
+{"track":	190	,	 "name": "	Limeira 2019-Pregacao aos jovens-Lucas Persona	",	 "length": "	14:51	",	 "file": "	http://www.mediafire.com/file/	fowt2xeqvdaqk56	/	"},
+{"track":	191	,	 "name": "	Limeira 2019-Pregacao do evangelho-Carita	",	 "length": "	43:45	",	 "file": "	http://www.mediafire.com/file/	1vtap1vcw7t6v88	/	"},
+{"track":	192	,	 "name": "	Limeira 2019-Pregacao do evangelho-Lineu	",	 "length": "	49:12	",	 "file": "	http://www.mediafire.com/file/	2qyle4tnij0xqlm	/	"},
+{"track":	193	,	 "name": "	Limeira 2019-Pregacao para crentes-Lemao	",	 "length": "	53:42	",	 "file": "	http://www.mediafire.com/file/	vtnkbterc4plgxy	/	"},
+{"track":	194	,	 "name": "	Limeira 2019-Pregacao para crentes-Robert Boulard	",	 "length": "	59:20	",	 "file": "	http://www.mediafire.com/file/	ztusitase1nfrli	/	"},
 // ATENÇÃO: LEMBRAR DE EDITAR TÍTULO DA PÁGINA ABAIXO
 // ATENÇÃO: LEMBRAR DE EDITAR TÍTULO DA PÁGINA ABAIXO
 // ATENÇÃO: LEMBRAR DE EDITAR TÍTULO DA PÁGINA ABAIXO

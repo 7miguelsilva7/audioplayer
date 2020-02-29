@@ -58,6 +58,7 @@ if (quebra[1]=="audioplayer"){ document.write('<script type="text/javascript" sr
 } else if (quebra[1]=="confFloripa") { document.write('<script type="text/javascript" src="playlists/confFloripa.js"><\/script>');
 } else if (quebra[1]=="confIpua") { document.write('<script type="text/javascript" src="playlists/confIpua.js"><\/script>');
 } else if (quebra[1]=="confLimeira") { document.write('<script type="text/javascript" src="playlists/confLimeira.js"><\/script>');
+} else if (quebra[1]=="confRibeiraoPreto") { document.write('<script type="text/javascript" src="playlists/confRibeiraoPreto.js"><\/script>');
 } else if (quebra[1]=="confTudo") { document.write('<script type="text/javascript" src="playlists/confTudo.js"><\/script>');
 // end conferencias
 

@@ -20,6 +20,7 @@ jQuery(function ($) {
 {"track":	2	,	 "name": "Floripa", "file": "player.html?ip=confFloripa"},
 {"track":	3	,	 "name": "Ipuã", "file": "player.html?ip=confIpua"},
 {"track":	4	,	 "name": "Limeira", "file": "player.html?ip=confLimeira"},
+{"track":	4	,	 "name": "Ribeirão Preto", "file": "player.html?ip=confRibeiraoPreto"},
 {"track":	5	,	 "name": "TUDO", "file": "player.html?ip=confTudo"},
 
 

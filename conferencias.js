@@ -23,7 +23,6 @@ jQuery(function ($) {
 {"track":	4	,	 "name": "Ribeirão Preto", "file": "player.html?ip=confRibeiraoPreto"},
 {"track":	5	,	 "name": "TUDO", "file": "player.html?ip=confTudo"},
 
-
 ],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,

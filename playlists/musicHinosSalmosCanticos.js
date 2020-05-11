@@ -130,7 +130,8 @@ jQuery(function ($) {
                 {"track":	102	,	 "voz": "José Batista Pereira",	 "name": "Seu grande amor me levantou",	 "length": "	03:35	",	 "file": "	https://www.mediafire.com/file/jeothvqzefl735q/Seu_grande_amor_me_levantou.mp3/file	"},
                 {"track":	103	,	 "voz": "José Batista Pereira",	 "name": "Tema encantador",	 "length": "	03:22	",	 "file": "	https://www.mediafire.com/file/a1n8s5zm5dfj7tg/	"},
                 {"track":	104	,	 "voz": "José Batista Pereira",	 "name": "Prefiero a Jesus",	 "length": "	03:55	",	 "file": "	https://www.mediafire.com/file/w553oqywzagmwo8/	"},
-                {"track":	105	,	 "voz": "José Batista Pereira",	 "name": "Reis dos reis e Senhor dos Senhores - Apocalipse_19",	 "length": "03:38",	 "file": "https://www.mediafire.com/file/vty6n9edsr7xaz1/"},
+                {"track":	105	,	 "voz": "José Batista Pereira",	 "name": "Reis dos reis e Senhor dos Senhores - Apocalipse 19",	 "length": "03:38",	 "file": "https://www.mediafire.com/file/vty6n9edsr7xaz1/"},
+                {"track":	106	,	 "voz": "José Batista Pereira",	 "name": "Ao Contemplarmos Tua Cruz",	 "length": "02:37",	 "file": "https://www.mediafire.com/file/djg04c9tr8706jy/"},
                                                                                                                
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

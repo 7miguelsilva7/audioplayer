@@ -136,6 +136,7 @@ jQuery(function ($) {
                 {"track":	108	,	 "voz": "José Batista Pereira",	 "name": "Doce Comunhão",	 "length": "02:48",	 "file": "https://www.mediafire.com/file/q0a2wh1r3v23c4b/"},
                 {"track":	109	,	 "voz": "José Batista Pereira",	 "name": "Pecador teus pecados brancos brancos se farão",	 "length": "04:34",	 "file": "https://www.mediafire.com/file/cnwrgun9hb5yv3q/"},
                 {"track":	110	,	 "voz": "José Batista e Onassis Papafanurakis",	 "name": "É tão bom confiar em Cristo",	 "length": "03:28",	 "file": "https://www.mediafire.com/file/s8noor71o0cim6o/"},
+                {"track":	111	,	 "voz": "José Batista",	 "name": "Foi na Cruz",	 "length": "05:23",	 "file": "https://www.mediafire.com/file/jox898um43p3bxz/"},
                                                                                                                
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

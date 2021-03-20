@@ -138,8 +138,11 @@ jQuery(function ($) {
                 {"track":	110	,	 "voz": "José Batista e Onassis Papafanurakis",	 "name": "É tão bom confiar em Cristo",	 "length": "03:28",	 "file": "https://www.mediafire.com/file/s8noor71o0cim6o/"},
                 {"track":	111	,	 "voz": "José Batista",	 "name": "Foi na Cruz",	 "length": "05:23",	 "file": "https://www.mediafire.com/file/jox898um43p3bxz/"},
                 {"track":	112	,	 "voz": "José Batista",	 "name": "Cegueira e Vista",	 "length": "03:39",	 "file": "https://www.mediafire.com/file/lecip2d3gore9oq/"},
-                {"track":	113	,	 "voz": "Lineu Arruda Binotti",	 "name": "Ao Nome Excelso",	 "length": "03:03",	 "file": "http://www.mediafire.com/file/kqmhxup16ka51yo/"},
-                {"track":	114	,	 "voz": "José Batista",	 "name": "Cante louvores ao Senhor",	 "length": "03:03",	 "file": "http://www.mediafire.com/file/4ksq8muykxsflgn/"},
+                {"track":	113	,	 "voz": "Lineu Arruda Binotti",	 "name": "Ao Nome Excelso",	 "length": "03:03",	 "file": "https://www.mediafire.com/file/kqmhxup16ka51yo/"},
+                {"track":	114	,	 "voz": "José Batista",	 "name": "Cante louvores ao Senhor",	 "length": "03:03",	 "file": "https://www.mediafire.com/file/4ksq8muykxsflgn/"},
+                {"track":	115	,	 "voz": "José Batista",	 "name": "Oh! que amor Divino",	 "length": "03:56",	 "file": "https://www.mediafire.com/file/j0ptj1k5xn9cygq/"},
+                {"track":	116	,	 "voz": "José Batista",	 "name": "Palácios de Marfim",	 "length": "05:29",	 "file": "https://www.mediafire.com/file/6p6zhv96nuhzhj4/"},
+                {"track":	117	,	 "voz": "José Batista",	 "name": "Tua bondade é melhor que a vida",	 "length": "03:31",	 "file": "https://www.mediafire.com/file/j7jkr9pp5oi5dve/"},
                                                                                                                
 ],
             buildPlaylist = $.each(tracks, function(key, value) {

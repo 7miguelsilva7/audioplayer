@@ -5,7 +5,7 @@ git commit -m "update"
 git push
 
 ssh -t u378308740@153.92.6.22 -p 65002 "
-cd domains/leituracrista.com/audioplayer && 
+cd domains/leituracrista.com/public_html/audioplayer && 
 bash resetGit
 "
 

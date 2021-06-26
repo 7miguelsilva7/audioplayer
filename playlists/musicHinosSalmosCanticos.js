@@ -42,7 +42,7 @@ jQuery(function ($) {
                 {"track":	14	,	 "name": "	ACLAMAI A DEUS (SALMO 66).	",	 "file": "	https://leituracrista.com/downloads/hinos_salmos_canticos	/ACLAMAI%20A%20DEUS%20%28Salmo%2066%29	"},
                 {"track":	15	,	 "name": "	ALEGREI ME (SALMO 122).	",	 "file": "	https://leituracrista.com/downloads/hinos_salmos_canticos	/ALEGREI-ME%20%28Salmo%20122%29	"},
                 {"track":	16	,	 "name": "	ALVOS MAIS QUE A NEVE FICAMOS QUANDO LAVADOS EM TEU SANGUE SALVADOR	",	 "file": "	https://leituracrista.com/downloads/hinos_salmos_canticos	/ALVOS%20MAIS%20QUE%20A%20NEVE%20FICAMOS%20QUANDO%20LAVADOS%20EM%20TEU%20SANGUE%20SALVADOR	"},
-                {"track":	17	,	 "name": "	AO NOME EXCELSO DLPRTGWCWIC	",	 "file": "	https://leituracrista.com/downloads/hinos_salmos_canticos	/AO%20NOME%20EXCELSO-DlPRtgWCwic	"},
+                {"track":	17	,	 "name": "	AO NOME EXCELSO",	 "file": "	https://leituracrista.com/downloads/hinos_salmos_canticos	/AO%20NOME%20EXCELSO-DlPRtgWCwic	"},
                 {"track":	18	,	 "name": "	AO TEU NOME, Ó ALTÍSSIMO CANTAREI LOUVORES (SALMO 9).	",	 "file": "	https://leituracrista.com/downloads/hinos_salmos_canticos	/AO%20TEU%20NOME%2C%20%C3%93%20ALT%C3%8DSSIMO%20CANTAREI%20LOUVORES%20%28Salmo%209%29	"},
                 {"track":	19	,	 "name": "	ATRIBULADO CORAÇÃO	",	 "file": "	https://leituracrista.com/downloads/hinos_salmos_canticos	/ATRIBULADO%20CORA%C3%87%C3%83O	"},
                 {"track":	20	,	 "name": "	ATÉ A CRUZ DESCESTE	",	 "file": "	https://leituracrista.com/downloads/hinos_salmos_canticos	/AT%C3%89%20A%20CRUZ%20DESCESTE	"},

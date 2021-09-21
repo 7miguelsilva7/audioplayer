@@ -142,6 +142,7 @@ jQuery(function ($) {
                 {"track":	114	,	 "name": "	QUANDO NÓS FORMOS CHAMADOS	",	 "file": "	https://leituracrista.com/downloads/hinos_salmos_canticos	/quandoNosFormoschamados	"},
                 {"track":	115	,	 "name": "	TUA BONDADE E MELHOR QUE A VIDA	",	 "file": "	https://leituracrista.com/downloads/hinos_salmos_canticos	/tua_bondade_e_melhor_que_a_vida	"},
                 {"track":	116	,	 "name": "	É TÃO BOM CONFIAR EM CRISTO	",	 "file": "	https://leituracrista.com/downloads/hinos_salmos_canticos	/%C3%89%20t%C3%A3o%20bom%20confiar%20em%20Cristo	"},
+                {"track":	117	,	 "name": "	Terás vida em olhar pra Jesus	",	 "file": "	https://leituracrista.com/downloads/hinos_salmos_canticos	/Vida_por_um_olhar	"},
                     
 ],
             buildPlaylist = $.each(tracks, function(key, value) {
